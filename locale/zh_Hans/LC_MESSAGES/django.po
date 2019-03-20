@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 09:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: prepsite/core/forms.py:17
+msgid "*Official P-Rep Candidate Name"
+msgstr "*官方P-Rep名称"
+
+#: prepsite/core/forms.py:23
+msgid "*Contact Email"
+msgstr "*联络人邮箱"
+
+#: prepsite/core/forms.py:29
+msgid "*Location of headquarters"
+msgstr "*总部所在地"
+
+#: prepsite/core/forms.py:36
+msgid "*Brief Introduction"
+msgstr "*简介"
+
+#: prepsite/core/forms.py:46
+msgid "*Mark Server Location"
+msgstr "*选取服务器位置"
+
+#: prepsite/core/forms.py:53
+msgid "*Type of Servers(eg: cloud, bare metal, etc)"
+msgstr "*服务器类型（例如：云端，裸机等）"
+
+#: prepsite/core/forms.py:59
+msgid "*Server Specs"
+msgstr "*服务器规格"
+
+#: prepsite/core/forms.py:86
+msgid "Enter team member name"
+msgstr "团队成员名称"
+
+#: prepsite/core/forms.py:92
+msgid "Member background information"
+msgstr "团队成员背景"
+
+#: prepsite/core/forms.py:113
+msgid "Enter URL..."
+msgstr "输入网址"
+
+#: prepsite/settings.py:122
+msgid "English"
+msgstr ""
+
+#: prepsite/settings.py:123
+msgid "Simplified Chinese"
+msgstr ""
+
+#: prepsite/settings.py:124
+msgid "Korean"
+msgstr ""
+
+#: prepsite/templates/about.html:140
+msgid "The Journey towards Mass Adoption"
+msgstr "往普及化发展"
+
+#: prepsite/templates/about.html:143
+msgid ""
+"ICONSENSUS is a journey toward mass adoption of blockchain. The election of "
+"P-Reps is the first milestone of ICONSENSUS and is a pivotal moment for the "
+"ICON Network as it is not only the initial step to realize the "
+"decentralization of the ICON Network, but also the beginning of a journey "
+"toward mass adoption."
+msgstr ""
+"ICONSENSUS是普及化区块链的一个旅程。 P-Reps的选举是ICONSENSUS的第一个里程碑，"
+"也是ICON网络的一个关键时刻，因为它不仅是实现ICON网络去中心化的第一步，也是普"
+"及化之旅的开始。"
+
+#: prepsite/templates/about.html:154
+msgid "The Journey of ICONSENSUS"
+msgstr "ICONSENSUS的旅程"
+
+#: prepsite/templates/about.html:155
+msgid ""
+"As a member of the ICON community, I am excited about the election. It’s a "
+"moment where every ICONist can contribute. Thank you for your support since "
+"the beginning of this journey, let’s shape our future with ICONSENSUS."
+msgstr ""
+"作为ICON社区的一员，我对选举感到兴奋。这是每个ICON会员都可以贡献的时刻。感谢"
+"您从这次旅程开始以来的支持，让我们用ICONSENSUS塑造我们的未来。"
+
+#: prepsite/templates/about.html:167
+msgid ""
+"ICONSENSUS begins with the P-Rep election and will lead to disruptive "
+"innovation through organic ecosystem expansion driven by EEPs, diversified "
+"DApp business models driven by DBPs and the connection of different "
+"blockchain platforms through C-Reps.<br><br>Vote, Spread, and Disrupt."
+"<br><br>This is how the ICON Network will hyperconnect the world. "
+msgstr ""
+"ICONSENSUS从P-Rep选举开始，将通过由EEPs驱动的有机生态系统扩展，由DBP驱动的多"
+"样化DApp商业模式以及通过C-Reps连接不同区块链平台，实现颠覆性创新。"
+"<br><br>Vote, Spread,和 Disrupt. <br><br>这就是ICON网络如何将世界连接起来。"
+
+#: prepsite/templates/about.html:183
+msgid "P-Rep Campaign Process"
+msgstr "P-Rep活动流程"
+
+#: prepsite/templates/about.html:187
+msgid "Dec 2018"
+msgstr "2018年12月"
+
+#: prepsite/templates/about.html:190
+msgid "1st Announcement"
+msgstr "第一次公告"
+
+#: prepsite/templates/about.html:191
+msgid "A brief introduction about the campaign was announced."
+msgstr "宣布了该活动的简要介绍。"
+
+#: prepsite/templates/about.html:195
+msgid "Jan 2019"
+msgstr "2019年1月"
+
+#: prepsite/templates/about.html:198
+msgid "2nd Announcement"
+msgstr "第二次公告"
+
+#: prepsite/templates/about.html:199
+msgid ""
+"The commencement of the P-Rep Pre-registration has been officially announced."
+msgstr "P-Rep预注册正式宣布。"
+
+#: prepsite/templates/about.html:200
+msgid "P-Rep Pre-registration"
+msgstr "P-Rep预注册"
+
+#: prepsite/templates/about.html:201
+msgid ""
+"Pre-registration of P-Rep candidates starts in off-chain environment. "
+"Candidates must submit team introduction and delegate proposal to be "
+"registered. Candidates who participate in P-Rep Pre-registration will "
+"benefit from the communities in a variety of ways."
+msgstr ""
+"P-Rep候选人的预注册从离线环境开始。报名人必须提交团队介绍和委托提案进行注册。"
+"参与P-Rep预注册的候选人将通过不同形式受益于社区。"
+
+#: prepsite/templates/about.html:205
+msgid "Sep 2019"
+msgstr "2019年9月"
+
+#: prepsite/templates/about.html:208
+msgid "P-Rep On-Chain Registration & Election"
+msgstr "P-Rep链上注册和选举"
+
+#: prepsite/templates/about.html:209
+msgid ""
+"A blockchain election, a cornerstone of decentralization, begins. ICONists "
+"can vote for the candidates by delegating their stake. Once certain "
+"circumstances are reached, the ICON Network will be fully operated by the P-"
+"Reps."
+msgstr ""
+"区块链选举是权力下放的基石。 ICONists可以通过委派代理票给候选人。到一定程度标"
+"准达成后，ICON网络将由P-Reps完全操作。"
+
+#: prepsite/templates/about.html:213
+msgid "4Q 2019"
+msgstr "2019年第4季"
+
+#: prepsite/templates/about.html:216
+msgid "The Genesis P-Rep Summit"
+msgstr "创世纪P-Rep峰会"
+
+#: prepsite/templates/about.html:217
+msgid ""
+"During the genesis P-Rep Summit, the birth of Genesis P-Reps as well as "
+"commencement of the decentralized ICON Network will be declared."
+msgstr ""
+"在创世纪P-Rep峰会期间，将宣布创世纪P-Reps的诞生以及ICON网络去中心化的开始。"
+
+#: prepsite/templates/about.html:233
+msgid "Vote. Spread. Disrupt."
+msgstr ""
+
+#: prepsite/templates/about.html:234 prepsite/templates/index.html:196
+#: prepsite/templates/preapplication_form.html:258
+msgid "Apply"
+msgstr "申请"
+
+#: prepsite/templates/about.html:250 prepsite/templates/index.html:386
+#: prepsite/templates/preapplication_form.html:269
+#: prepsite/templates/thankyou.html:233
+msgid ""
+"\n"
+"            For further inquiries, please contact <a href=\"mailto:"
+"support@icon.community\">support@icon.community</a>\n"
+"          "
+msgstr ""
+"\n"
+"          如有更多问题请洽询<a href=\"mailto:support@icon.community\"> "
+"support@icon.community</a>          "
+
+#: prepsite/templates/application_form.html:210
+msgid "ICON P-Rep Application"
+msgstr "ICON P-Rep 申请表"
+
+#: prepsite/templates/application_form.html:213
+msgid ""
+"This information is for public use. It may be open to the ICON community and "
+"social media. If the data is incorrect or invalid, it may be deleted from "
+"the system."
+msgstr ""
+"此资料将供公众使用。它可能会在ICON社群和社交媒体开放。如果资料不正确或无效，"
+"可能会从系统中删除。"
+
+#: prepsite/templates/application_form.html:224
+msgid "About"
+msgstr "关于"
+
+#: prepsite/templates/application_form.html:230
+#: prepsite/templates/preapplication_form.html:209
+msgid "Network"
+msgstr "网络"
+
+#: prepsite/templates/application_form.html:236
+#: prepsite/templates/candidate_detail.html:206
+msgid "Proposal"
+msgstr "提案"
+
+#: prepsite/templates/application_form.html:252
+msgid "Basic Information"
+msgstr "基本资料"
+
+#: prepsite/templates/application_form.html:263
+msgid "Upload Logo"
+msgstr "上传标志"
+
+#: prepsite/templates/application_form.html:317
+#: prepsite/templates/candidate_detail.html:244
+msgid "Team Member"
+msgstr "成员"
+
+#: prepsite/templates/application_form.html:329
+msgid "Select Photo"
+msgstr "选择相片"
+
+#: prepsite/templates/application_form.html:360
+msgid "+ Members"
+msgstr "+ 增加成员"
+
+#: prepsite/templates/application_form.html:374
+msgid "Social Networks"
+msgstr "社群网络"
+
+#: prepsite/templates/application_form.html:393
+msgid "+ More Networks"
+msgstr "+ 增加网络"
+
+#: prepsite/templates/application_form.html:402
+#: prepsite/templates/candidate_detail.html:214
+msgid "Expected Network Information"
+msgstr "预期网络"
+
+#: prepsite/templates/application_form.html:447
+msgid "Delegate Proposal"
+msgstr "代理人提案"
+
+#: prepsite/templates/application_form.html:466
+msgid "Previous"
+msgstr "上一步"
+
+#: prepsite/templates/application_form.html:470
+msgid "Next"
+msgstr "下一步"
+
+#: prepsite/templates/application_form.html:472
+msgid "Finish"
+msgstr "提交"
+
+#: prepsite/templates/application_form.html:488
+msgid ""
+"<p>1. Proposal introduction (What)<p> - Provide a description of your "
+"proposal you wish to pitch and briefly explain how it will enhance the ICON "
+"Network.<p>2. Motivation of the proposal (Why)<p> - What brought you to "
+"become a P-Rep of ICON and what was the motivation for the proposal above?"
+"<p>3. Execution plan of the proposal (How)<p> - How would you actually carry "
+"out your proposal? Please elaborate related action items and technical "
+"explanation.<p>4. Expected timeline of the proposal (When)<p> - Provide "
+"specific milestones, expected timeline to fulfill your proposal."
+msgstr ""
+"<p>1.提案介绍<p>提供您的描述建议你想提出并简要说明它将如何增强ICON网络<p>2.提"
+"案的动机<p>为什么让您想成为ICON的P-Rep以及上述提案的动机是什么？<p>3.提案的执"
+"行计划<p>你会如何实际执行你的提议？请详细说明相关行动事项和技术说明<p>4.提案"
+"的预计时间表<p>提供具体的里程碑，预期的时间表来完成您的提案“"
+
+#: prepsite/templates/candidate_detail.html:130
+msgid "Candidate"
+msgstr "候选人"
+
+#: prepsite/templates/candidate_detail.html:134
+msgid "Team Information"
+msgstr "团队资料"
+
+#: prepsite/templates/candidate_detail.html:150
+#: prepsite/templates/candidate_list.html:149
+msgid "HQ"
+msgstr "总部"
+
+#: prepsite/templates/candidate_detail.html:227
+msgid "Team Members"
+msgstr "团队成员"
+
+#: prepsite/templates/candidate_detail.html:258
+msgid "None"
+msgstr "无"
+
+#: prepsite/templates/candidate_detail.html:267
+msgid "Back to Listing"
+msgstr "回候选人清单"
+
+#: prepsite/templates/candidate_list.html:125
+msgid "Candidate Listing"
+msgstr "候选人"
+
+#: prepsite/templates/candidate_list.html:142
+msgid "Total of"
+msgstr "共"
+
+#: prepsite/templates/candidate_list.html:142
+msgid "Candidates"
+msgstr "候选人"
+
+#: prepsite/templates/candidate_list.html:147
+msgid "Created"
+msgstr ""
+
+#: prepsite/templates/candidate_list.html:148
+msgid "Name"
+msgstr "名称"
+
+#: prepsite/templates/candidate_list.html:150
+msgid "Server Location"
+msgstr "服务器位置"
+
+#: prepsite/templates/candidate_list.html:170
+msgid "Detail"
+msgstr "详细"
+
+#: prepsite/templates/index.html:251
+msgid ""
+"ICONSENSUS is a journey toward mass adoption of blockchain consisting of "
+"four key items: P-Rep, DBP, EEP, and C-Rep. The election of P-Reps is not "
+"only the beginning of ICONSENSUS but also first step to realize the goal of "
+"a truly decentralized network."
+msgstr ""
+"ICONSENSUS是一个普及化区块链的旅程，包括四个关键计划：P-Rep，DBP，EEP和C-"
+"Rep。 P-Reps的选举不仅是ICONSENSUS的开始，也是实现真正分散网络目标的第一步。"
+
+#: prepsite/templates/index.html:257
+msgid "P-Rep Benefits"
+msgstr "P-Rep的好处"
+
+#: prepsite/templates/index.html:259
+msgid "Economic incentives"
+msgstr "经济激励"
+
+#: prepsite/templates/index.html:260
+msgid "Right to vote on the governance policies"
+msgstr "有权对治理政策进行投票以塑造网络"
+
+#: prepsite/templates/index.html:261
+msgid "High reputation within the ICON Community"
+msgstr "在ICON社群内享有高声誉"
+
+#: prepsite/templates/index.html:262
+msgid "Eligibility to join the ICONgress"
+msgstr "ICONgress加入资格"
+
+#: prepsite/templates/index.html:267
+msgid "ICONist Benefits"
+msgstr "ICONist的好处"
+
+#: prepsite/templates/index.html:269
+msgid "Govern the network through delegation"
+msgstr "通过授权管理网络"
+
+#: prepsite/templates/index.html:270
+msgid "Receive compensation for network activities"
+msgstr "获得网络活动和经济奖励的权利"
+
+#: prepsite/templates/index.html:284
+msgid "Latest News"
+msgstr "最新消息"
+
+#: prepsite/templates/index.html:303
+#, fuzzy
+#| msgid "+ More Networks"
+msgid "More News"
+msgstr "+ 增加网络"
+
+#: prepsite/templates/index.html:314
+msgid "About ICON"
+msgstr "关于ICON"
+
+#: prepsite/templates/index.html:341
+msgid ""
+"ICON Network is one of the largest blockchain networks in the world. As a "
+"global blockchain project, ICON Network aims to remove barriers among "
+"different blockchains, and allow them to exchange values without "
+"intermediaries. By realizing this goal, ICON will realize mass adoption of "
+"the blockchain technology and Hyperconnect the World."
+msgstr ""
+"ICON Network是世界上最大的区块链网络之一。身为一个全球区块链的项目，ICON旨在"
+"消除不同区块链之间的障碍，并允许它们在没有中间人的情况下交换价值。通过实现这"
+"一目标，ICON将实现区块链技术普及化和超连接世界的愿景。"
+
+#: prepsite/templates/preapplication_form.html:142
+msgid "Welcome to ICON P-Rep Application Page!"
+msgstr "ICON P-Rep 申请表说明"
+
+#: prepsite/templates/preapplication_form.html:145
+msgid ""
+"A P-Rep is the representative of all ICONists, creating blocks and "
+"validating transactions in the ICON Network, and playing a number of roles "
+"in the Network including monetary policies, key decision makings, and "
+"establishing ecosystems."
+msgstr ""
+"P-Rep是所有ICONists的代表，在ICON网络中创建块和验证交易，并在网络中扮演多种角"
+"色，包括货币政策，关键决策制定和建立生态系统。"
+
+#: prepsite/templates/preapplication_form.html:148
+msgid ""
+"A P-Rep must meet sufficient technical capability and understanding of the "
+"ecosystem and contribute to building the network with great responsibility "
+"throughout the ICON Network. Our community aims to encourage all the "
+"ICONists by offering a basic and an expected server spec along with a "
+"delegate proposal. Any contents from the icon.community are open to public."
+msgstr ""
+"P-Rep必须满足足够的技术能力和对生态系统的理解，并有助于在整个ICON网络中负责建"
+"立网络。我们的社区旨在通过提供基本和预期的服务器规范以及代表提案来鼓励所有"
+"ICONists。 icon.community的任何内容都向公众开放。"
+
+#: prepsite/templates/preapplication_form.html:154
+msgid "P-Rep application procedure is as follows"
+msgstr "P-Rep申请程序如下"
+
+#: prepsite/templates/preapplication_form.html:168
+msgid ""
+"1) About : Please provide basic information about the P-Rep candidate and "
+"team members"
+msgstr "1）关于：请提供有关P-Rep候选人和团队成员的基本信息"
+
+#: prepsite/templates/preapplication_form.html:172
+msgid ""
+"2) Network : Please specify the technical specification of your expected "
+"server."
+msgstr "2）网络：请列出您预期服务器的技术规格"
+
+#: prepsite/templates/preapplication_form.html:178
+msgid "Minimum Specification"
+msgstr "最低规格"
+
+#: prepsite/templates/preapplication_form.html:179
+msgid "Recommended Specification"
+msgstr "建议规格"
+
+#: prepsite/templates/preapplication_form.html:184
+msgid "Instance type"
+msgstr "主机类型"
+
+#: prepsite/templates/preapplication_form.html:185
+msgid "C5.9xlarge"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:186
+msgid "C5.18xlarge"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:189
+msgid "CPU model"
+msgstr "CPU型号"
+
+#: prepsite/templates/preapplication_form.html:190
+#: prepsite/templates/preapplication_form.html:191
+msgid "Intel® Xeon® Platinum 8124M CPU @ 3.00 GHz"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:194
+msgid "vCPU(core)"
+msgstr "vCPU(核心)"
+
+#: prepsite/templates/preapplication_form.html:195
+msgid "36"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:196
+msgid "72"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:199
+msgid "RAM"
+msgstr "内存"
+
+#: prepsite/templates/preapplication_form.html:200
+msgid "72G"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:201
+msgid "144G"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:204
+msgid "Disk"
+msgstr "磁盘"
+
+#: prepsite/templates/preapplication_form.html:205
+msgid "500G NVMe SSD (EBS bandwidth 4.5 Gbps)"
+msgstr "500G NVMe SSD（EBS带宽4.5 Gbps）"
+
+#: prepsite/templates/preapplication_form.html:206
+msgid "1000G NVMe SSD (EBS bandwidth 9 Gbps)"
+msgstr "1000G NVMe SSD（EBS带宽9 Gbps）"
+
+#: prepsite/templates/preapplication_form.html:210
+#: prepsite/templates/preapplication_form.html:211
+msgid "10 Gbps"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:215
+msgid ""
+"*The server specification is recommended by the ICON Foundation, final "
+"specification may differ depending on network conditions."
+msgstr "* 此为ICON Foundation推荐服务器规范，最终规范可能因网络条件而异。"
+
+#: prepsite/templates/preapplication_form.html:219
+msgid "3) Proposal : Please describe your proposal based on the format below."
+msgstr "3）提案：请根据以下格式描述您的提案。"
+
+#: prepsite/templates/preapplication_form.html:220
+msgid "*P-Rep Proposal Template"
+msgstr "* P-Rep提案模板"
+
+#: prepsite/templates/preapplication_form.html:226
+#, fuzzy
+#| msgid "*Brief Introduction"
+msgid "1. Proposal introduction"
+msgstr "*简介"
+
+#: prepsite/templates/preapplication_form.html:227
+msgid ""
+": Provide a description of your proposal you wish to pitch and briefly "
+"explain how it will enhance the ICON Network."
+msgstr ": 提供您的提案，并简要说明如何增强ICON网络。"
+
+#: prepsite/templates/preapplication_form.html:233
+msgid "2. Motivation of the proposal"
+msgstr "2.提案的动机"
+
+#: prepsite/templates/preapplication_form.html:234
+msgid ""
+": What brought you to become a P-Rep of ICON and what was the motivation for "
+"the proposal above?"
+msgstr ": 是什么让你想成为ICON的P-Rep以及上述提案的动机是什么？"
+
+#: prepsite/templates/preapplication_form.html:240
+msgid "3. Execution plan of the proposal"
+msgstr "3.提案的执行计划"
+
+#: prepsite/templates/preapplication_form.html:241
+msgid ""
+": How would you actually carry out your proposal? Please elaborate related "
+"action items and technical explanation."
+msgstr ": 你会如何实际执行你的提案？请详细说明相关行动事项和技术说明。"
+
+#: prepsite/templates/preapplication_form.html:247
+msgid "4. Expected timeline of the proposal"
+msgstr "4.提案的预计时间表"
+
+#: prepsite/templates/preapplication_form.html:248
+msgid ""
+": Provide specific milestones, expected timeline to fulfill your proposal."
+msgstr ": 提供具体的里程碑，预期的时间表来完成您的提案。"
+
+#: prepsite/templates/preapplication_form.html:253
+msgid ""
+"Notice: In the case of fraudulent or malicious information, registration may "
+"be cancelled."
+msgstr "注意：如果是欺诈性或恶意信息，注册可能会被取消。"
+
+#: prepsite/templates/thankyou.html:205
+msgid "Thank you for applying!"
+msgstr "谢谢您的申请！"
+
+#: prepsite/templates/thankyou.html:210
+msgid ""
+"Please join our private Telegram channel dedicated to P-Rep applicants, "
+"where you can discuss anything related to the ICONSENSUS campaign."
+msgstr ""
+"请加入P-Rep的私人电报群，你可以在那讨论与ICONSENSUS活动有关的任何事情。"
+
+#: prepsite/templates/thankyou.html:219
+msgid "See Candidates"
+msgstr "查看候选人"
+
+#: prepsite/templates/thankyou.html:221
+msgid "Join Telegram"
+msgstr "加入电报群"
+
+#~ msgid "Vote"
+#~ msgstr "投票"
+
+#~ msgid ""
+#~ "Decentralization is one of the core principles of ICON’s governance, and "
+#~ "it can only be achieved with the help of the community. 22 P-Reps elected "
+#~ "by all participating ICONists will have the distributed responsibility of "
+#~ "preserving the ICON Network, producing and verifying blocks, validating "
+#~ "transactions, proposing and voting on network policy changes, and driving "
+#~ "the growth of the ICON Ecosystem. As a result of stake delegation from "
+#~ "ICONists, P-Reps gain economic benefits and voting weight."
+#~ msgstr ""
+#~ "去中心化是ICON治理的核心原则之一，只有在社区的帮助下才能实现。22名由"
+#~ "ICONists选出的P-Reps将分别负责维持ICON网络，制作和验证区块，验证交易，提出"
+#~ "和投票决定网络政策变化，以及推动ICON生态系统的发展。P-Reps也在ICONists的代"
+#~ "表票下获得了经济利益和投票权。"
+
+#~ msgid ""
+#~ "ICONists delegate their stake to P-Reps through voting. Voting for a P-"
+#~ "Rep is a critical action all ICONists are strongly encouraged to take. "
+#~ "Every P-Rep may propose different policies in regards to transaction "
+#~ "fees, decision-making processes, reward amounts, etc., all of which "
+#~ "significantly impact the ICON Network. ICONists who vote will be rewarded "
+#~ "with the right to a certain portion of block rewards."
+#~ msgstr ""
+#~ "ICON通过投票委托代表票给P-Reps。投票支持P-Rep是一项重要行动，所有ICONists"
+#~ "都被强烈鼓励此行为。每个P-Rep可以就交易费用，决策过程，奖励金额等提出不同"
+#~ "的政策，所有这些都会对ICON网络产生重大影响。投票的ICONists将获得部分区块奖"
+#~ "励。"
+
+#~ msgid "Spread"
+#~ msgstr "分散"
+
+#~ msgid ""
+#~ "ICONSENSUS, driven by the active participation of ICONists, does not end "
+#~ "with the P-Rep election. It spreads with various other projects and "
+#~ "campaigns pushing toward mass adoption. ICONists will have additional "
+#~ "opportunities to help nurture the ICON ecosystem through voting on "
+#~ "‘Ecosystem Expansion Projects’ (EEP), which any ICONist can propose for "
+#~ "network growth, ‘Community Representatives’ (C-Rep), who will connect "
+#~ "ICON and other heterogeneous blockchain networks, and ‘DApp Booster "
+#~ "Programs’ (DBP), which would allocate a portion of block rewards to a "
+#~ "specific decentralized application."
+#~ msgstr ""
+#~ "由ICONists积极参与推动的ICONSENSUS活动，并不止与P-Rep选举。它将通过各种其"
+#~ "他项目及活动来达成普及化ICONists将有更多的机会通过对“生态系统扩展项"
+#~ "目”（EEP）的投票来帮助培育ICON生态系统，任何ICONists都可以为网络发展提出建"
+#~ "议，“社区代表”（C-Rep）将连接ICON外部的区块链和'DApp Booster "
+#~ "Programs'（DBP）将区块奖励的一部分分配给特定的去中心化应用程序。"
+
+#~ msgid "Disrupt"
+#~ msgstr "破坏"
+
+#~ msgid ""
+#~ "ICONists will play a pivotal role in propagating the disruptive potential "
+#~ "of blockchain. Vote, Spread, and Disrupt, this is how ICONists can help "
+#~ "push the vision of a hyperconnected world. Get involved in ICONSENSUS and "
+#~ "be a part of this disruptive innovation."
+#~ msgstr ""
+#~ "ICONists将在宣传区块链的破坏性潜力方面发挥关键作用。”Vote, Spread, 和"
+#~ "Disrupt“，这就是ICONists如何帮助推动超连接世界的愿景。加入ICONSENSUS并成为"
+#~ "这项颠覆性创新的一部分。"
+
+#~ msgid "5. Executor of the proposal"
+#~ msgstr "5.提案的执行人"
+
+#~ msgid ""
+#~ ": Provide the profile of the person within your team who will actually "
+#~ "execute the proposal. If you are collaborating with a partner for this, "
+#~ "please make an introduction about them as well."
+#~ msgstr ""
+#~ ": 提供团队中将实际执行提案的人员的个人资料。如果您有合作伙伴，请同时对其进"
+#~ "行介绍。"
+
+#~ msgid "For further inquiries, please contact"
+#~ msgstr "如有更多问题请洽询"
+
+#~ msgid ""
+#~ "\n"
+#~ "          ICONSENSUS is maintained by <a href=\"mailto:support@icon."
+#~ "community\">icon.community</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "          ICONSENSUS由<a href=\"mailto:support@icon.community\">icon."
+#~ "community</a>维护\n"
+#~ "          "
+
+#~ msgid "Candidate List"
+#~ msgstr "候选人"
+
+#~ msgid "ICON P-Rep Election"
+#~ msgstr "ICON P-Rep 选举"
+
+#~ msgid "Latest Candidates"
+#~ msgstr "最新候选人"
+
+#~ msgid "Browse All Candidates"
+#~ msgstr "所有候选人"
+
+#~ msgid "Election Value Proposition"
+#~ msgstr "选举主张价值"
+
+#~ msgid "Become an authoritative figure of the ICON network"
+#~ msgstr "成为ICON网络的权威人物"
+
+#~ msgid "Receive delegation from ICONists to increase voting power"
+#~ msgstr "接受ICONist的代表以增加投票权"
+
+#~ msgid "Right to vote on governance policies to shape the network"
+#~ msgstr "有权对治理政策进行投票以塑造网络"
+
+#~ msgid "Right to produce/validate blocks and receive economic incentives"
+#~ msgstr "生产/验证区块并获得经济激励的权利"
+
+#~ msgid "Right to governance through the delegation of authority"
+#~ msgstr "通过授权进行治理的权利"
+
+#~ msgid ""
+#~ "Right to compensation for network activities and receive economic "
+#~ "incentives"
+#~ msgstr "获得网络活动和经济奖励的权利"
+
+#~ msgid "Right to access and freely use the ICON Network"
+#~ msgstr "自由使用ICON网络的权利"
+
+#~ msgid ""
+#~ "ICON is one of the largest blockchain networks in the world. ICON is a "
+#~ "vision with a proven track record and has progressed beyond the initial "
+#~ "concept stage. ICON already boasts independent blockchains comprised of "
+#~ "reputable institutions in major industries – banks, securities, "
+#~ "insurance, hospitals, universities, goverment and more."
+#~ msgstr ""
+#~ "ICON是世界上最大的区块链网络之一。 ICON是已具备实作的良好记录，超越了最初"
+#~ "的概念阶段。 ICON已经拥有独立的区块链，由主要行业的知名机构组成 - 银行，证"
+#~ "券，保险，医院，大学，政府等。 "
+
+#~ msgid ""
+#~ "ICON is a smart contract protocol enabling interoperability, providing a "
+#~ "communication mechanism in which blockchains operating in silo can "
+#~ "interact with one another on the ICON public blockchain. ICON aims to "
+#~ "remove the barrier of exchanging data and value from different "
+#~ "blockchains, allowing greater integration and applicability, with the "
+#~ "eventual goal of hyperconnecting the world."
+#~ msgstr ""
+#~ "ICON是一种智能合约协议，可实现互操作性，提供一种通信机制。独立运行的区块链"
+#~ "可以在ICON公共区块链上交换数据。 ICON旨在消除不同区块链中交换数据和价值的"
+#~ "障碍，实现更高的集成度和适用性，最终实现超连接世界的目标。 "
+
+#, fuzzy
+#~| msgid "ICONSENSUS is maintained by icon.community."
+#~ msgid "ICONSENSUS is maintained by"
+#~ msgstr "ICONSENSUS由icon.community维护。"
+
+#~ msgid "ICONists can delegate to the following sectors"
+#~ msgstr "ICONists可以分配到以下的代表"
+
+#~ msgid " Public<br>Representative "
+#~ msgstr "公共代表"
+
+#~ msgid " Community<br>Representative "
+#~ msgstr "社群代表"
+
+#~ msgid " Ecosystem<br>Expansion<br>Projects "
+#~ msgstr "生态系统<br>扩展项目"
+
+#~ msgid " DAPP Booster<br>Programs "
+#~ msgstr "DAPP加速计划"
+
+#~ msgid ""
+#~ "In the spirit of open source and decentralization, the expansion of the "
+#~ "blockchain ecosystem comes down to the community that supports it."
+#~ msgstr "本着开源和分权的精神，区块链生态系统归结至支持它的社群。"

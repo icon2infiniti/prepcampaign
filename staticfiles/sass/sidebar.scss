@@ -1,0 +1,220 @@
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.5);
+  z-index: 97;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+
+  &.active {
+    display: block;
+    opacity: 1;
+  }
+}
+
+#sidebar {
+  width: 300px; /* must be same as "right" */
+  position: fixed;
+  top: 0;
+  right: -300px; /* must be same as "right" */
+  height: 100vh;
+  z-index: 98;
+  color: #fff;
+  background: #1aaaba;
+  background: linear-gradient(0deg, #1aaaba 0%, #1a8b9b 100%);
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+  -ms-touch-action: auto;
+  touch-action: auto;
+  font-size: 14px;
+
+  .sidebar-inner {
+    padding: 80px 40px 40px 40px;
+
+    ul {
+      list-style: none;
+      display: block;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        display: block;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        a {
+          color: #fff;
+          transition: all 0.3s;
+          text-decoration: none;
+          font-size: 28px;
+          line-height: 60px;
+          font-weight: 600;
+          display: inline-block;
+          /*animation-name: fadeInRight;*/
+          animation-duration: 1s;
+
+          &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            background: #fff;
+            transition: width .3s;
+          }
+
+          &:hover {
+            &:after {
+              width: 100%;
+            }
+          }
+
+          &:hover, &:focus, &:active {
+            color: rgba(255,255,255,0.3);
+          }
+
+          &.item-1 {
+            animation-delay: 0.015s;
+          }
+          &.item-2 {
+            animation-delay: 0.03s;
+          }
+          &.item-3 {
+            animation-delay: 0.045s;
+          }
+          &.item-4 {
+            animation-delay: 0.06s;
+          }
+          &.item-5 {
+            animation-delay: 0.075s;
+          }
+          &.item-6 {
+            animation-delay: 0.09s;
+          }
+        }
+      }
+    }
+  }
+
+  &.active {
+    right: 0;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: -3px 0px 10px 3px rgba(0, 0, 0, 0.2);
+
+    .sidebar-inner {
+      ul {
+        li {
+          a {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-sidebar {
+  width: 36px;
+  height: 22px;
+  background-color: transparent;
+  /*border: solid 1px #1aaaba;*/
+  display: block;
+  position: fixed;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 99;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  top: 14px;
+  right: 20px;
+  text-decoration: none;
+
+  @media only screen and (min-device-width: 1024px) {
+    top: 25px;
+    right: 30px;
+  }
+
+  .menu-btn-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: #1aaaba;
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+
+      &:nth-child(1) {
+        top: 0;
+      }
+
+      &:nth-child(2), &:nth-child(3) {
+        top: 10px;
+      }
+
+      &:nth-child(4) {
+        top: 20px;
+      }
+    }
+  }
+
+  &.open {
+    .menu-btn-inner {
+      span {
+        background-color: #ffffff;
+
+        &:nth-child(1) {
+          top: 18px;
+          width: 0%;
+          left: 50%;
+        }
+
+        &:nth-child(2) {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+
+        &:nth-child(3) {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+
+        &:nth-child(4) {
+          top: 18px;
+          width: 0%;
+          left: 50%;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

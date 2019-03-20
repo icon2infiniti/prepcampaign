@@ -1,0 +1,521 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="en" class="ajax-loading">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131013028-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'UA-131013028-1');
+  </script>
+
+
+  <title> Apply for ICON Node </title>
+  <meta name="description" content="Apply for ICON Node off-chain">
+  <meta name="keyword" content="on-chain, off-chain, public blockchain, private blockchain, interchain, blockchain ecosystem, bare metal, enterpise blockchain, block produce, blockchain protocol">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+
+  <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css"
+        integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/brands.css"
+        integrity="sha384-whKHCkwP9f4MyD1vda26+XRyEg2zkyZezur14Kxc784RxUU1E7HvWVYj9EoJnUV7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css"
+        integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <link rel="stylesheet" href="{% static 'css/application.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+
+  <style type="text/css">
+    .navbar .navbar-brand {
+      width: 146.5px;
+      height: 32px;
+      background-image: url({% static 'images/iconsensus_logoonly_inverted.png' %});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar.inverted .navbar-brand {
+      background-image: url({% static 'images/iconsensus_logoonly.png' %});
+    }
+  </style>
+
+  <!-- google maps -->
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8QmgeeNNnaMvqqMOavForCRI7kqGpd9E&language=en&region=US"></script>
+  <script>
+      var marker;
+
+      function initialize() {
+          var geocoder = new google.maps.Geocoder;
+          var map = new google.maps.Map(
+              document.getElementById("gmap"), {
+                  center: new google.maps.LatLng(37.7749, 122.4194),
+                  zoom: 2,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+              });
+          google.maps.event.addListener(map, "click", function (e) {
+
+              latLng = e.latLng;
+
+              document.getElementById('id_server_location_latlong').value = latLng;
+
+              geocodeLatLng(geocoder, latLng);
+
+              if (marker && marker.setMap) {
+                  marker.setMap(null);
+              }
+
+              marker = new google.maps.Marker({
+                  position: latLng,
+                  map: map
+              });
+          });
+      }
+
+      function geocodeLatLng(geocoder, latLng) {
+          geocoder.geocode({
+              'location': latLng
+          }, function (results, status) {
+              if (status === 'OK') {
+                  if (results[0]) {
+                      //console.log(results[0]);
+                      //console.log("formatted_address: "+results[0].formatted_address);
+                      var storableLocation = {};
+                      for (var ac = 0; ac < results[0].address_components.length; ac++) {
+                          var component = results[0].address_components[ac];
+                          if (component.types.includes('sublocality') || component.types.includes('locality')) {
+                              storableLocation.city = component.long_name;
+                          } else if (component.types.includes('administrative_area_level_1')) {
+                              storableLocation.state = component.short_name;
+                          } else if (component.types.includes('country')) {
+                              storableLocation.country = component.long_name;
+                              storableLocation.registered_country_iso_code = component.short_name;
+                          }
+                      }
+                      var location_result = '';
+                      if (storableLocation.city != undefined)
+                          location_result += storableLocation.city + ", ";
+                      if (storableLocation.state != undefined)
+                          location_result += storableLocation.state + ", ";
+                      if (storableLocation.country != undefined)
+                          location_result += storableLocation.country
+                      // Store higher address level results for readability, lat long is still available for more precise location
+                      document.getElementById('id_server_location').value = location_result;
+                      //document.getElementById('id_server_location').value = results[0].formatted_address;
+                  } else {
+                      document.getElementById('id_server_location').value = 'invalid location';
+                  }
+              } else {
+                  document.getElementById('id_server_location').value = 'invalid location';
+              }
+          });
+      }
+
+      google.maps.event.addDomListener(window, "load", initialize);
+
+  </script>
+</head>
+
+<body class="application">
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top inverted">
+  <div class="container">
+    <a class="navbar-brand" href="/iconsensus/"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/candidates/">Candidate List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/preapplication/">Apply</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          {% get_current_language as LANGUAGE_CODE %}
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+            {% if LANGUAGE_CODE == 'ko' %}
+              <a class="dropdown-item" href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_KO_V1.0.pdf" target="_blank">P-Rep Pre-Registration Guide(국문)</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/ICON_Election_Introduction_KO_V1.0.pdf" target="_blank">ICON Election Introduction(국문)</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank">Introduction for Public Representative(국문)</a>
+
+            {% else %}
+              <a class="dropdown-item" href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">P-Rep Pre-Registration Guide</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank">ICON Election Introduction</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/Introduction_for_Public_Representative_of_ICON_Network_EN_V1.0.pdf" target="_blank">Introduction for Public Representative</a>
+
+            {% endif %}
+          </div>
+        </li>
+
+        <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          {% get_current_language as LANGUAGE_CODE %}
+          <input name="next" type="hidden" value="{{ redirect_to }}">
+          <input id="post_lang" name="language" value="{{ LANGUAGE_CODE }}" type="hidden">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">{{ LANGUAGE_CODE|language_name_local }}</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+              {% get_available_languages as LANGUAGES %}
+              {% get_language_info_list for LANGUAGES as languages %}
+              {% for language in languages %}
+                {% if language.code != LANGUAGE_CODE %}<a class="dropdown-item" href="#"
+                                                          onclick="change_language('{{ language.code }}');">{{ language.name_local }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        </form>
+      </ul>
+    </div>
+  </div><!-- ./container -->
+</nav>
+<!--.Nav -->
+
+<div class="container">
+  <form id="frmApplication" class="form-horizontal" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="wizard-wrapper">
+      <div class="wizard-header">
+        <br>
+        <div class="text-center" style="font-family:'Montserrat'; font-weight: 600;  color: #333; font-size: 26px;">
+          {% trans 'ICON P-Rep Application' %}
+        </div>
+        <div
+            class="notice red">{% trans 'This information is for public use. It may be open to the ICON community and social media. If the data is incorrect or invalid, it may be deleted from the system.' %}
+        </div>
+
+        <div class="wizard-navigation">
+          <div class="progress-with-circle">
+            <div class="progress-bar" role="progressbar" style="width: 16.6667%;"></div>
+          </div>
+          <ul class="nav nav-pills">
+            <li class="nav-item" style="width: 33.3333%;">
+              <a class="nav-link active" href="#about">
+                <i class="fas fa-user-tie"></i>
+                <p>{% trans 'About' %}</p>
+              </a>
+            </li>
+            <li class="nav-item" style="width: 33.3333%;">
+              <a class="nav-link" href="#network">
+                <i class="fas fa-cog"></i>
+                <p>{% trans 'Network' %}</p>
+              </a>
+            </li>
+            <li class="nav-item" style="width: 33.3333%;">
+              <a class="nav-link" href="#uploads">
+                <i class="fas fa-book"></i>
+                <p>{% trans 'Proposal' %}</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ./wizard-navigation -->
+
+
+        <div class="wizard-body">
+          <div class="tab-content">
+
+            <div class="tab-pane active" id="about">
+
+              <div class="row">
+                <div class="col clone-wrapper">
+
+                  <h3 class="mb-5">{% trans 'Basic Information' %}
+                    <small>*</small>
+                  </h3>
+
+                  <div class="form-row mb-3">
+
+                    <div class="col-md-3 text-center mb-3">
+                      {{ prepform.logo }}
+                      <div class="preview image">
+                        <img src="{% static 'images/preview.jpg' %}" alt="">
+                      </div>
+                      <button type="button" class="btn btn-default btn-photo">{% trans 'Upload Logo' %}</button>
+                    </div>
+
+                    <div class="col-md-9">
+                      <div width="100%">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user"></i></div>
+                          </div>
+                          {{ prepform.name }}
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                          </div>
+                          {{ prepform.email }}
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-globe"></i></div>
+                          </div>
+                          {{ prepform.location }}
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="input-group textarea">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-comment"></i></div>
+                          </div>
+                          {{ prepform.introduction }}
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="spacer"></div>
+
+              <!-- Team -->
+              {{ teamformset.management_form }}
+              {% for form in teamformset %}
+                <div class="row">
+                  <div class="col clone-wrapper">
+
+                    <h3 class="mb-5 mt-5">{% trans 'Team Member' %}
+                      <small>*</small>
+                    </h3>
+
+                    <div class="form-row clone-master mb-3" data-prefix="teamform">
+
+
+                      <div class="col-md-3 text-center mb-3">
+                        <span style="display:none;">{{ form.avatar }}</span>
+                        <div class="preview image">
+                          <img src="{% static 'images/preview.jpg' %}" alt="">
+                        </div>
+                        <button type="button" class="btn btn-default btn-photo">{% trans 'Select Photo' %}</button>
+                      </div>
+
+                      <div class="col-md-8">
+                        <div>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fas fa-user"></i></div>
+                            </div>
+                            {{ form.name }}
+                          </div>
+                        </div>
+
+                        <div>
+                          <div class="input-group textarea">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fas fa-font"></i></div>
+                            </div>
+                            {{ form.background }}
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-md-1 text-center align-self-center">
+                        <button type="button" class="btn btn-default btn-delete-row hidedelete"><i
+                            class="fas fa-trash-alt"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <p class="text-left">
+                      <button type="button" class="btn btn-link btn-add-row">{% trans '+ Members' %}</button>
+                    </p>
+                  </div>
+                </div>
+              {% endfor %}
+
+              <div class="spacer"></div>
+
+              <!-- Social -->
+              {{ socialformset.management_form }}
+              {% for form in socialformset %}
+                <div class="row">
+                  <div class="col clone-wrapper">
+
+                    <h3 class="mb-5 mt-5">{% trans 'Social Networks' %}
+                      <!--<small>(Optional)</small>-->
+                    </h3>
+
+                    <div class="form-row clone-master mb-3" data-prefix="socialform">
+                      <div class="col-md-3 mb-3">
+                        {{ form.social_select }}
+                      </div>
+                      <div class="col-md-8 mb-3">
+                        {{ form.link }}
+                      </div>
+                      <div class="col-md-1 text-center align-self-center mb-3">
+                        <button type="button" class="btn btn-default btn-delete-row hidedelete"><i
+                            class="fas fa-trash-alt"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <p class="text-left">
+                      <button type="button" class="btn btn-link btn-add-row">{% trans '+ More Networks' %}</button>
+                    </p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+            <!-- NETWORK -->
+            <div class="tab-pane" id="network">
+              <h3 class="mb-5">{% trans 'Expected Network Information' %}
+                <small>*</small>
+              </h3>
+
+
+              <div class="form-row">
+                <div class="col-md-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
+                    </div>
+                    {{ prepform.server_location }} {{ prepform.server_location_latlong }}
+                  </div>
+                  <div id="gmap">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-server"></i></div>
+                    </div>
+                    {{ prepform.server_type }}
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-12">
+                  <div class="input-group textarea">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-tasks"></i></div>
+                    </div>
+                    {{ prepform.server_spec }}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROPOSAL -->
+            <div class="tab-pane" id="uploads">
+              <div class="form-row">
+                <div class="col-12 text-center">
+                  <h3 class="mb-3">{% trans 'Delegate Proposal' %}
+                    <small>*</small>
+                  </h3>
+                  <div class="input-group textarea">
+                    {{ prepform.media }}
+                    {{ prepform.proposal_rich }}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="wizard-footer">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-left">
+              <input type="button" class="btn btn-default btn-previous-tab disabled text-uppercase" name="previous"
+                     value="{% trans 'Previous' %}">
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+              <input type="button" class="btn btn-primary btn-next-tab text-uppercase" name="next"
+                     value="{% trans 'Next' %}">
+              <input type="submit" class="btn btn-primary btn-finish-submit disabled text-uppercase" name="finish"
+                     value="{% trans 'Finish' %}">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </form>
+</div>
+<!-- JS -->
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/jquery.finger.js' %}"></script>
+<script src="{% static 'js/application.js' %}"></script>
+
+<script>
+    document.getElementById("id_proposal_rich").value = "{% trans '<p>1. Proposal introduction (What)<p> - Provide a description of your proposal you wish to pitch and briefly explain how it will enhance the ICON Network.<p>2. Motivation of the proposal (Why)<p> - What brought you to become a P-Rep of ICON and what was the motivation for the proposal above?<p>3. Execution plan of the proposal (How)<p> - How would you actually carry out your proposal? Please elaborate related action items and technical explanation.<p>4. Expected timeline of the proposal (When)<p> - Provide specific milestones, expected timeline to fulfill your proposal.' %}";
+    //CKEDITOR.replace("id_proposal_rich");
+    document.getElementById('id_socialform-0-social_select').getElementsByTagName('option')[1].selected = 'selected'
+</script>
+
+<script>
+    function change_language(lang) {
+        var language_form = document.getElementById('language_form');
+        var post_lang = document.getElementById('post_lang');
+        post_lang.value = lang;
+        language_form.submit();
+    }
+</script>
+
+
+<script>
+
+$(document).ready(function() {
+  $(window).keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script>
+
+</body>
+
+</html>
+
+
+
+

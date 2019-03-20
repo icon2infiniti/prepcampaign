@@ -1,0 +1,82 @@
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 97;
+  opacity: 0;
+  transition: all 0.5s ease-in-out; }
+  .sidebar-overlay.active {
+    display: block;
+    opacity: 1; }
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 98;
+  color: rgba(255, 255, 255, 0.3);
+  background: #262626;
+  transition: all 0.3s;
+  overflow-y: scroll;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  -ms-touch-action: auto;
+  touch-action: auto;
+  font-size: 14px; }
+  #sidebar .active {
+    left: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; }
+  #sidebar .sidebar-inner {
+    padding: 15px; }
+    #sidebar .sidebar-inner ul {
+      list-style: none;
+      display: block; }
+      #sidebar .sidebar-inner ul li {
+        list-style: none;
+        display: block;
+        margin-bottom: 7px; }
+        #sidebar .sidebar-inner ul li:last-child {
+          margin-bottom: 0; }
+        #sidebar .sidebar-inner ul li a {
+          color: rgba(255, 255, 255, 0.3);
+          transition: all 0.3s;
+          text-decoration: none;
+          font-size: 20px;
+          line-height: 20px; }
+          #sidebar .sidebar-inner ul li a:hover, #sidebar .sidebar-inner ul li a:focus, #sidebar .sidebar-inner ul li a:active {
+            color: #fff; }
+
+.btn-sidebar {
+  width: 80px;
+  height: 80px;
+  background: #262626;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 99; }
+  .btn-sidebar:after {
+    content: '\f0c9';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff; }
+  .btn-sidebar.open:after {
+    content: '\f061'; }

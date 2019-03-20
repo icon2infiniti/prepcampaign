@@ -1,0 +1,112 @@
+body {
+  background-color: #F2F4F9;
+}
+
+.social [class*="fab fa-"] {
+  margin-left: 3px;
+  color: #666666;
+}
+
+.social [class*="fab fa-"]:hover {
+  color: #1aaaba;
+}
+
+.social [class*="fas fa-"] {
+  margin-left: 3px;
+  color: #666666;
+}
+
+.social [class*="fas fa-"]:hover {
+  color: #1aaaba;
+}
+
+.bg-light {
+  background-color: #F2F4F9 !important;
+}
+
+.navbar {
+  border-bottom: 1px solid #dfdfdf;
+  box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.02);
+}
+
+.nav-link {
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #1aaaba !important;
+}
+
+h1 {
+  font-family: 'Poppins', 'Poppins', sans-serif !important;
+  font-size: 1.4375rem;
+  line-height: 1.4em;
+  font-weight: 300;
+  margin-bottom: .75rem;
+}
+
+h2 {
+  font-family: 'Poppins', 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  font-size: 26px !important;
+  color: #555 !important;
+}
+
+h4 {
+  font-family: 'Poppins', 'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  line-height: 1.25 !important;
+  font-size: 22px !important;
+  color: #999 !important;
+}
+
+.btn {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  margin: 4px 1px;
+  border-radius: 0.4285rem;
+  background-size: 210% 210%;
+  background-position: top right;
+  padding: 11px 40px;
+  font-size: 0.875rem;
+  line-height: 1.35em;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 140px;
+  box-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.btn.btn-primary {
+  background-image: linear-gradient(to bottom left, #1aaaba, #1a8b9b, #1aaaba);
+  background-color: #1aaaba;
+  color: #ffffff;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+.proposal img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 900px !important;
+}
+
+.lead {
+  font-weight: 500!important;
+}

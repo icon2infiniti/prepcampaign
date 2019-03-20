@@ -1,0 +1,254 @@
+{% load static i18n %}<!doctype html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131013028-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'UA-131013028-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="ICONsensus - ICON P-Rep Election">
+  <title>ICONsensus - ICON P-Rep Election</title>
+  <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/carousel.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/brands.css"
+        integrity="sha384-whKHCkwP9f4MyD1vda26+XRyEg2zkyZezur14Kxc784RxUU1E7HvWVYj9EoJnUV7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/fontawesome.css"
+        integrity="sha384-WK8BzK0mpgOdhCxq86nInFqSWLzR5UAsNg0MGX9aDaIIrFWQ38dGdhwnNCAoXFxL" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+  <link href="{% static 'css/navbar-common.css' %}" rel="stylesheet">
+  <style type="text/css">
+
+    .featurette ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .featurette ul li {
+      font-size: 18px;
+      color: #666666;
+      padding-left: 0px;
+    }
+
+    .featurette ul li:before {
+      content: "•";
+      font-size: 24px;
+      padding-right: 8px;
+      color: #1aaaba;
+    }
+
+    .fa-telegram {
+      color: #666666;
+    }
+
+    .fastack:hover .fa-telegram {
+      color: #1aaaba;
+    }
+
+    .bg-light {
+      background-color: #F2F4F9 !important;
+    }
+
+    .banner p {
+      margin: 18px 0 43px;
+      color: #666666;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 1;
+    }
+
+    .btn_outline {
+      text-decoration: none;
+      display: inline-block;
+      width: 230px;
+      height: 60px;
+      padding: 19px 0;
+      border: 1px solid #1aaaba;
+      color: #1aaaba;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      border-radius: 5px;
+      cursor: pointer;
+      vertical-align: top;
+      box-sizing: border-box;
+    }
+
+    .btn_outline:hover {
+      background-color: #1aaaba;
+      color: #fff;
+      border-color: #1aaaba;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-family: 'Poppins', 'Poppins', sans-serif !important;
+      font-weight: 600 !important;
+      line-height: 1.25 !important;
+      font-size: 26px !important;
+      color: #555 !important;
+    }
+
+    h4 {
+      font-family: 'Poppins', 'Poppins', sans-serif !important;
+      font-weight: 500 !important;
+      line-height: 1.25 !important;
+      font-size: 22px !important;
+      color: #333 !important;
+    }
+
+    .navbar .navbar-brand {
+      width: 146.5px;
+      height: 32px;
+      background-image: url({% static 'images/iconsensus_logoonly_inverted.png' %});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar.inverted .navbar-brand {
+      background-image: url({% static 'images/iconsensus_logoonly.png' %});
+    }
+
+  </style>
+</head>
+<body style="background-color: #F2F4F9; padding:0">
+
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top inverted">
+  <div class="container">
+    <a class="navbar-brand" href="/iconsensus/"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/candidates/">Candidate List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iconsensus/preapplication/">Apply</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          {% get_current_language as LANGUAGE_CODE %}
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+            {% if LANGUAGE_CODE == 'ko' %}
+              <a class="dropdown-item" href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_KO_V1.0.pdf" target="_blank">P-Rep Pre-Registration Guide(국문)</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/ICON_Election_Introduction_KO_V1.0.pdf" target="_blank">ICON Election Introduction(국문)</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank">Introduction for Public Representative(국문)</a>
+
+            {% else %}
+              <a class="dropdown-item" href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">P-Rep Pre-Registration Guide</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank">ICON Election Introduction</a>
+              <a class="dropdown-item" href="https://m.icon.foundation/download/Introduction_for_Public_Representative_of_ICON_Network_EN_V1.0.pdf" target="_blank">Introduction for Public Representative</a>
+
+            {% endif %}
+          </div>
+        </li>
+
+        <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          {% get_current_language as LANGUAGE_CODE %}
+          <input name="next" type="hidden" value="{{ redirect_to }}">
+          <input id="post_lang" name="language" value="{{ LANGUAGE_CODE }}" type="hidden">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">{{ LANGUAGE_CODE|language_name_local }}</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+              {% get_available_languages as LANGUAGES %}
+              {% get_language_info_list for LANGUAGES as languages %}
+              {% for language in languages %}
+                {% if language.code != LANGUAGE_CODE %}<a class="dropdown-item" href="#"
+                                                          onclick="change_language('{{ language.code }}');">{{ language.name_local }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        </form>
+      </ul>
+    </div>
+  </div><!-- ./container -->
+</nav>
+<!--.Nav -->
+
+
+<!-- Main Content -->
+<main role="main" style="margin-top: 70px;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <br>
+        <div class="text-center" style="font-family:'Montserrat'; font-weight: 600;  color: #333; font-size: 26px;">
+          {% trans 'Thank you for applying!' %}
+        </div>
+        <br>
+        <div class="d-flex align-items-center justify-content-center">
+        <span class="lead" style="font-size:18px; width:480px; display: block;">
+          {% trans 'Please join our private Telegram channel dedicated to P-Rep applicants, where you can discuss anything related to the ICONSENSUS campaign.' %}
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-4">
+    <div>
+      <a href="/iconsensus/candidates/" class="btn_outline m-1">{% trans 'See Candidates' %}</a>
+      <a href="https://t.me/joinchat/GCwj4xS-Iceh7tsF77MKVw" class="btn_outline m-1"
+         target="_blank">{% trans 'Join Telegram' %}</a>
+    </div>
+  </div>
+  <br>
+
+  </div>
+
+  <!-- Start: Footer -->
+  <div class="container">
+    <footer class="footer">
+      <div class="row align-items-center">
+        <div class="col-8 text-left">
+          {% blocktrans %}
+            For further inquiries, please contact <a href="mailto:support@icon.community">support@icon.community</a>
+          {% endblocktrans %}
+        </div>
+        <div class="col-4 text-right">
+          <a href="https://medium.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-medium-m fa-2x"></i></a>
+          <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div><!-- ./container -->
+  <!-- End: Footer -->
+
+</main>
+
+<!-- JS -->
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+</body>
+</html>

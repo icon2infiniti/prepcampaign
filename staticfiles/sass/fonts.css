@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SeroPro';
+  src: url("../fonts/SeroPro-Thin.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeroPro';
+  src: url("../fonts/SeroPro.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeroPro';
+  src: url("../fonts/SeroPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeroPro';
+  src: url("../fonts/SeroPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}

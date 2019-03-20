@@ -1,0 +1,763 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 09:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: prepsite/core/forms.py:17
+msgid "*Official P-Rep Candidate Name"
+msgstr "공식 P-Rep 후보자 이름"
+
+#: prepsite/core/forms.py:23
+msgid "*Contact Email"
+msgstr "이메일 주소"
+
+#: prepsite/core/forms.py:29
+msgid "*Location of headquarters"
+msgstr "본사 위치"
+
+#: prepsite/core/forms.py:36
+msgid "*Brief Introduction"
+msgstr "소개"
+
+#: prepsite/core/forms.py:46
+msgid "*Mark Server Location"
+msgstr "예정 중인 서버 위치를 지도 위에 표시하세요"
+
+#: prepsite/core/forms.py:53
+msgid "*Type of Servers(eg: cloud, bare metal, etc)"
+msgstr "예정 서버 타입(예:cloud, bare metal 등)"
+
+#: prepsite/core/forms.py:59
+msgid "*Server Specs"
+msgstr "예정 서버 스펙"
+
+#: prepsite/core/forms.py:86
+msgid "Enter team member name"
+msgstr "팀원 이름"
+
+#: prepsite/core/forms.py:92
+msgid "Member background information"
+msgstr "프로필"
+
+#: prepsite/core/forms.py:113
+msgid "Enter URL..."
+msgstr "URL 입력"
+
+#: prepsite/settings.py:122
+msgid "English"
+msgstr "English"
+
+#: prepsite/settings.py:123
+msgid "Simplified Chinese"
+msgstr "Simplified Chinese"
+
+#: prepsite/settings.py:124
+msgid "Korean"
+msgstr "한국어"
+
+#: prepsite/templates/about.html:140
+msgid "The Journey towards Mass Adoption"
+msgstr "블록체인 대중화를 향한 여정, ICONSENSUS가 시작됩니다."
+
+#: prepsite/templates/about.html:143
+msgid ""
+"ICONSENSUS is a journey toward mass adoption of blockchain. The election of "
+"P-Reps is the first milestone of ICONSENSUS and is a pivotal moment for the "
+"ICON Network as it is not only the initial step to realize the "
+"decentralization of the ICON Network, but also the beginning of a journey "
+"toward mass adoption."
+msgstr ""
+"ICONist들의 합의를 뜻하는 ICONSENSUS는 블록체인 기술의 대중화를 향한여정입니"
+"다. P-Rep 선출은 ICONSENSUS의 시작점이자, ICON Network의궁극적 목표인 탈중앙"
+"화를 이루기 위한 첫 단계입니다."
+
+#: prepsite/templates/about.html:154
+msgid "The Journey of ICONSENSUS"
+msgstr "ICONSENSUS를 향한 여정"
+
+#: prepsite/templates/about.html:155
+msgid ""
+"As a member of the ICON community, I am excited about the election. It’s a "
+"moment where every ICONist can contribute. Thank you for your support since "
+"the beginning of this journey, let’s shape our future with ICONSENSUS."
+msgstr ""
+"저 또한 커뮤니티의 일원인 ICONist로써, 네트워크에 기여할 수 있는 기회인 이번 "
+"P-Rep 선거에 기대가 큽니다. ICON 프로젝트의 첫 시작부터 함께 해주신 모든 분들"
+"께 감사드리며, ICONSENSUS에 참여하여, ICON Network의 미래를 결정해주세요!"
+
+#: prepsite/templates/about.html:167
+msgid ""
+"ICONSENSUS begins with the P-Rep election and will lead to disruptive "
+"innovation through organic ecosystem expansion driven by EEPs, diversified "
+"DApp business models driven by DBPs and the connection of different "
+"blockchain platforms through C-Reps.<br><br>Vote, Spread, and Disrupt."
+"<br><br>This is how the ICON Network will hyperconnect the world. "
+msgstr ""
+"ICONSENSUS는 P-Rep 선출을 시작으로 네트워크 발전 기여에 대한 보상을 제공하는 "
+"‘EEP’,다양한 DApp 서비스 유통 및 경제적 보상을 지원하는 ‘DBP’, ICON과 이종 블"
+"록체인 간 ‘연결고리’인‘C-Rep(Community Representative)’ 선출 과정을 거쳐 더"
+"욱 확장됩니다. 이러한 ‘투표’와 ‘확장’의과정을 거쳐 ICON은 진정한 탈중앙화된 "
+"네트워크를 이룩해 ‘창조적 파괴’를 이끌어 낼 것입니다. 이것이 바로 세상의 모"
+"든 블록체인을 잇고자 노력해왔던 ICON이 꿈꾸는 청사진입니다."
+
+#: prepsite/templates/about.html:183
+msgid "P-Rep Campaign Process"
+msgstr "P-Rep 캠페인 로드맵"
+
+#: prepsite/templates/about.html:187
+msgid "Dec 2018"
+msgstr ""
+
+#: prepsite/templates/about.html:190
+msgid "1st Announcement"
+msgstr ""
+
+#: prepsite/templates/about.html:191
+msgid "A brief introduction about the campaign was announced."
+msgstr "캠페인에 대한 간략한 발표가 진행되었습니다."
+
+#: prepsite/templates/about.html:195
+msgid "Jan 2019"
+msgstr ""
+
+#: prepsite/templates/about.html:198
+msgid "2nd Announcement"
+msgstr ""
+
+#: prepsite/templates/about.html:199
+msgid ""
+"The commencement of the P-Rep Pre-registration has been officially announced."
+msgstr ""
+"캠페인의 슬로건과 스토리, 그리고 ICONSENSUS의 의미에 대해 전달하며, P-Rep 사"
+"전모집의 시작을 알립니다."
+
+#: prepsite/templates/about.html:200
+msgid "P-Rep Pre-registration"
+msgstr ""
+
+#: prepsite/templates/about.html:201
+msgid ""
+"Pre-registration of P-Rep candidates starts in off-chain environment. "
+"Candidates must submit team introduction and delegate proposal to be "
+"registered. Candidates who participate in P-Rep Pre-registration will "
+"benefit from the communities in a variety of ways."
+msgstr ""
+"오프체인 환경에서 후보자들을 사전에 모집합니다. 후보자 등록을 위해 팀 소개 및"
+"Delegate proposal을 제출해야 합니다. ‘P-Rep 사전 모집’ 단계에 참여한 대표자들"
+"은 향후다양한 커뮤니티의 혜택을 받을 수 있습니다."
+
+#: prepsite/templates/about.html:205
+msgid "Sep 2019"
+msgstr ""
+
+#: prepsite/templates/about.html:208
+msgid "P-Rep On-Chain Registration & Election"
+msgstr ""
+
+#: prepsite/templates/about.html:209
+msgid ""
+"A blockchain election, a cornerstone of decentralization, begins. ICONists "
+"can vote for the candidates by delegating their stake. Once certain "
+"circumstances are reached, the ICON Network will be fully operated by the P-"
+"Reps."
+msgstr ""
+"ICON Network의 탈중앙화를 알리는 블록체인 선거가 시작됩니다. ICON Network 상"
+"에서지분 위임을 통해 투표를 진행하게 됩니다. P-Rep이 선출되고 나면, ICON "
+"Network는완전하게 P-Rep을 중심으로 운영됩니다."
+
+#: prepsite/templates/about.html:213
+msgid "4Q 2019"
+msgstr ""
+
+#: prepsite/templates/about.html:216
+msgid "The Genesis P-Rep Summit"
+msgstr ""
+
+#: prepsite/templates/about.html:217
+msgid ""
+"During the genesis P-Rep Summit, the birth of Genesis P-Reps as well as "
+"commencement of the decentralized ICON Network will be declared."
+msgstr ""
+"The Genesis P-Rep Summit을 통해 Genesis P-Rep의 탄생을 알리고,탈중앙화된 "
+"ICON Network를 본격적으로 구동합니다."
+
+#: prepsite/templates/about.html:233
+msgid "Vote. Spread. Disrupt."
+msgstr "Vote. Spread. Disrupt."
+
+#: prepsite/templates/about.html:234 prepsite/templates/index.html:196
+#: prepsite/templates/preapplication_form.html:258
+msgid "Apply"
+msgstr "지원하기"
+
+#: prepsite/templates/about.html:250 prepsite/templates/index.html:386
+#: prepsite/templates/preapplication_form.html:269
+#: prepsite/templates/thankyou.html:233
+msgid ""
+"\n"
+"            For further inquiries, please contact <a href=\"mailto:"
+"support@icon.community\">support@icon.community</a>\n"
+"          "
+msgstr ""
+"\n"
+"          각종 문의사항은 <a href=\"mailto:support@icon.community"
+"\">support@icon.community</a> 로 보내주세요.\n"
+"          "
+
+#: prepsite/templates/application_form.html:210
+msgid "ICON P-Rep Application"
+msgstr "ICON P-Rep 후보자 지원서"
+
+#: prepsite/templates/application_form.html:213
+msgid ""
+"This information is for public use. It may be open to the ICON community and "
+"social media. If the data is incorrect or invalid, it may be deleted from "
+"the system."
+msgstr ""
+"해당 정보는 모든 사용자가 자유롭게 열람할 수 있으며, ICON 커뮤니티 및 소셜 미"
+"디어 채널에 게시될 수 있습니다. 허위 정보는 임의로 삭제될 수 있습니다. 지원 "
+"양식에 필요한 공식적인 언어는 영어입니다."
+
+#: prepsite/templates/application_form.html:224
+msgid "About"
+msgstr "About"
+
+#: prepsite/templates/application_form.html:230
+#: prepsite/templates/preapplication_form.html:209
+msgid "Network"
+msgstr "Network"
+
+#: prepsite/templates/application_form.html:236
+#: prepsite/templates/candidate_detail.html:206
+msgid "Proposal"
+msgstr "proposal"
+
+#: prepsite/templates/application_form.html:252
+msgid "Basic Information"
+msgstr "기본 정보"
+
+#: prepsite/templates/application_form.html:263
+msgid "Upload Logo"
+msgstr "파일 선택"
+
+#: prepsite/templates/application_form.html:317
+#: prepsite/templates/candidate_detail.html:244
+msgid "Team Member"
+msgstr "팀 멤버"
+
+#: prepsite/templates/application_form.html:329
+msgid "Select Photo"
+msgstr "파일 선택"
+
+#: prepsite/templates/application_form.html:360
+msgid "+ Members"
+msgstr "+ 멤버 추가"
+
+#: prepsite/templates/application_form.html:374
+msgid "Social Networks"
+msgstr "소셜 네트워크"
+
+#: prepsite/templates/application_form.html:393
+msgid "+ More Networks"
+msgstr "+ 사이트 추가"
+
+#: prepsite/templates/application_form.html:402
+#: prepsite/templates/candidate_detail.html:214
+msgid "Expected Network Information"
+msgstr "예정 네트워크 정보"
+
+#: prepsite/templates/application_form.html:447
+msgid "Delegate Proposal"
+msgstr "Delegate Proposal"
+
+#: prepsite/templates/application_form.html:466
+msgid "Previous"
+msgstr "이전"
+
+#: prepsite/templates/application_form.html:470
+msgid "Next"
+msgstr "다음"
+
+#: prepsite/templates/application_form.html:472
+msgid "Finish"
+msgstr "완료"
+
+#: prepsite/templates/application_form.html:488
+msgid ""
+"<p>1. Proposal introduction (What)<p> - Provide a description of your "
+"proposal you wish to pitch and briefly explain how it will enhance the ICON "
+"Network.<p>2. Motivation of the proposal (Why)<p> - What brought you to "
+"become a P-Rep of ICON and what was the motivation for the proposal above?"
+"<p>3. Execution plan of the proposal (How)<p> - How would you actually carry "
+"out your proposal? Please elaborate related action items and technical "
+"explanation.<p>4. Expected timeline of the proposal (When)<p> - Provide "
+"specific milestones, expected timeline to fulfill your proposal."
+msgstr ""
+"<p>1. 제안 소개 <p>- 제안의 핵심과 해당 제안이 ICON Network에 기여하는 바를 "
+"구체적으로 설명해주세요.<p>2. 제안 동기 <p>- P-Rep 지원 및 제안 동기를 설명해"
+"주세요.<p>3. 제안 내용의 실행 계획 <p>- 제안 내용의 실행 방안을 구체적으로 설"
+"명해주세요(개발, 교육, 마케팅 등).<p>4. 예상 일정 <p>- 제안 내용의 예상 일정"
+"을 구체적으로 설명해주세요.<p>"
+
+#: prepsite/templates/candidate_detail.html:130
+msgid "Candidate"
+msgstr "후보자"
+
+#: prepsite/templates/candidate_detail.html:134
+msgid "Team Information"
+msgstr "기본 정보"
+
+#: prepsite/templates/candidate_detail.html:150
+#: prepsite/templates/candidate_list.html:149
+msgid "HQ"
+msgstr "본사 위치"
+
+#: prepsite/templates/candidate_detail.html:227
+msgid "Team Members"
+msgstr "팀 멤버"
+
+#: prepsite/templates/candidate_detail.html:258
+msgid "None"
+msgstr "없음"
+
+#: prepsite/templates/candidate_detail.html:267
+msgid "Back to Listing"
+msgstr "후보자 리스트"
+
+#: prepsite/templates/candidate_list.html:125
+msgid "Candidate Listing"
+msgstr "후보자 리스트"
+
+#: prepsite/templates/candidate_list.html:142
+msgid "Total of"
+msgstr "총"
+
+#: prepsite/templates/candidate_list.html:142
+msgid "Candidates"
+msgstr "후보자"
+
+#: prepsite/templates/candidate_list.html:147
+msgid "Created"
+msgstr ""
+
+#: prepsite/templates/candidate_list.html:148
+msgid "Name"
+msgstr "팀명"
+
+#: prepsite/templates/candidate_list.html:150
+msgid "Server Location"
+msgstr "서버 위치"
+
+#: prepsite/templates/candidate_list.html:170
+msgid "Detail"
+msgstr "자세히 보기"
+
+#: prepsite/templates/index.html:251
+msgid ""
+"ICONSENSUS is a journey toward mass adoption of blockchain consisting of "
+"four key items: P-Rep, DBP, EEP, and C-Rep. The election of P-Reps is not "
+"only the beginning of ICONSENSUS but also first step to realize the goal of "
+"a truly decentralized network."
+msgstr ""
+"ICONSENSUS는 블록체인 기술의 대중화를 향한 여정으로, P-Rep, DBP, EEP, C-Rep "
+"네 단계를 통해 완성됩니다. P-Rep 선출은 ICONSENSUS의 첫 시작점으로, 탈중앙화"
+"를 이루기 위해 전개되는 글로벌 캠페인 입니다."
+
+#: prepsite/templates/index.html:257
+msgid "P-Rep Benefits"
+msgstr "P-Rep Benefits"
+
+#: prepsite/templates/index.html:259
+msgid "Economic incentives"
+msgstr "향상된 토큰 이코노미 시스템을 통해 P-Rep에게 매력적인 수준의 보상 제공"
+
+#: prepsite/templates/index.html:260
+msgid "Right to vote on the governance policies"
+msgstr "ICON Network의 거버넌스를 결정할 수 있는 권한"
+
+#: prepsite/templates/index.html:261
+msgid "High reputation within the ICON Community"
+msgstr "ICON 커뮤니티의 리더가 될 수 있음"
+
+#: prepsite/templates/index.html:262
+msgid "Eligibility to join the ICONgress"
+msgstr "ICONgress의 멤버 자격"
+
+#: prepsite/templates/index.html:267
+msgid "ICONist Benefits"
+msgstr "ICONist Benefits"
+
+#: prepsite/templates/index.html:269
+msgid "Govern the network through delegation"
+msgstr "대표자 위임을 통한 네트워크 거버넌스 권한 행사"
+
+#: prepsite/templates/index.html:270
+msgid "Receive compensation for network activities"
+msgstr "네트워크 활동에 대한 경제적 보상"
+
+#: prepsite/templates/index.html:284
+msgid "Latest News"
+msgstr "Latest News"
+
+#: prepsite/templates/index.html:303
+#, fuzzy
+#| msgid "+ More Networks"
+msgid "More News"
+msgstr "+ 사이트 추가"
+
+#: prepsite/templates/index.html:314
+msgid "About ICON"
+msgstr "About ICON"
+
+#: prepsite/templates/index.html:341
+msgid ""
+"ICON Network is one of the largest blockchain networks in the world. As a "
+"global blockchain project, ICON Network aims to remove barriers among "
+"different blockchains, and allow them to exchange values without "
+"intermediaries. By realizing this goal, ICON will realize mass adoption of "
+"the blockchain technology and Hyperconnect the World."
+msgstr ""
+"ICON Network는 세계 최대 블록체인 네트워크 중 하나로, 다양한 블록체인 커뮤니"
+"티 연결을 통해 블록체인 기술의 실생활 사용을 위한 환경을 구축하는 글로벌 블록"
+"체인 프로젝트입니다. ICON Network는 고성능 블록체인 엔진인 ‘loopchain’을 기반"
+"으로 완전한 퍼블릭 블록체인을 구성하여, 탈중앙화된 스마트 계약 프로토콜로서"
+"의 비전을 실현하고 있습니다. 동시에 은행, 증권, 보험, 병원, 대학, 정부 등 주"
+"요 산업에 존재하는 이종 블록체인과의 상호운용성을 가능하게 하는 인터체인"
+"(Interchain) 기술을 제공합니다. ICON Network는 블록체인 간의 가치 교환에 있"
+"어 장벽을 없애고 블록체인 대중화를 실현하여,진정한 초연결사회로 나아가고자 합"
+"니다."
+
+#: prepsite/templates/preapplication_form.html:142
+msgid "Welcome to ICON P-Rep Application Page!"
+msgstr "ICON P-Rep 후보자 지원"
+
+#: prepsite/templates/preapplication_form.html:145
+msgid ""
+"A P-Rep is the representative of all ICONists, creating blocks and "
+"validating transactions in the ICON Network, and playing a number of roles "
+"in the Network including monetary policies, key decision makings, and "
+"establishing ecosystems."
+msgstr ""
+"P-Rep은 모든 ICONist의 대표자로서, ICON Network의 블록을 생성하고 거래를 검증"
+"을 수행할 뿐만 아니라, 통화 정책 및 네트워크의 주요 의사 결정, 생태계 구축 "
+"등 다양한 역할을 수행하게 됩니다."
+
+#: prepsite/templates/preapplication_form.html:148
+msgid ""
+"A P-Rep must meet sufficient technical capability and understanding of the "
+"ecosystem and contribute to building the network with great responsibility "
+"throughout the ICON Network. Our community aims to encourage all the "
+"ICONists by offering a basic and an expected server spec along with a "
+"delegate proposal. Any contents from the icon.community are open to public."
+msgstr ""
+"P-Rep은 충분한 기술적인 역량과 생태계에 대한 이해도를 지녀야 하며, ICON "
+"Network 전반에 책임감을 가지고 네트워크를 구성하는데 기여해야 합니다. 본 커뮤"
+"니티는 기본 정보 및 예상 서버 정보, 위임을 위한 제안서를 작성하여, ICONist들"
+"의 판단력을 돕는 것을 권장합니다. 커뮤니티에 게시된 정보는 모두 공개되며, 소"
+"셜 미디어를 통해 유통될 수 있습니다."
+
+#: prepsite/templates/preapplication_form.html:154
+msgid "P-Rep application procedure is as follows"
+msgstr "P-Rep 지원 단계는 다음과 같습니다."
+
+#: prepsite/templates/preapplication_form.html:168
+msgid ""
+"1) About : Please provide basic information about the P-Rep candidate and "
+"team members"
+msgstr "1) About : P-Rep 후보자의 기본 정보와 팀원 정보를 입력합니다."
+
+#: prepsite/templates/preapplication_form.html:172
+msgid ""
+"2) Network : Please specify the technical specification of your expected "
+"server."
+msgstr "2) Network : 기술 사양 정보를 입력합니다."
+
+#: prepsite/templates/preapplication_form.html:178
+msgid "Minimum Specification"
+msgstr "최소사양"
+
+#: prepsite/templates/preapplication_form.html:179
+msgid "Recommended Specification"
+msgstr "권장사양"
+
+#: prepsite/templates/preapplication_form.html:184
+msgid "Instance type"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:185
+msgid "C5.9xlarge"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:186
+msgid "C5.18xlarge"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:189
+msgid "CPU model"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:190
+#: prepsite/templates/preapplication_form.html:191
+msgid "Intel® Xeon® Platinum 8124M CPU @ 3.00 GHz"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:194
+msgid "vCPU(core)"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:195
+msgid "36"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:196
+msgid "72"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:199
+msgid "RAM"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:200
+msgid "72G"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:201
+msgid "144G"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:204
+msgid "Disk"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:205
+msgid "500G NVMe SSD (EBS bandwidth 4.5 Gbps)"
+msgstr "500G NVMe SSD (EBS 대역폭 4.5 Gbps)"
+
+#: prepsite/templates/preapplication_form.html:206
+msgid "1000G NVMe SSD (EBS bandwidth 9 Gbps)"
+msgstr "1000G NVMe SSD (EBS 대역폭 9 Gbps)"
+
+#: prepsite/templates/preapplication_form.html:210
+#: prepsite/templates/preapplication_form.html:211
+msgid "10 Gbps"
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:215
+msgid ""
+"*The server specification is recommended by the ICON Foundation, final "
+"specification may differ depending on network conditions."
+msgstr ""
+"*서버 스펙은 재단에서 권장하는 참고사항입니다. 실제 네트워크 상황에 따라 요구"
+"되는 사양은 달라질 수 있습니다."
+
+#: prepsite/templates/preapplication_form.html:219
+msgid "3) Proposal : Please describe your proposal based on the format below."
+msgstr ""
+"3) Proposal : P-Rep 제안 동기, 목적, 수행 방안 등을 구체적으로 작성해주세요."
+
+#: prepsite/templates/preapplication_form.html:220
+msgid "*P-Rep Proposal Template"
+msgstr "*P-Rep 제안서 템플릿"
+
+#: prepsite/templates/preapplication_form.html:226
+msgid "1. Proposal introduction"
+msgstr "1. 제안 소개"
+
+#: prepsite/templates/preapplication_form.html:227
+msgid ""
+": Provide a description of your proposal you wish to pitch and briefly "
+"explain how it will enhance the ICON Network."
+msgstr ""
+"제안의 핵심과 해당 제안이 ICON Network에 기여하는 바를 구체적으로 설명해주세"
+"요."
+
+#: prepsite/templates/preapplication_form.html:233
+msgid "2. Motivation of the proposal"
+msgstr "2. 제안 동기"
+
+#: prepsite/templates/preapplication_form.html:234
+msgid ""
+": What brought you to become a P-Rep of ICON and what was the motivation for "
+"the proposal above?"
+msgstr "P-Rep 지원 및 제안 동기를 설명해주세요."
+
+#: prepsite/templates/preapplication_form.html:240
+msgid "3. Execution plan of the proposal"
+msgstr "3. 제안 실행 계획"
+
+#: prepsite/templates/preapplication_form.html:241
+msgid ""
+": How would you actually carry out your proposal? Please elaborate related "
+"action items and technical explanation."
+msgstr ""
+"제안 내용의 실행 방안을 구체적으로 설명해주세요 (개발, 교육, 마케팅 등)"
+
+#: prepsite/templates/preapplication_form.html:247
+msgid "4. Expected timeline of the proposal"
+msgstr "4. 제안 실행 로드맵"
+
+#: prepsite/templates/preapplication_form.html:248
+msgid ""
+": Provide specific milestones, expected timeline to fulfill your proposal."
+msgstr "제안 내용의 예상 일정을 구체적으로 설명해주세요."
+
+#: prepsite/templates/preapplication_form.html:253
+msgid ""
+"Notice: In the case of fraudulent or malicious information, registration may "
+"be cancelled."
+msgstr ""
+"허위 혹은 악의적인 사실을 등록하실 경우, 커뮤니티에 의해 임의로 삭제될 수 있"
+"습니다."
+
+#: prepsite/templates/thankyou.html:205
+msgid "Thank you for applying!"
+msgstr "P-Rep 후보자에 등록되셨습니다"
+
+#: prepsite/templates/thankyou.html:210
+msgid ""
+"Please join our private Telegram channel dedicated to P-Rep applicants, "
+"where you can discuss anything related to the ICONSENSUS campaign."
+msgstr ""
+"P-Rep 후보자용 프라이빗 텔레그램에 가입하시고 ICONSENSUS와 P-Rep 선거 관련 정"
+"보를 확인하세요."
+
+#: prepsite/templates/thankyou.html:219
+msgid "See Candidates"
+msgstr "후보자 리스트"
+
+#: prepsite/templates/thankyou.html:221
+msgid "Join Telegram"
+msgstr "텔레그램 가입"
+
+#~ msgid "Vote"
+#~ msgstr "Vote"
+
+#~ msgid ""
+#~ "Decentralization is one of the core principles of ICON’s governance, and "
+#~ "it can only be achieved with the help of the community. 22 P-Reps elected "
+#~ "by all participating ICONists will have the distributed responsibility of "
+#~ "preserving the ICON Network, producing and verifying blocks, validating "
+#~ "transactions, proposing and voting on network policy changes, and driving "
+#~ "the growth of the ICON Ecosystem. As a result of stake delegation from "
+#~ "ICONists, P-Reps gain economic benefits and voting weight."
+#~ msgstr ""
+#~ "ICON 거버넌스의 운영원칙인 ‘탈중앙화’는 커뮤니티에 의해 완성될 수 있습니"
+#~ "다. ICONist의 투표로 선출되는 22명의 P-Rep은 전체 ICON 네트워크의 대표자로"
+#~ "서 블록생성 및 검증, 정책결정을 주도하며, ICON 생태계를 운영 및 확장해나가"
+#~ "는 중대한 역할을 맡게 됩니다. ICONist로부터 지분 위임을 받는 결과로 정책"
+#~ "에 대한 투표권의 가중치(Voting Weight) 및 경제적 인센티브 또한 획득할 수 "
+#~ "있습니다."
+
+#~ msgid ""
+#~ "ICONists delegate their stake to P-Reps through voting. Voting for a P-"
+#~ "Rep is a critical action all ICONists are strongly encouraged to take. "
+#~ "Every P-Rep may propose different policies in regards to transaction "
+#~ "fees, decision-making processes, reward amounts, etc., all of which "
+#~ "significantly impact the ICON Network. ICONists who vote will be rewarded "
+#~ "with the right to a certain portion of block rewards."
+#~ msgstr ""
+#~ "ICONist는 투표를 통해 네트워크의 권력구조뿐만 아니라, 의사결정과정·수수료·"
+#~ "보상체계 등 중요이슈 및 운영방침을 조정할 지분을 위임하게 되며, 네트워크 "
+#~ "활동에 관한 보상을 받을 권리 또한 확보하게 됩니다. P-Rep 선거는 ICON "
+#~ "Network 건설의 시발점입니다."
+
+#~ msgid "Spread"
+#~ msgstr "Spread"
+
+#~ msgid ""
+#~ "ICONSENSUS, driven by the active participation of ICONists, does not end "
+#~ "with the P-Rep election. It spreads with various other projects and "
+#~ "campaigns pushing toward mass adoption. ICONists will have additional "
+#~ "opportunities to help nurture the ICON ecosystem through voting on "
+#~ "‘Ecosystem Expansion Projects’ (EEP), which any ICONist can propose for "
+#~ "network growth, ‘Community Representatives’ (C-Rep), who will connect "
+#~ "ICON and other heterogeneous blockchain networks, and ‘DApp Booster "
+#~ "Programs’ (DBP), which would allocate a portion of block rewards to a "
+#~ "specific decentralized application."
+#~ msgstr ""
+#~ "ICONist의 합의에 의해 건설되는 ICON Network은, ‘P-Rep 선출’에만 머무르지 "
+#~ "않습니다. ICON 생태계는 P-Rep 선출을 시작으로 네트워크 발전 기여에 대한 보"
+#~ "상을 제공하는 ‘EEP’, 다양한 DApp 서비스 유통 및 경제적 보상을 지원하는 "
+#~ "‘DBP’, ICON과 이종 블록체인 간 ‘연결고리’인 ‘C-Rep(Community "
+#~ "Representative)’ 선출 과정을 거쳐 더욱 확장되며, 탈중앙화된 네트워크가 완"
+#~ "성됩니다."
+
+#~ msgid "Disrupt"
+#~ msgstr "Disrupt"
+
+#~ msgid ""
+#~ "ICONists will play a pivotal role in propagating the disruptive potential "
+#~ "of blockchain. Vote, Spread, and Disrupt, this is how ICONists can help "
+#~ "push the vision of a hyperconnected world. Get involved in ICONSENSUS and "
+#~ "be a part of this disruptive innovation."
+#~ msgstr ""
+#~ "‘투표’와 ‘확장’으로 이끌어낼 블록체인 대중화. 익숙한 것과 결별하고 ‘창조"
+#~ "적 파괴’를 위한 출발점. 궁극적으로 인터체인의 가능성이 폭발하는 발화점. "
+#~ "ICON P-Rep 선거에 참여하세요!"
+
+#~ msgid "5. Executor of the proposal"
+#~ msgstr "5. 제안 대표자"
+
+#~ msgid ""
+#~ ": Provide the profile of the person within your team who will actually "
+#~ "execute the proposal. If you are collaborating with a partner for this, "
+#~ "please make an introduction about them as well."
+#~ msgstr ""
+#~ "제안 내용을 실행하는 팀과 대표자를 간략하게 설명하세요. 해당 제안을 같이 "
+#~ "진행할 파트너가 있다면 함께 설명해주세요."
+
+#~ msgid ""
+#~ "\n"
+#~ "          ICONSENSUS is maintained by <a href=\"mailto:support@icon."
+#~ "community\">icon.community</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "          ICONSENSUS is maintained by <a href=\"mailto:support@icon."
+#~ "community\">icon.community</a>\n"
+#~ "          "
+
+#~ msgid "Candidate List"
+#~ msgstr "후보자 리스트"
+
+#~ msgid "ICON P-Rep Election"
+#~ msgstr "ICON P-Rep Election"
+
+#~ msgid "Latest Candidates"
+#~ msgstr "Latest Candidates"
+
+#~ msgid "Browse All Candidates"
+#~ msgstr "모든 후보자 보기"
+
+#~ msgid "ICONSENSUS is maintained by"
+#~ msgstr "ICONSENSUS is maintained by"
+
+#~ msgid "ICONists can delegate to the following sectors"
+#~ msgstr "ICONist는 아래의 시스템에서 지분을 위임할 수 있습니다."
+
+#~ msgid " Public<br>Representative "
+#~ msgstr " Public<br>Representative "
+
+#~ msgid " Community<br>Representative "
+#~ msgstr " Community<br>Representative "
+
+#~ msgid " Ecosystem<br>Expansion<br>Projects "
+#~ msgstr " Ecosystem<br>Expansion<br>Projects "
+
+#~ msgid " DAPP Booster<br>Programs "
+#~ msgstr " DAPP Booster<br>Programs "

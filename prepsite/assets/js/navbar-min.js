@@ -1,0 +1,1 @@
+var $navOverlay=$(".sidebar-overlay").eq(0),$navBar=$("#sidebar").eq(0);$(document).ready(function(){$(document).on("click",".btn-sidebar",function(a){$(this).toggleClass("open"),$navOverlay.toggleClass("active"),$navBar.toggleClass("active"),$navBar.hasClass("active")?$navBar.find("a").addClass("animated fadeInRight"):$navBar.find("a").removeClass("animated fadeInRight")})});
