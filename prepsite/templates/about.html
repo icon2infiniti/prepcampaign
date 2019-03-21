@@ -69,7 +69,7 @@
       color:white;
     }
 
-    .fa-telegram:hover, .fa-twitter:hover {
+    .fa-telegram:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-medium:hover, .fa-reddit:hover {
       color: #ddd!important;
     }
     .footer {
@@ -91,6 +91,32 @@
       width:100px;
       height:29px;
     }
+
+    .aboutfooter a {
+      color: white!important;
+    }
+
+    .aboutfooter a:hover {
+      text-decoration: underline;
+    }
+
+    .screen0-5 .wrap-holder {padding: 140px 0 130px;color:#fff;}
+    .screen0-5 .wrap-holder .pre-title {font-size:20px;margin-bottom:30px;}
+    .screen0-5 .wrap-holder .title {line-height:35px;}
+    .screen0-5 .wrap-holder .title span {font-size:28px;font-weight:700;}
+    .screen0-5 .wrap-holder .txt {margin: 40px 0 32px 0;}
+    .marginAll > li:not(:first-child){margin-left: -5px;}
+    .marginAll .marginL, .marginAll .marginR{width: 8%; vertical-align: top;/* background: rgba(0,0,0,0.3);*/ height: 20px;}
+    .marginAll .marginC{width: 84%; position: relative; /*background: rgba(0,0,0,0.5);*/}
+    .content-wrap li{display: inline-block;    vertical-align: top;}
+
+    .btn-holder {}
+    [class ^="btn-type"] {display: inline-block; color: #fff; background-color: #404040 ; cursor: pointer; font-size: 16px; padding: 9px 30px;}
+
+    .btn-type-white{ border: none; background: #fff; padding: 10px 20px; color: #262626; border: 1px solid #262626;}
+    .btn-type-white:hover{ background: #262626; color: #fff;}
+    .btn-type-white.no:hover {background: #fff;  color: #262626; }
+
   </style>
 </head>
 <body>
@@ -171,6 +197,29 @@
 <!-- Start: Main Content -->
 <main role="main" class="main has-inverted-navbar">
 
+  <section class="content">
+    <div class="container">
+      <div class="content-wrap home" style="font-family: 'Montserrat';">
+
+      <div class="screen0-5" style="background: url({% static 'images/icon_main_img_01.png' %}) top center no-repeat, #262626;    background-size: auto;">
+        <div class="wrap-holder">
+          <ol class="marginAll">
+            <li class="marginL"></li>
+            <li class="marginC">
+              <p class="pre-title">ICON P-Rep Election</p>
+              <p class="title">ICONSENSUS<br><span>VOTE, SPREAD, DISRUPT</span></p>
+              <p class="txt">ICON P-Rep (Public Representative) Election, <br>ICONSENSUS is a journey toward mass adoption of blockchain.</p>
+              <button class="btn-type-white no more" onclick="openUrl('http://icon.community/iconsensus/')">
+                <span>Learn more<em class="img"></em></span>
+              </button>
+            </li>
+            <li class="marginR"></li>
+          </ol>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
 
   <!-- section 4 circles -->
   <section class="content pb-0">
@@ -277,7 +326,7 @@
       <br>
       The ICON Network is now standing at a pivotal moment to evolve as a truly decentralized network that realizes mass adoption of blockchain. The very moment begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP. Be a genesis Public Representative, and make a new history with us.
 
-        <img src="{% static "images/roadmap.png" %}" class="rounded mx-auto d-block">
+        <img src="{% static "images/graph_190321.png" %}" class="rounded mx-auto d-block">
 
     </div>
   </section>
@@ -420,11 +469,11 @@
   </div>
   -->
 
-  <footer class="footer pt-0">
+  <footer class="footer pt-0 aboutfooter">
     <div class="container" style="background-color: #1aaaba; color:white;">
       <div class="row">
 
-        <div class="col-lg-3 mb-5">
+        <div class="col-lg-3 mb-5 text-center">
           <div class="mt-5" style="margin-bottom:1.5rem; line-height: 1.2;"><img src="{% static 'images/icon.community_ logo_final-invert.png' %}" style="width:200px;"></div>
           icon.community is a initiative of the community members and the ICON Foundation to achieve ICONSENSUS campaign.
         </div>
@@ -433,9 +482,9 @@
           <h4 class="mt-5">Get Started</h4>
           <div class="mt-3">
             What is ICONSENSUS? <br>
-            For P-Reps<br>
-            For ICONists<br>
-            How to register<br>
+            <a href="Introduction for Public Representative" target="_blank"> For P-Reps</a><br>
+            <a href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank"> For ICONists</a><br>
+            <a href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">How to register</a><br>
             Any questions?
           </div>
         </div>
@@ -449,28 +498,55 @@
             FAQs
           </div>
         </div>
-        <div class="col-lg-3 mb-5">
-          <h4 class="mt-5">Stay Updated</h4>
-          <div class="mt-3">
-            <div class="form-inline">
-              <input type="text" size="14">
-              <input type="button" class="newsbtn" value="Subscribe">
-            </div>
 
-            <div class="row footersocial">
-              <div class="col-12">
-                <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a> <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a> <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
-              </div>
-            </div>
-            <div class="row footersocial">
-              <div class="col-12">
-                <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a> <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a> <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
-              </div>
+        <div class="col-lg-3 mb-5 text-center">
+          <h4 class="mt-5">Stay Updated</h4>
+
+          <div class="row justify-content-center">
+            <div class="form-inline">
+
+
+              <form action="https://community.us20.list-manage.com/subscribe/post" method="POST" novalidate>
+                <input type="hidden" name="u" value="5eabe842b061c4df20b14936a">
+                <input type="hidden" name="id" value="4f8eebf6fc">
+
+                <input type="text" size="18" placeholder="E-mail to Subscribe" name="MERGE0" id="MERGE0">
+                <input type="submit" class="newsbtn" value="Subscribe">
+              </form>
+
+
             </div>
           </div>
 
-        </div>
+          <div class="row footersocial mt-4">
+            <div class="col-1"></div>
+            <div class="col-3 justify-content-center">
+              <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
+            </div>
+            <div class="col-3 justify-content-center">
+              <a href="https://medium.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-medium fa-2x"></i></a>
+            </div>
+            <div class="col-3 justify-content-center">
+              <a href="https://www.youtube.com/channel/UC5SrWL7CKY09cVtuDxHtizw" target="_blank" class="social ml-2"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <div class="col-1"></div>
+          </div>
 
+          <div class="row footersocial mt-4">
+            <div class="col-1"></div>
+            <div class="col-3 justify-content-center">
+              <a href="https://www.facebook.com/helloicon" target="_blank" class="social ml-2"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+            <div class="col-3 justify-content-center">
+              <a href="https://www.reddit.com/r/helloicon/" target="_blank" class="social ml-2"><i class="fab fa-reddit fa-2x"></i></a>
+            </div>
+            <div class="col-3 justify-content-center">
+              <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+            <div class="col-1"></div>
+          </div>
+
+          </div>
 
       </div>
     </div>
@@ -489,6 +565,9 @@
     var post_lang = document.getElementById('post_lang');
     post_lang.value = lang;
     language_form.submit();
+  }
+  function openUrl(url){
+    window.open(url, '_blank');
   }
 </script>
 </body>
