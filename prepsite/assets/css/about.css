@@ -230,3 +230,78 @@
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
+
+
+
+
+    .navbar .navbar-brand {
+      width: 146.5px;
+      height: 32px;
+      background-image: url({% static 'images/iconsensus_logoonly_inverted.png' %});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar.inverted .navbar-brand {
+      background-image: url({% static 'images/iconsensus_logoonly.png' %});
+    }
+    .aboutsocial i, .footersocial i {
+      color:white;
+    }
+
+    .fa-telegram:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-medium:hover, .fa-reddit:hover {
+      color: #ddd!important;
+    }
+    .footer {
+      border-top: 0!important;
+    }
+
+    .newsbtn {
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #1aaaba;
+      color: white;
+      border: 1px solid white;
+      width:40px;
+      height:34px;
+    }
+
+    .newsbtn:hover {
+      background-color:white;
+      color: #1aaaba;
+    }
+
+    .aboutfooter {
+      font-family: 'Montserrat'!important;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    .aboutfooter a {
+      color: white!important;
+    }
+
+    .aboutfooter a:hover {
+      text-decoration: underline;
+    }
+
+    .screen0-5 .wrap-holder {padding: 140px 0 130px;color:#fff;}
+    .screen0-5 .wrap-holder .pre-title {font-size:20px;margin-bottom:30px;}
+    .screen0-5 .wrap-holder .title {line-height:35px;}
+    .screen0-5 .wrap-holder .title span {font-size:28px;font-weight:700;}
+    .screen0-5 .wrap-holder .txt {margin: 40px 0 32px 0;}
+    .marginAll > li:not(:first-child){margin-left: -5px;}
+    .marginAll .marginL, .marginAll .marginR{width: 8%; vertical-align: top;/* background: rgba(0,0,0,0.3);*/ height: 20px;}
+    .marginAll .marginC{width: 84%; position: relative; /*background: rgba(0,0,0,0.5);*/}
+    .content-wrap li{display: inline-block;    vertical-align: top;}
+
+    .btn-holder {}
+    [class ^="btn-type"] {display: inline-block; color: #fff; background-color: #404040 ; cursor: pointer; font-size: 16px; padding: 9px 30px;}
+
+    .btn-type-white{ border: none; background: #fff; padding: 10px 20px; color: #262626; border: 1px solid #262626;}
+    .btn-type-white:hover{ background: #262626; color: #fff;}
+    .btn-type-white.no:hover {background: #fff;  color: #262626; }
