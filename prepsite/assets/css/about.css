@@ -35,11 +35,7 @@ html, body {
   font-weight: 500!important;
 }
 
-
-
 /* timeline */
-
-
 
 /* General Blueprint Style */
 
@@ -195,12 +191,6 @@ html, body {
 
 	.cbp_tmtimeline > li .cbp_tmicon {
 		display: none;
-		/*
-		position: relative;
-		float: right;
-		left: auto;
-		margin: -55px 5px 0 0px;
-		*/
 	}
 }
 
