@@ -67,7 +67,7 @@
 
     .hero {
       width: 100vw;
-      height: 100vh;
+      height: 500px;
       min-width: 100%;
       min-height: 100%;
       position: relative;
@@ -169,17 +169,19 @@
 
   <section class="hero">
   <div class="hero-wrap">
-    <div class="hero-main-title">
-      {% blocktrans %}Register Now to Become a <br>Genesis P-Rep{% endblocktrans %}
+    <div class="hero-main-title text-left">
+      {% blocktrans %}Register Now <br>To Become a Genesis P-Rep{% endblocktrans %}
     </div>
     <br>
-    <div class="hero-sub-title">
+    <div class="hero-sub-title text-left">
       {% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}
     </div>
     <br>
+    <div class="text-left">
     <button class="btn-type-white no more" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
       <span style="font-weight:600;">Apply<em class="img"></em></span>
     </button>
+    </div>
   </div>
   </section>
   <div>
@@ -559,7 +561,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $(window).scroll(function () {
-            if ($(window).scrollTop() > $(window).height() - $('.navbar').outerHeight()) {
+            if ($(window).scrollTop() > 500) { //$(window).height() - $('.navbar').outerHeight() for full viewport
                 $('.navbar').addClass('inverted');
             } else {
                 $('.navbar').removeClass('inverted');
