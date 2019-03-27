@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .rep-profile {
   display: block;
   text-decoration: none;
@@ -232,76 +237,125 @@
 }
 
 
+.aboutsocial i, .footersocial i {
+	color:white;
+}
+
+.footersocial .fa-telegram:hover, .footersocial .fa-twitter:hover, .footersocial .fa-youtube:hover, .footersocial .fa-facebook:hover, .footersocial .fa-medium:hover, .footersocial .fa-reddit:hover {
+	color: #ddd!important;
+}
+.footer {
+	border-top: 0!important;
+}
+
+.newsbtn {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #1aaaba;
+	color: white;
+	border: 1px solid white;
+	width:40px;
+	height:34px;
+}
+
+.newsbtn:hover {
+	background-color:white;
+	color: #1aaaba;
+}
+
+.aboutfooter {
+	font-family: 'Montserrat'!important;
+	font-size: 14px;
+	line-height: 1.8;
+}
+.aboutfooter a {
+	color: white!important;
+}
+
+.aboutfooter a:hover {
+	text-decoration: underline;
+}
+
+.hero-wrap {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.hero-wrap {
+		position: absolute;
+		top: 20%;
+		left: 0px;
+		padding: 20px;
+	}
+}
+
+@media only screen  and (min-width : 1824px) {
+	.hero-wrap {
+		position: absolute;
+		top: 20%;
+		left: 30%;
+	}
+}
 
 
+.hero-main-title {
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+}
+.hero-sub-title {
+	line-height: 35px;
+	color: #fff;
+}
 
-    .navbar .navbar-brand {
-      width: 146.5px;
-      height: 32px;
-      background-image: url({% static 'images/iconsensus_logoonly_inverted.png' %});
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
+.screen0-5 .wrap-holder {min-height: 761px; padding: 100px 0 130px; color:#fff;}
+.screen0-5 .wrap-holder .pre-title {font-size:20px;margin-bottom:30px;}
+.screen0-5 .wrap-holder .title {line-height:35px;}
+.screen0-5 .wrap-holder .title span {font-size:28px;font-weight:700;}
+.screen0-5 .wrap-holder .txt {margin: 40px 0 32px 0;}
+.marginAll > li:not(:first-child){margin-left: -5px;}
+.marginAll .marginL, .marginAll .marginR{width: 8%; vertical-align: top;/* background: rgba(0,0,0,0.3);*/ height: 20px;}
+.marginAll .marginC{width: 84%; position: relative; /*background: rgba(0,0,0,0.5);*/}
+.content-wrap li{display: inline-block; vertical-align: top;}
 
-    .navbar.inverted .navbar-brand {
-      background-image: url({% static 'images/iconsensus_logoonly.png' %});
-    }
-    .aboutsocial i, .footersocial i {
-      color:white;
-    }
+.btn-holder {}
+[class ^="btn-type"] {display: inline-block; color: #fff; background-color: #404040 ; cursor: pointer; font-size: 16px; padding: 9px 30px;}
 
-    .fa-telegram:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-medium:hover, .fa-reddit:hover {
-      color: #ddd!important;
-    }
-    .footer {
-      border-top: 0!important;
-    }
+.btn-type-white{ border: none; background: #fff; padding: 10px 20px; color: #262626; border: 1px solid #262626;}
+.btn-type-white:hover{ background: #262626; color: #fff;}
+.btn-type-white.no:hover {background: #fff;  color: #262626; }
 
-    .newsbtn {
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #1aaaba;
-      color: white;
-      border: 1px solid white;
-      width:40px;
-      height:34px;
-    }
 
-    .newsbtn:hover {
-      background-color:white;
-      color: #1aaaba;
-    }
+.hero-links {
+  margin: 1.5rem 0;
+}
 
-    .aboutfooter {
-      font-family: 'Montserrat'!important;
-      font-size: 14px;
-      line-height: 1.8;
-    }
-    .aboutfooter a {
-      color: white!important;
-    }
+.hero-links a {
+  display: inline-block;
+  vertical-align: middle;
+	text-align: center;
+  text-decoration: none;
+  color: #F2F4F9;
+  border: solid 1px #F2F4F9;
+  font-size: 1.15rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
-    .aboutfooter a:hover {
-      text-decoration: underline;
-    }
+.hero-links a:last-child {
+  margin-right: 0;
+}
 
-    .screen0-5 .wrap-holder {padding: 140px 0 130px;color:#fff;}
-    .screen0-5 .wrap-holder .pre-title {font-size:20px;margin-bottom:30px;}
-    .screen0-5 .wrap-holder .title {line-height:35px;}
-    .screen0-5 .wrap-holder .title span {font-size:28px;font-weight:700;}
-    .screen0-5 .wrap-holder .txt {margin: 40px 0 32px 0;}
-    .marginAll > li:not(:first-child){margin-left: -5px;}
-    .marginAll .marginL, .marginAll .marginR{width: 8%; vertical-align: top;/* background: rgba(0,0,0,0.3);*/ height: 20px;}
-    .marginAll .marginC{width: 84%; position: relative; /*background: rgba(0,0,0,0.5);*/}
-    .content-wrap li{display: inline-block;    vertical-align: top;}
+.hero-links a:hover, .hero-links a:focus, .hero-links a:active {
+  background-color: #F2F4F9;
+  color: #1aaaba;
+}
 
-    .btn-holder {}
-    [class ^="btn-type"] {display: inline-block; color: #fff; background-color: #404040 ; cursor: pointer; font-size: 16px; padding: 9px 30px;}
-
-    .btn-type-white{ border: none; background: #fff; padding: 10px 20px; color: #262626; border: 1px solid #262626;}
-    .btn-type-white:hover{ background: #262626; color: #fff;}
-    .btn-type-white.no:hover {background: #fff;  color: #262626; }

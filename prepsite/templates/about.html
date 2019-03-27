@@ -50,11 +50,48 @@
   <link href="{% static 'css/navbar-common.css' %}" rel="stylesheet">
   <link href="{% static 'css/about.css' %}" rel="stylesheet">
 
+  <style type="text/css">
+
+    .navbar .navbar-brand {
+      width: 146.5px;
+      height: 32px;
+      background-image: url({% static 'images/iconsensus_logoonly_inverted.png' %});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar.inverted .navbar-brand {
+      background-image: url({% static 'images/iconsensus_logoonly.png' %});
+    }
+
+    .hero {
+      width: 100vw;
+      height: 100vh;
+      min-width: 100%;
+      min-height: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #1aaaba;
+      background-image: url({% static 'images/bg.png' %});
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+  </style>
+
 </head>
 <body>
 
 <!-- Nav -->
-<nav class="navbar navbar-expand-md navbar-light fixed-top inverted">
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="/iconsensus/"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -124,24 +161,46 @@
     </div>
   </div>
 </nav>
-<!--.Nav -->
+
 
 <!-- Start: Main Content -->
-<main role="main" class="main has-inverted-navbar">
+<main role="main" class="main">
 
+
+  <section class="hero">
+  <div class="hero-wrap">
+    <div class="hero-main-title">
+      {% blocktrans %}Register Now to Become a <br>Genesis P-Rep{% endblocktrans %}
+    </div>
+    <br>
+    <div class="hero-sub-title">
+      {% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}
+    </div>
+    <br>
+    <button class="btn-type-white no more" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
+      <span style="font-weight:600;">Apply<em class="img"></em></span>
+    </button>
+  </div>
+  </section>
+  <div>
+    <hr style="margin-top: 4px;">
+  </div>
+
+
+
+  <!--
   <section class="content">
     <div class="container">
       <div class="content-wrap home" style="font-family: 'Montserrat';">
-      <div class="screen0-5" style="background: url({% static 'images/icon_main_img_01.png' %}) top center no-repeat, #262626;    background-size: auto;">
+      <div class="screen0-5 rounded" style="background: url({% static 'images/bg.png' %}) top center no-repeat, #262626; background-size: auto; height:100%">
         <div class="wrap-holder">
           <ol class="marginAll">
             <li class="marginL"></li>
             <li class="marginC">
-              <p class="pre-title">ICON P-Rep Election</p>
-              <p class="title">ICONSENSUS<br><span>VOTE, SPREAD, DISRUPT</span></p>
-              <p class="txt">ICON P-Rep (Public Representative) Election, <br>ICONSENSUS is a journey toward mass adoption of blockchain.</p>
-              <button class="btn-type-white no more" onclick="openUrl('http://icon.community/iconsensus/')">
-                <span>Learn more<em class="img"></em></span>
+              <p class="title"><span>{% blocktrans %}Register Now to Become a <br>Genesis P-Rep{% endblocktrans %}</span></p>
+              <p class="title">{% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}</p>
+              <button class="btn-type-white no more" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
+                <span style="font-weight:600;">Apply<em class="img"></em></span>
               </button>
             </li>
             <li class="marginR"></li>
@@ -151,44 +210,44 @@
       </div>
     </div>
   </section>
+  -->
 
   <!-- section 4 circles -->
   <section class="content pb-0">
     <div class="container marketing">
-      <h1 class="text-center mb-2">{% trans '100 Public Representatives of the ICON Network' %}</h1>
-      {% trans 'ICONist의 투표로 선출되는 Public Representative(P-Rep)은 전체 ICON 네트워크의 대표 노드로서, 총 100개의 P-Rep이 선출됩니다. 이 중, 상위 22개의 P-Rep은 Main P-Rep으로서, 블록생성 및 검증, 정책결정을 주도하는 중요한 역할을 합니다. ICON 생태계를 건강하게 운영하고 확장해나가는 좋은 대표자를 선출하기 위하여 20만명의 ICONist가 당신을 기다리고 있습니다.' %}
-      <br><br>
+      <h1 class="text-center mb-2">{% trans '100 Public Representatives of the ICON Network' %}</h1><br>
+      <p class="lead">{% trans '100 Public Representatives (P-Reps) are elected for the ICON Network by delegation of ICONists. Top ranked 22 main P-Reps will participate in block production, verification and making governance decisions. 200,000 ICONists are waiting to vote for eligible P-Rep candidates to boast the ICON ecosystem.' %}</p>
+      <br><br><br><br>
       <div class="row">
         <div class="col-lg-3">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2 class="mt-2">{% trans '블록 생성 및 검증' %}</h2>
+          <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+          <img src="{% static 'images/bp.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Block Production and Verification' %}</h6>
         </div>
         <div class="col-lg-3">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2 class="mt-2">{% trans '해킹 및 공격으로 부터 방어' %}</h2>
+          <img src="{% static 'images/governance.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Governance and monetary policy decision making' %}</h6>
         </div>
         <div class="col-lg-3">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2 class="mt-2">{% trans '온체인,오프체인 생태계 활동' %}</h2>
+          <img src="{% static 'images/contrib.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'On-chain, Off-chain contributions' %}</h6>
         </div>
         <div class="col-lg-3">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2 class="mt-2">{% trans '통화 정책 및 거버넌스 결정' %}</h2>
+          <img src="{% static 'images/security.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Network Securities' %}</h6>
         </div>
       </div>
       <br>
       <div class="text-center">
-        <h5>{% trans 'Learn more' %}<a href="http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank" style="color: #1aaaba;">P-Rep 후보자를 위한 가이드</a></h5>
+        <h5>{% trans 'Learn more ' %}<a href="http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank" style="color: #1aaaba;">{% trans 'Guide for Public Representative' %}</a></h5>
       </div>
       <br>
-      <div class="row p-4" style="background-color:#1aaaba;">
+      <div class="row p-3 align-items-center" style="background-color:#1aaaba;">
         <div class="col-7">
-          <h5 style="color:#fff;">{% trans 'ICON의 새로운 시대, ICONSENSUS 선거의 시작을 놓치지 마세요.' %}</h5>
+          <h5 style="color:#fff;">{% trans 'Join the Community, Be the first one to know when the Election starts' %}</h5>
         </div>
         <div class="col-5 aboutsocial">
-
-          <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
-          &nbsp;&nbsp;
+          <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>&nbsp;
           <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
 
         </div>
@@ -197,14 +256,18 @@
     </div>
   </section>
 
+  <div class="container">
+    <hr class="featurette-divider">
+  </div>
+
   <!-- section left right -->
   <section class="content">
     <div class="container marketing">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">{% trans '대표자 보상을 받아가세요' %}</h2>
-          {% trans 'P-Rep은 ICON Network를 운영하는 주체로서 ICONist들의 지분을 위임 받아 블록 생성 및 검증, 네트워크 통화 정책을 결정하는 댓가로 블록 생성 및 검증 보상과 대표자 보상을 받을 수 있습니다. 훌륭한 P-Rep에게는 더 많은 보상이 기다리고 있습니다. 네트워크의 기여도에 따라 보상을 받아가세요!' %}
+          <h2 class="featurette-heading">{% trans 'Earn Representative Rewards' %}</h2>
+          <p class="lead">{% trans 'P-Reps will receive rewards for block production and verification, as well as receiving Representative Reward being ranked in the top 100. More contribution, higher the rewards for the P-Reps.' %}</p>
         </div>
         <div class="col-md-5">
 
@@ -213,8 +276,8 @@
       <br><br>
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">{% trans 'ICON Network의 거버넌스를 결정해보세요'　%}</h2>
-          {% trans 'ICON Network는 높은 성장 가능성을 지닌 블록체인 플랫폼으로서, 생태계 플레이어들을 위한 Ecosystem Expansion Project (EEP), DApp Booster Program (DBP), 복수의 이질적인 체인을 퍼블릭 플랫폼에 연결하기 위한 Interchain 기술 등 다양한 온체인 요소들이 탑재될 예정입니다. P-Rep은 이 모든 기능들을 실제로 제공하여, 각 기능들의 거버넌스에 큰 영향력을 미치는 네트워크 제공자입니다.' %}
+          <h2 class="featurette-heading">{% trans 'Shape the Governance of ICON Network'　%}</h2>
+          <p class="lead">{% trans 'ICON Network is a platform with high potential values with built-in on-chain systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program (DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps will provide these features and lead the initial network growth while deciding governance of each fundamental components of the ICON Network.' %}
         </div>
         <div class="col-md-5 order-md-1">
 
@@ -223,8 +286,8 @@
       <br><br>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">{% trans 'ICON Community를 통해 세계적인 무대로 진출하세요' %}</h2>
-          {% trans 'ICON Network는 전세계에 널리 퍼져있는 블록체인으로서 약 200,000명이 넘는 커뮤니티 팬을 보유하고 있습니다. P-Rep으로 등록하고, 당신의 프로필을 커뮤니티에 널리 알려 블록체인 생태계에서 인지도를 얻어보세요.' %}
+          <h2 class="featurette-heading">{% trans 'Global Audience Through ICON Community' %}</h2>
+          <p class="lead">{% trans 'ICON Community is a world-wide spread community that boasts nearly 200K active members. Register as a P-Rep candidate, promote your profile to the community, and accomplish your ambitions in the blockchain space.' %}</p>
         </div>
         <div class="col-md-5">
 
@@ -233,8 +296,8 @@
       <br><br>
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">{% trans 'ICONgress를 통해 비전을 펼쳐보세요' %}</h2>
-          {% trans 'ICONgress는 ICON Network의 오프체인 거버넌스 그룹으로, 아이콘의 핵심 이해 관계자들이 참여하여 네트워크의 장기적인 미래와 블록체인 기술의 대중화에 대해서 논의합니다. 이 곳에서 ICON Network 기반의 다양한 블록체인 기술과 사업에 대해서 협의하고 논의하세요!' %}
+          <h2 class="featurette-heading">{% trans 'Achieve Your Vision Through ICONgress' %}</h2>
+          <p class="lead">{% trans 'ICONgress is an off-chain governance body of the ICON Network. Key roles from various ICON sectors will discuss about long-term strategy and governance of the ICON Network. Become a prestigious member of ICONgress and drive ICON growth initiatives!' %}</p>
         </div>
         <div class="col-md-5 order-md-1">
 
@@ -244,25 +307,31 @@
     </div>
   </section>
 
-  <hr class="featurette-divider">
+  <div class="container">
+    <hr class="featurette-divider">
+  </div>
 
   <!-- section video-->
   <section class="content pb-0">
     <div class="container">
-      <h1 class="text-center mb-2">{% trans '선거 후보자 등록 방법' %}</h1>
+      <h1 class="text-center mb-2">{% trans 'Guide to Your P-Rep Candidacy' %}</h1><br>
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MWElxwfql0Y?rel=0" allowfullscreen></iframe>
       </div>
-      <br>
-      <h1 class="text-center">{% trans 'ICON 프로젝트와 함께 해주세요' %}</h1>
-      {% trans '2019년 1월 17일, ICON P-Rep(Public Representative) 선출을 위한 사전모집을 시작합니다. ICONist들의 합의를 뜻하는 ICONSENSUS는 블록체인 기술의 대중화를 향한 여정입니다. 블록체인 대중화는 ICONist들의 참여를 통해 이뤄낼 수 있으며, ICON Network의 궁극적인 목표입니다.' %}
-      <br>
-      {% trans 'The ICON Network is now standing at a pivotal moment to evolve as a truly decentralized network that realizes mass adoption of blockchain. The very moment begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP. Be a genesis Public Representative, and make a new history with us.' %}
-
-        <img src="{% static "images/graph_190321.png" %}" class="rounded mx-auto d-block">
+      <br><br>
+      <h1 class="text-center">{% trans '“ICONSENSUS, the Journey Toward Mass Adoption”' %}</h1>
+      <p class="lead"> {% trans 'The ICON Network is now standing at a pivotal moment to evolve to a truly decentralized network and realizing mass adoption. This begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP.' %}</p>
+      <p class="lead"> {% trans 'Become a genesis Public Representative, and make a new history with us.' %}</p>
+        <br><br>
+        <img src="{% static "images/graph2_190321.png" %}" class="rounded mx-auto d-block">
+        <br>
 
     </div>
   </section>
+
+  <div class="container">
+    <hr class="featurette-divider">
+  </div>
 
 
   <!-- Journey towards mass adoption -->
@@ -408,13 +477,13 @@
 
         <div class="col-lg-3 mb-5 text-center">
           <div class="mt-5" style="margin-bottom:1.5rem; line-height: 1.2;"><img src="{% static 'images/icon.community_ logo_final-invert.png' %}" style="width:200px;"></div>
-          {% trans 'icon.community is a strategic community of the ICON project, currently focused on the P-Rep election campaign, later extended to Dapp Booster Program (DBP) and Ecosystem Expansion Project (EEP). The community will collaborate with the ICON Foundation throughout the entire ICONSENSUS campaign.' %}
+          {% trans 'icon.community is a strategic community of the ICON project, currently focused on the P-Rep election campaign. The community will collaborate with the ICON Foundation throughout the entire ICONSENSUS campaign, bringing our community the latest information.' %}
         </div>
 
         <div class="col-lg-3 mb-5 text-center">
           <h4 class="mt-5">Get Started</h4>
           <div class="mt-3">
-            {% trans 'What is ICONSENSUS?' %} <br>
+            <span style="font-weight: 600;">{% trans 'What is ICONSENSUS?' %}</span> <br>
             <a href="Introduction for Public Representative" target="_blank">{% trans 'For P-Reps' %}</a><br>
             <a href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank">{% trans 'For ICONists' %}</a><br>
             <a href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">{% trans 'How to register' %}</a><br>
@@ -425,11 +494,11 @@
         <div class="col-lg-3 mb-5 text-center">
           <h4 class="mt-5">ICON Network</h4>
           <div class="mt-3">
-            {% trans 'The ICON Foundation' %}<br>
+            <span style="font-weight: 600;">{% trans 'The ICON Foundation' %}</span><br>
             <a href="https://medium.com/helloiconworld" target="_blank">{% trans 'Official Blog' %}</a><br>
             <a href="https://t.me/joinchat/Fqw4igkkVmYtj--ZVi-QcA" target="_blank">{% trans 'Official Community' %}</a><br>
             <a href="https://www.icondev.io/" target="_blank">{% trans 'Developer Portal' %}</a><br>
-            {% trans 'FAQs' %}
+            <a href="https://helloiconworld.freshdesk.com/support/home" target="_blank">{% trans 'FAQs' %}</a>
           </div>
         </div>
 
@@ -486,6 +555,18 @@
 <script src="{% static 'js/popper.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > $(window).height() - $('.navbar').outerHeight()) {
+                $('.navbar').addClass('inverted');
+            } else {
+                $('.navbar').removeClass('inverted');
+            }
+        });
+    });
+</script>
 <script>
   function change_language(lang) {
     var language_form = document.getElementById('language_form');
@@ -494,7 +575,7 @@
     language_form.submit();
   }
   function openUrl(url){
-    window.open(url, '_blank');
+    window.open(url, '_self');
   }
 </script>
 </body>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 09:10+0000\n"
+"POT-Creation-Date: 2019-03-26 09:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,11 +70,129 @@ msgstr "Simplified Chinese"
 msgid "Korean"
 msgstr "한국어"
 
-#: prepsite/templates/about.html:140
+#: prepsite/templates/about.html:157
+msgid "Register Now to Become a <br>Genesis P-Rep"
+msgstr ""
+
+#: prepsite/templates/about.html:158
+msgid ""
+"2019 September - The new era of the ICON Network begins <br>with the Public "
+"Representative Election. <br>Join our journey to a hyperconnected world."
+msgstr ""
+
+#: prepsite/templates/about.html:183
+msgid "100 Public Representatives of the ICON Network"
+msgstr ""
+
+#: prepsite/templates/about.html:184
+msgid ""
+"100 Public Representatives (P-Reps) are elected for the ICON Network by "
+"delegation of ICONists. Top ranked 22 main P-Reps will participate in block "
+"production, verification and making governance decisions. 200,000 ICONists "
+"are waiting to vote for eligible P-Rep candidates to boast the ICON "
+"ecosystem."
+msgstr ""
+
+#: prepsite/templates/about.html:190
+msgid "Block Production and Verification"
+msgstr ""
+
+#: prepsite/templates/about.html:194
+msgid "Governance and monetary policy decision making"
+msgstr ""
+
+#: prepsite/templates/about.html:198
+msgid "On-chain, Off-chain contributions"
+msgstr ""
+
+#: prepsite/templates/about.html:202
+msgid "Network Securities"
+msgstr ""
+
+#: prepsite/templates/about.html:207
+msgid "Learn more "
+msgstr ""
+
+#: prepsite/templates/about.html:207
+msgid "Guide for Public Representative"
+msgstr ""
+
+#: prepsite/templates/about.html:212
+msgid "Join the Community, Be the first one to know when the Election starts"
+msgstr ""
+
+#: prepsite/templates/about.html:230
+msgid "Earn Representative Rewards"
+msgstr ""
+
+#: prepsite/templates/about.html:231
+msgid ""
+"P-Reps will receive rewards for block production and verification, as well "
+"as receiving Representative Reward being ranked in the top 100. More "
+"contribution, higher the rewards for the P-Reps."
+msgstr ""
+
+#: prepsite/templates/about.html:240
+msgid "Shape the Governance of ICON Network"
+msgstr ""
+
+#: prepsite/templates/about.html:241
+msgid ""
+"ICON Network is a platform with high potential values with built-in on-chain "
+"systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program "
+"(DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps "
+"will provide these features and lead the initial network growth while "
+"deciding governance of each fundamental components of the ICON Network."
+msgstr ""
+
+#: prepsite/templates/about.html:250
+msgid "Global Audience Through ICON Community"
+msgstr ""
+
+#: prepsite/templates/about.html:251
+msgid ""
+"ICON Community is a world-wide spread community that boasts nearly 200K "
+"active members. Register as a P-Rep candidate, promote your profile to the "
+"community, and accomplish your ambitions in the blockchain space."
+msgstr ""
+
+#: prepsite/templates/about.html:260
+msgid "Achieve Your Vision Through ICONgress"
+msgstr ""
+
+#: prepsite/templates/about.html:261
+msgid ""
+"ICONgress is an off-chain governance body of the ICON Network. Key roles "
+"from various ICON sectors will discuss about long-term strategy and "
+"governance of the ICON Network. Become a prestigious member of ICONgress and "
+"drive ICON growth initiatives!"
+msgstr ""
+
+#: prepsite/templates/about.html:276
+msgid "Guide to Your P-Rep Candidacy"
+msgstr ""
+
+#: prepsite/templates/about.html:281
+msgid "“ICONSENSUS, the Journey Toward Mass Adoption”"
+msgstr ""
+
+#: prepsite/templates/about.html:282
+msgid ""
+"The ICON Network is now standing at a pivotal moment to evolve to a truly "
+"decentralized network and realizing mass adoption. This begins with "
+"ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, "
+"C-Rep, DBP, and EEP."
+msgstr ""
+
+#: prepsite/templates/about.html:284
+msgid "Become a genesis Public Representative, and make a new history with us."
+msgstr ""
+
+#: prepsite/templates/about.html:297
 msgid "The Journey towards Mass Adoption"
 msgstr "블록체인 대중화를 향한 여정, ICONSENSUS가 시작됩니다."
 
-#: prepsite/templates/about.html:143
+#: prepsite/templates/about.html:300
 msgid ""
 "ICONSENSUS is a journey toward mass adoption of blockchain. The election of "
 "P-Reps is the first milestone of ICONSENSUS and is a pivotal moment for the "
@@ -86,11 +204,11 @@ msgstr ""
 "다. P-Rep 선출은 ICONSENSUS의 시작점이자, ICON Network의궁극적 목표인 탈중앙"
 "화를 이루기 위한 첫 단계입니다."
 
-#: prepsite/templates/about.html:154
+#: prepsite/templates/about.html:313
 msgid "The Journey of ICONSENSUS"
 msgstr "ICONSENSUS를 향한 여정"
 
-#: prepsite/templates/about.html:155
+#: prepsite/templates/about.html:314
 msgid ""
 "As a member of the ICON community, I am excited about the election. It’s a "
 "moment where every ICONist can contribute. Thank you for your support since "
@@ -100,13 +218,15 @@ msgstr ""
 "P-Rep 선거에 기대가 큽니다. ICON 프로젝트의 첫 시작부터 함께 해주신 모든 분들"
 "께 감사드리며, ICONSENSUS에 참여하여, ICON Network의 미래를 결정해주세요!"
 
-#: prepsite/templates/about.html:167
+#: prepsite/templates/about.html:328
 msgid ""
 "ICONSENSUS begins with the P-Rep election and will lead to disruptive "
-"innovation through organic ecosystem expansion driven by EEPs, diversified "
-"DApp business models driven by DBPs and the connection of different "
-"blockchain platforms through C-Reps.<br><br>Vote, Spread, and Disrupt."
-"<br><br>This is how the ICON Network will hyperconnect the world. "
+"innovation through organic\n"
+"          ecosystem expansion driven by EEPs, diversified DApp business "
+"models driven by DBPs and the connection of\n"
+"          different blockchain platforms through C-Reps.<br><br>Vote, "
+"Spread, and Disrupt.<br><br>This is how the ICON\n"
+"          Network will hyperconnect the world. "
 msgstr ""
 "ICONSENSUS는 P-Rep 선출을 시작으로 네트워크 발전 기여에 대한 보상을 제공하는 "
 "‘EEP’,다양한 DApp 서비스 유통 및 경제적 보상을 지원하는 ‘DBP’, ICON과 이종 블"
@@ -115,42 +235,42 @@ msgstr ""
 "네트워크를 이룩해 ‘창조적 파괴’를 이끌어 낼 것입니다. 이것이 바로 세상의 모"
 "든 블록체인을 잇고자 노력해왔던 ICON이 꿈꾸는 청사진입니다."
 
-#: prepsite/templates/about.html:183
+#: prepsite/templates/about.html:349
 msgid "P-Rep Campaign Process"
 msgstr "P-Rep 캠페인 로드맵"
 
-#: prepsite/templates/about.html:187
+#: prepsite/templates/about.html:353
 msgid "Dec 2018"
 msgstr ""
 
-#: prepsite/templates/about.html:190
+#: prepsite/templates/about.html:356
 msgid "1st Announcement"
 msgstr ""
 
-#: prepsite/templates/about.html:191
+#: prepsite/templates/about.html:357
 msgid "A brief introduction about the campaign was announced."
 msgstr "캠페인에 대한 간략한 발표가 진행되었습니다."
 
-#: prepsite/templates/about.html:195
+#: prepsite/templates/about.html:361
 msgid "Jan 2019"
 msgstr ""
 
-#: prepsite/templates/about.html:198
+#: prepsite/templates/about.html:364
 msgid "2nd Announcement"
 msgstr ""
 
-#: prepsite/templates/about.html:199
+#: prepsite/templates/about.html:365
 msgid ""
 "The commencement of the P-Rep Pre-registration has been officially announced."
 msgstr ""
 "캠페인의 슬로건과 스토리, 그리고 ICONSENSUS의 의미에 대해 전달하며, P-Rep 사"
 "전모집의 시작을 알립니다."
 
-#: prepsite/templates/about.html:200
+#: prepsite/templates/about.html:366
 msgid "P-Rep Pre-registration"
 msgstr ""
 
-#: prepsite/templates/about.html:201
+#: prepsite/templates/about.html:367
 msgid ""
 "Pre-registration of P-Rep candidates starts in off-chain environment. "
 "Candidates must submit team introduction and delegate proposal to be "
@@ -161,15 +281,15 @@ msgstr ""
 "Delegate proposal을 제출해야 합니다. ‘P-Rep 사전 모집’ 단계에 참여한 대표자들"
 "은 향후다양한 커뮤니티의 혜택을 받을 수 있습니다."
 
-#: prepsite/templates/about.html:205
+#: prepsite/templates/about.html:371
 msgid "Sep 2019"
 msgstr ""
 
-#: prepsite/templates/about.html:208
+#: prepsite/templates/about.html:374
 msgid "P-Rep On-Chain Registration & Election"
 msgstr ""
 
-#: prepsite/templates/about.html:209
+#: prepsite/templates/about.html:375
 msgid ""
 "A blockchain election, a cornerstone of decentralization, begins. ICONists "
 "can vote for the candidates by delegating their stake. Once certain "
@@ -180,15 +300,15 @@ msgstr ""
 "에서지분 위임을 통해 투표를 진행하게 됩니다. P-Rep이 선출되고 나면, ICON "
 "Network는완전하게 P-Rep을 중심으로 운영됩니다."
 
-#: prepsite/templates/about.html:213
+#: prepsite/templates/about.html:379
 msgid "4Q 2019"
 msgstr ""
 
-#: prepsite/templates/about.html:216
+#: prepsite/templates/about.html:382
 msgid "The Genesis P-Rep Summit"
 msgstr ""
 
-#: prepsite/templates/about.html:217
+#: prepsite/templates/about.html:383
 msgid ""
 "During the genesis P-Rep Summit, the birth of Genesis P-Reps as well as "
 "commencement of the decentralized ICON Network will be declared."
@@ -196,16 +316,16 @@ msgstr ""
 "The Genesis P-Rep Summit을 통해 Genesis P-Rep의 탄생을 알리고,탈중앙화된 "
 "ICON Network를 본격적으로 구동합니다."
 
-#: prepsite/templates/about.html:233
+#: prepsite/templates/about.html:400
 msgid "Vote. Spread. Disrupt."
 msgstr "Vote. Spread. Disrupt."
 
-#: prepsite/templates/about.html:234 prepsite/templates/index.html:196
+#: prepsite/templates/about.html:401 prepsite/templates/index.html:196
 #: prepsite/templates/preapplication_form.html:258
 msgid "Apply"
 msgstr "지원하기"
 
-#: prepsite/templates/about.html:250 prepsite/templates/index.html:386
+#: prepsite/templates/about.html:415 prepsite/templates/index.html:386
 #: prepsite/templates/preapplication_form.html:269
 #: prepsite/templates/thankyou.html:233
 msgid ""
@@ -218,6 +338,54 @@ msgstr ""
 "          각종 문의사항은 <a href=\"mailto:support@icon.community"
 "\">support@icon.community</a> 로 보내주세요.\n"
 "          "
+
+#: prepsite/templates/about.html:435
+msgid ""
+"icon.community is a strategic community of the ICON project, currently "
+"focused on the P-Rep election campaign. The community will collaborate with "
+"the ICON Foundation throughout the entire ICONSENSUS campaign, bringing our "
+"community the latest information."
+msgstr ""
+
+#: prepsite/templates/about.html:441
+msgid "What is ICONSENSUS?"
+msgstr ""
+
+#: prepsite/templates/about.html:442
+msgid "For P-Reps"
+msgstr ""
+
+#: prepsite/templates/about.html:443
+msgid "For ICONists"
+msgstr ""
+
+#: prepsite/templates/about.html:444
+msgid "How to register"
+msgstr ""
+
+#: prepsite/templates/about.html:445
+msgid "Any questions?"
+msgstr ""
+
+#: prepsite/templates/about.html:452
+msgid "The ICON Foundation"
+msgstr ""
+
+#: prepsite/templates/about.html:453
+msgid "Official Blog"
+msgstr ""
+
+#: prepsite/templates/about.html:454
+msgid "Official Community"
+msgstr ""
+
+#: prepsite/templates/about.html:455
+msgid "Developer Portal"
+msgstr ""
+
+#: prepsite/templates/about.html:456
+msgid "FAQs"
+msgstr ""
 
 #: prepsite/templates/application_form.html:210
 msgid "ICON P-Rep Application"
@@ -415,8 +583,6 @@ msgid "Latest News"
 msgstr "Latest News"
 
 #: prepsite/templates/index.html:303
-#, fuzzy
-#| msgid "+ More Networks"
 msgid "More News"
 msgstr "+ 사이트 추가"
 
@@ -749,9 +915,6 @@ msgstr "텔레그램 가입"
 
 #~ msgid "ICONists can delegate to the following sectors"
 #~ msgstr "ICONist는 아래의 시스템에서 지분을 위임할 수 있습니다."
-
-#~ msgid " Public<br>Representative "
-#~ msgstr " Public<br>Representative "
 
 #~ msgid " Community<br>Representative "
 #~ msgstr " Community<br>Representative "
