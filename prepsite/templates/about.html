@@ -34,6 +34,7 @@
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/brands.css"
@@ -162,10 +163,8 @@
   </div>
 </nav>
 
-
 <!-- Start: Main Content -->
 <main role="main" class="main">
-
 
   <section class="hero">
   <div class="hero-wrap">
@@ -173,12 +172,12 @@
       {% blocktrans %}Register Now <br>To Become a Genesis P-Rep{% endblocktrans %}
     </div>
     <br>
-    <div class="hero-sub-title text-left">
+    <div class="hero-sub-title text-left notofont">
       {% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}
     </div>
-    <br>
+    <br><br>
     <div class="text-left">
-    <button class="btn-type-white no more" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
+    <button class="btn-type-white no more rounded" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
       <span style="font-weight:600;">Apply<em class="img"></em></span>
     </button>
     </div>
@@ -188,62 +187,40 @@
     <hr style="margin-top: 4px;">
   </div>
 
-
-
-  <!--
-  <section class="content">
-    <div class="container">
-      <div class="content-wrap home" style="font-family: 'Montserrat';">
-      <div class="screen0-5 rounded" style="background: url({% static 'images/bg.png' %}) top center no-repeat, #262626; background-size: auto; height:100%">
-        <div class="wrap-holder">
-          <ol class="marginAll">
-            <li class="marginL"></li>
-            <li class="marginC">
-              <p class="title"><span>{% blocktrans %}Register Now to Become a <br>Genesis P-Rep{% endblocktrans %}</span></p>
-              <p class="title">{% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}</p>
-              <button class="btn-type-white no more" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px;">
-                <span style="font-weight:600;">Apply<em class="img"></em></span>
-              </button>
-            </li>
-            <li class="marginR"></li>
-          </ol>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-  -->
-
   <!-- section 4 circles -->
   <section class="content pb-0">
-    <div class="container marketing">
-      <h1 class="text-center mb-2">{% trans '100 Public Representatives of the ICON Network' %}</h1><br>
-      <p class="lead">{% trans '100 Public Representatives (P-Reps) are elected for the ICON Network by delegation of ICONists. Top ranked 22 main P-Reps will participate in block production, verification and making governance decisions. 200,000 ICONists are waiting to vote for eligible P-Rep candidates to boast the ICON ecosystem.' %}</p>
-      <br><br><br><br>
+    <div class="container marketing"><!--offset-md-2 offset-lg-3 col-md-8 col-lg-6-->
+      <h1 class="text-center mb-2 mt-5" style="line-height:42px;">{% trans '100 Public Representatives <br>Of the ICON Network' %}</h1><br>
+      <div class="offset-md-2 col-md-8 mb-5">
+        <p class="lead notofont">{% trans '100 Public Representatives (P-Reps) are elected for the ICON Network by delegation of ICONists. Top ranked 22 main P-Reps will participate in block production, verification and making governance decisions. 200,000 ICONists are waiting to vote for eligible P-Rep candidates to boast the ICON ecosystem.' %}</p>
+      </div>
+      <br><br>
       <div class="row">
         <div class="col-lg-3">
           <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
-          <img src="{% static 'images/bp.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Block Production and Verification' %}</h6>
+          <img src="{% static 'images/bp.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Block Production and Verification' %}</h6><br>
         </div>
         <div class="col-lg-3">
-          <img src="{% static 'images/governance.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Governance and monetary policy decision making' %}</h6>
+          <img src="{% static 'images/governance.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Governance and monetary policy decision making' %}</h6><br>
         </div>
         <div class="col-lg-3">
-          <img src="{% static 'images/contrib.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'On-chain, Off-chain contributions' %}</h6>
+          <img src="{% static 'images/contrib.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'On-chain, Off-chain contributions' %}</h6><br>
         </div>
         <div class="col-lg-3">
-          <img src="{% static 'images/security.png' %}" class="mx-auto d-block" style="width:140px; height:140px;">
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Network Securities' %}</h6>
+          <img src="{% static 'images/security.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
+          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Network Securities' %}</h6><br>
         </div>
       </div>
-      <br>
-      <div class="text-center">
-        <h5>{% trans 'Learn more ' %}<a href="http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank" style="color: #1aaaba;">{% trans 'Guide for Public Representative' %}</a></h5>
+
+
+      <div class="text-center mt-5">
+        <h5 class="notofont">{% trans 'Learn more ' %}<a href="http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank" style="color: #1aaaba;">{% trans 'Guide for Public Representative' %}</a></h5>
       </div>
       <br>
+      <!--
       <div class="row p-3 align-items-center" style="background-color:#1aaaba;">
         <div class="col-7">
           <h5 style="color:#fff;">{% trans 'Join the Community, Be the first one to know when the Election starts' %}</h5>
@@ -251,10 +228,9 @@
         <div class="col-5 aboutsocial">
           <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>&nbsp;
           <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
-
         </div>
       </div>
-
+      -->
     </div>
   </section>
 
@@ -267,42 +243,48 @@
     <div class="container marketing">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">{% trans 'Earn Representative Rewards' %}</h2>
-          <p class="lead">{% trans 'P-Reps will receive rewards for block production and verification, as well as receiving Representative Reward being ranked in the top 100. More contribution, higher the rewards for the P-Reps.' %}</p>
+        <div class="col-md-9 p-5" style="background-color: rgb(234, 232, 225);"><!-- -->
+          <div class="offset-md-1 col-md-9">
+          <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Earn Representative <br>Rewards' %}</h1>
+          <span class="lead notofont">{% trans 'P-Reps will receive rewards for block production and verification, as well as receiving Representative Reward being ranked in the top 100. More contribution, higher the rewards for the P-Reps.' %}</span>
+          </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-3" style="background-color: rgb(234, 232, 225);">
 
         </div>
       </div>
-      <br><br>
+      <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">{% trans 'Shape the Governance of ICON Network'　%}</h2>
-          <p class="lead">{% trans 'ICON Network is a platform with high potential values with built-in on-chain systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program (DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps will provide these features and lead the initial network growth while deciding governance of each fundamental components of the ICON Network.' %}
-        </div>
-        <div class="col-md-5 order-md-1">
+        <div class="col-md-9 order-md-2 p-5" style="background-color: rgb(235, 236, 240);"><!--  -->
+          <div class="offset-md-1 col-md-9">
+            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Shape the Governance of ICON Network'　%}</h1>
+            <p class="lead notofont">{% trans 'ICON Network is a platform with high potential values with built-in on-chain systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program (DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps will provide these features and lead the initial network growth while deciding governance of each fundamental components of the ICON Network.' %}</p>
+          </div>
+          </div>
+        <div class="col-md-3 order-md-1" style="background-color: rgb(235, 236, 240);">
 
         </div>
       </div>
-      <br><br>
+      <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">{% trans 'Global Audience Through ICON Community' %}</h2>
-          <p class="lead">{% trans 'ICON Community is a world-wide spread community that boasts nearly 200K active members. Register as a P-Rep candidate, promote your profile to the community, and accomplish your ambitions in the blockchain space.' %}</p>
+        <div class="col-md-9 p-5" style="background-color: rgb(239, 238, 234);"> <!---->
+          <div class="offset-md-1 col-md-9">
+            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Global Audience Through ICON Community' %}</h1>
+            <p class="lead notofont">{% trans 'ICON Community is a world-wide spread community that boasts nearly 200K active members. Register as a P-Rep candidate, promote your profile to the community, and accomplish your ambitions in the blockchain space.' %}</p>
+          </div>
         </div>
-        <div class="col-md-5">
-
+        <div class="col-md-3" style="background-color: rgb(239, 238, 234);">
         </div>
       </div>
-      <br><br>
+      <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">{% trans 'Achieve Your Vision Through ICONgress' %}</h2>
-          <p class="lead">{% trans 'ICONgress is an off-chain governance body of the ICON Network. Key roles from various ICON sectors will discuss about long-term strategy and governance of the ICON Network. Become a prestigious member of ICONgress and drive ICON growth initiatives!' %}</p>
+        <div class="col-md-9 order-md-2 p-5" style="background-color: rgb(231, 235, 236);"> <!---->
+          <div class="offset-md-1 col-md-9">
+            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Achieve Your Vision Through ICONgress' %}</h1>
+            <p class="lead notofont">{% trans 'ICONgress is an off-chain governance body of the ICON Network. Key roles from various ICON sectors will discuss about long-term strategy and governance of the ICON Network. Become a prestigious member of ICONgress and drive ICON growth initiatives!' %}</p>
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-
+        <div class="col-md-3 order-md-1" style="background-color: rgb(231, 235, 236);">
         </div>
       </div>
 
@@ -316,14 +298,16 @@
   <!-- section video-->
   <section class="content pb-0">
     <div class="container">
-      <h1 class="text-center mb-2">{% trans 'Guide to Your P-Rep Candidacy' %}</h1><br>
+      <h1 class="text-center mb-2" style="line-height:42px;">{% trans 'Frequently Asked Questions' %}</h1><br>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MWElxwfql0Y?rel=0" allowfullscreen></iframe>
       </div>
-      <br><br>
-      <h1 class="text-center">{% trans '“ICONSENSUS, the Journey Toward Mass Adoption”' %}</h1>
-      <p class="lead"> {% trans 'The ICON Network is now standing at a pivotal moment to evolve to a truly decentralized network and realizing mass adoption. This begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP.' %}</p>
-      <p class="lead"> {% trans 'Become a genesis Public Representative, and make a new history with us.' %}</p>
+      <br><br><br>
+      <h1 class="text-center" style="line-height:42px;">{% trans '“ICONSENSUS, the Journey<br> Toward Mass Adoption”' %}</h1>
+      <div class="offset-md-2 col-md-8">
+        <p class="lead notofont"> {% trans 'The ICON Network is now standing at a pivotal moment to evolve to a truly decentralized network and realizing mass adoption. This begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP.' %}</p>
+        <p class="lead notofont"> {% trans 'Become a genesis Public Representative, and make a new history with us.' %}</p>
+      </div>
         <br><br>
         <img src="{% static "images/graph2_190321.png" %}" class="rounded mx-auto d-block">
         <br>
@@ -335,157 +319,19 @@
     <hr class="featurette-divider">
   </div>
 
-
-  <!-- Journey towards mass adoption -->
-  <!--
-  <section class="content">
-    <div class="container">
-      <h1 class="text-center mb-2">ICONSENSUS</h1>
-      <h2 class="text-center text-thin mb-0">{% trans 'The Journey towards Mass Adoption' %}</h2>
-      <img class="hero-image rounded" src="{% static 'images/about1.png' %}" alt="">
-      <p class="lead h-pad text-center">
-        {% trans 'ICONSENSUS is a journey toward mass adoption of blockchain. The election of P-Reps is the first milestone of ICONSENSUS and is a pivotal moment for the ICON Network as it is not only the initial step to realize the decentralization of the ICON Network, but also the beginning of a journey toward mass adoption.' %}
-      </p>
-    </div>
-  </section>
-  -->
-
-  <!-- Journey of ICONSENSUS -->
-  <!--
-  <div class="container">
-    <hr class="featurette-divider">
-  </div>
-  <section class="content">
-    <div class="container">
-      <h1 class="text-center">{% trans 'The Journey of ICONSENSUS' %}</h1>
-      <blockquote>{% trans 'As a member of the ICON community, I am excited about the election. It’s a moment where every ICONist can contribute. Thank you for your support since the beginning of this journey, let’s shape our future with ICONSENSUS.' %}</blockquote>
-    </div>
-  </section>
-  -->
-
-  <!-- Vote. Spread. Disrupt. -->
-  <!--
-  <div class="container">
-    <hr class="featurette-divider">
-  </div>
-  <section class="content">
-    <div class="container">
-      <h1 class="text-center">Vote. Spread. Disrupt.</h1>
-      <p class="lead text-center">
-        {% blocktrans %}ICONSENSUS begins with the P-Rep election and will lead to disruptive innovation through organic
-          ecosystem expansion driven by EEPs, diversified DApp business models driven by DBPs and the connection of
-          different blockchain platforms through C-Reps.<br><br>Vote, Spread, and Disrupt.<br><br>This is how the ICON
-          Network will hyperconnect the world. {% endblocktrans %}
-      </p>
-      <p>
-      <div>
-        <img src="{% static 'images/about3.png' %}" style="width: 70%;" class="mx-auto d-block">
-      </div>
-      </p>
-    </div>
-  </section>
-  -->
-
-  <!-- Timeline -->
-  <!--
-  <div class="container">
-    <hr class="featurette-divider">
-  </div>
-  <section class="content">
-    <div class="container">
-      <h1 class="text-center">{% trans 'P-Rep Campaign Process' %}</h1>
-
-      <ul class="cbp_tmtimeline">
-        <li>
-          <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>{% trans 'Dec 2018' %}</span></time>
-          <div class="cbp_tmicon"></div>
-          <div class="cbp_tmlabel">
-            <h2>{% trans '1st Announcement' %}</h2>
-            <p>{% trans 'A brief introduction about the campaign was announced.' %}</p>
-          </div>
-        </li>
-        <li>
-          <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>{% trans 'Jan 2019' %}</span></time>
-          <div class="cbp_tmicon"></div>
-          <div class="cbp_tmlabel">
-            <h2>{% trans '2nd Announcement' %}</h2>
-            <p>{% trans 'The commencement of the P-Rep Pre-registration has been officially announced.' %}</p>
-            <h2>{% trans 'P-Rep Pre-registration' %}</h2>
-            <p>{% trans 'Pre-registration of P-Rep candidates starts in off-chain environment. Candidates must submit team introduction and delegate proposal to be registered. Candidates who participate in P-Rep Pre-registration will benefit from the communities in a variety of ways.' %}</p>
-          </div>
-        </li>
-        <li>
-          <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>{% trans 'Sep 2019' %}</span></time>
-          <div class="cbp_tmicon"></div>
-          <div class="cbp_tmlabel">
-            <h2>{% trans 'P-Rep On-Chain Registration & Election' %}</h2>
-            <p>{% trans 'A blockchain election, a cornerstone of decentralization, begins. ICONists can vote for the candidates by delegating their stake. Once certain circumstances are reached, the ICON Network will be fully operated by the P-Reps.' %}</p>
-          </div>
-        </li>
-        <li>
-          <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>{% trans '4Q 2019' %}</span></time>
-          <div class="cbp_tmicon"></div>
-          <div class="cbp_tmlabel">
-            <h2>{% trans 'The Genesis P-Rep Summit' %}</h2>
-            <p>{% trans 'During the genesis P-Rep Summit, the birth of Genesis P-Reps as well as commencement of the decentralized ICON Network will be declared.' %}</p>
-          </div>
-        </li>
-      </ul>
-
-    </div>
-  </section>
-  -->
-
-  <!-- Banner -->
-  <!--
-  <section class="content">
-    <div class="container">
-
-      <div class="section-hero-banner">
-        <img src="{% static 'images/hero-bg.png' %}" alt="" class="rounded">
-        <div class="shb-copy">
-          <h1>{% trans 'Vote. Spread. Disrupt.' %}</h1>
-          <a href="/iconsensus/preapplication/" class="btn btn-lg btn-outline">{% trans 'Apply' %}</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
-  <!-- End: Page Content -->
-
-  <!-- Start: Footer -->
-  <!--
-  <div class="container">
-    <footer class="footer">
-      <div class="row align-items-center">
-        <div class="col-8 text-left">
-          {% blocktrans %}
-            For further inquiries, please contact <a href="mailto:support@icon.community">support@icon.community</a>
-          {% endblocktrans %}
-        </div>
-        <div class="col-4 text-right">
-          <a href="https://medium.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-medium-m fa-2x"></i></a>
-          <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
-        </div>
-      </div>
-    </footer>
-  </div>
-  -->
-
-  <footer class="footer pt-0 aboutfooter">
+  <footer class="footer py-0 aboutfooter">
     <div class="container" style="background-color: #1aaaba; color:white;">
       <div class="row">
 
-        <div class="col-lg-3 mb-5 text-center">
+        <div class="col-lg-5 col-12 mb-5">
           <div class="mt-5" style="margin-bottom:1.5rem; line-height: 1.2;"><img src="{% static 'images/icon.community_ logo_final-invert.png' %}" style="width:200px;"></div>
-          {% trans 'icon.community is a strategic community of the ICON project, currently focused on the P-Rep election campaign. The community will collaborate with the ICON Foundation throughout the entire ICONSENSUS campaign, bringing our community the latest information.' %}
+          {% trans 'icon.community is a strategic community of the ICON project, currently focused on the P-Rep election campaign. The community will collaborate with the ICON Foundation throughout the entire ICONSENSUS campaign.' %}
         </div>
 
-        <div class="col-lg-3 mb-5 text-center">
-          <h4 class="mt-5">Get Started</h4>
+        <div class="col-lg-2 col-6 mb-5">
+          <h5 class="mt-5" style="font-weight:600;">Get Started</h5>
           <div class="mt-3">
-            <span style="font-weight: 600;">{% trans 'What is ICONSENSUS?' %}</span> <br>
+
             <a href="Introduction for Public Representative" target="_blank">{% trans 'For P-Reps' %}</a><br>
             <a href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank">{% trans 'For ICONists' %}</a><br>
             <a href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">{% trans 'How to register' %}</a><br>
@@ -493,10 +339,10 @@
           </div>
         </div>
 
-        <div class="col-lg-3 mb-5 text-center">
-          <h4 class="mt-5">ICON Network</h4>
+        <div class="col-lg-2 col-6 mb-5">
+          <h5 class="mt-5" style="font-weight:600;">ICON Network</h5>
           <div class="mt-3">
-            <span style="font-weight: 600;">{% trans 'The ICON Foundation' %}</span><br>
+
             <a href="https://medium.com/helloiconworld" target="_blank">{% trans 'Official Blog' %}</a><br>
             <a href="https://t.me/joinchat/Fqw4igkkVmYtj--ZVi-QcA" target="_blank">{% trans 'Official Community' %}</a><br>
             <a href="https://www.icondev.io/" target="_blank">{% trans 'Developer Portal' %}</a><br>
@@ -504,10 +350,10 @@
           </div>
         </div>
 
-        <div class="col-lg-3 mb-5 text-center">
-          <h4 class="mt-5">Stay Updated</h4>
-          <div class="row justify-content-center">
-            <div class="form-inline mt-3">
+        <div class="col-lg-3 col-12 mb-5">
+          <h5 class="mt-5" style="font-weight:600;">Stay Updated</h5>
+          <div class="row">
+            <div class="form-inline mt-3 col-10">
               <form action="https://community.us20.list-manage.com/subscribe/post" method="POST" novalidate>
                 <input type="hidden" name="u" value="5eabe842b061c4df20b14936a">
                 <input type="hidden" name="id" value="4f8eebf6fc">
@@ -518,37 +364,40 @@
 
           <div class="row footersocial mt-4">
             <div class="col-1"></div>
-            <div class="col-3 justify-content-center">
-              <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-3x"></i></a>
+            <div class="col-2">
+              <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>
             </div>
-            <div class="col-3 justify-content-center">
-              <a href="https://medium.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-medium fa-3x"></i></a>
+            <div class="col-2">
+              <a href="https://medium.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-medium fa-2x"></i></a>
             </div>
-            <div class="col-3 justify-content-center">
-              <a href="https://www.youtube.com/channel/UC5SrWL7CKY09cVtuDxHtizw" target="_blank" class="social ml-2"><i class="fab fa-youtube fa-3x"></i></a>
+            <div class="col-2"><!-- justify-content-center-->
+              <a href="https://www.youtube.com/channel/UC5SrWL7CKY09cVtuDxHtizw" target="_blank" class="social ml-2"><i class="fab fa-youtube fa-2x"></i></a>
             </div>
-            <div class="col-1"></div>
+            <div class="col-5"></div>
           </div>
 
-          <div class="row footersocial mt-4">
+          <div class="row footersocial mt-2">
             <div class="col-1"></div>
-            <div class="col-3 justify-content-center">
-              <a href="https://www.facebook.com/helloicon" target="_blank" class="social ml-2"><i class="fab fa-facebook fa-3x"></i></a>
+            <div class="col-2">
+              <a href="https://www.facebook.com/helloicon" target="_blank" class="social ml-2"><i class="fab fa-facebook fa-2x"></i></a>
             </div>
-            <div class="col-3 justify-content-center">
-              <a href="https://www.reddit.com/r/helloicon/" target="_blank" class="social ml-2"><i class="fab fa-reddit fa-3x"></i></a>
+            <div class="col-2">
+              <a href="https://www.reddit.com/r/helloicon/" target="_blank" class="social ml-2"><i class="fab fa-reddit fa-2x"></i></a>
             </div>
-            <div class="col-3 justify-content-center">
-              <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-3x"></i></a>
+            <div class="col-2">
+              <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
             </div>
-            <div class="col-1"></div>
+            <div class="col-5"></div>
           </div>
 
-          </div>
-
+        </div>
       </div>
     </div>
   </footer>
+
+  <a href="https://t.me/iconcm" class="floatbtn" style="display: inline;">
+    <i class="fab fa-telegram fa-3x" aria-hidden="true"></i>
+  </a>
 
 </main>
 <!-- End: Main Content -->

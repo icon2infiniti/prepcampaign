@@ -1,6 +1,7 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #fff!important;
 }
 
 .rep-profile {
@@ -33,165 +34,6 @@ html, body {
 
 .lead {
   font-weight: 500!important;
-}
-
-/* timeline */
-
-/* General Blueprint Style */
-
-.cbp_tmtimeline {
-	margin: 30px 0 0 0;
-	padding: 0;
-	list-style: none;
-	position: relative;
-}
-
-/* The line */
-.cbp_tmtimeline:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 10px;
-	background: #d9d9d9;
-	left: 20%;
-	margin-left: -10px;
-}
-
-/* The date/time */
-.cbp_tmtimeline > li {
-	position: relative;
-}
-
-.cbp_tmtimeline > li .cbp_tmtime {
-	display: block;
-	width: 25%;
-	padding-right: 100px;
-	position: absolute;
-}
-
-
-.cbp_tmtimeline > li .cbp_tmtime span {
-	display: block;
-	text-align: right;
-	font-size: 1.4em;
-	font-weight: 600;
-}
-
-/* Right content */
-.cbp_tmtimeline > li .cbp_tmlabel {
-	margin: 0 0 15px 25%;
-	background: #fff;
-	color: #5a5a5a;
-	padding: 2em;
-	font-size: 1.2em;
-	font-weight: 300;
-	line-height: 1.4;
-	position: relative;
-	border-radius: 5px;
-}
-
-.cbp_tmtimeline > li .cbp_tmlabel h2 {
-	margin-top: 0px;
-	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
-}
-
-/* The triangle */
-.cbp_tmtimeline > li .cbp_tmlabel:after {
-	right: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-right-color: #fff;
-	border-width: 10px;
-	top: 10px;
-}
-
-/* The icons */
-.cbp_tmtimeline > li .cbp_tmicon {
-	width: 40px;
-	height: 40px;
-	font-family: 'ecoico';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	font-size: 1.4em;
-	line-height: 40px;
-	-webkit-font-smoothing: antialiased;
-	position: absolute;
-	color: #fff;
-	background: #F2F4F9;
-	border-radius: 50%;
-	box-shadow: 0 0 0 8px #00b2b0;
-	text-align: center;
-	left: 20%;
-	top: 0;
-	margin: 0 0 0 -25px;
-}
-
-.cbp_tmicon-phone:before {
-	content: "\e000";
-}
-
-.cbp_tmicon-screen:before {
-	content: "\e001";
-}
-
-.cbp_tmicon-mail:before {
-	content: "\e002";
-}
-
-.cbp_tmicon-earth:before {
-	content: "\e003";
-}
-
-/* Example Media Queries */
-@media screen and (max-width: 65.375em) {
-
-	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (max-width: 47.2em) {
-	.cbp_tmtimeline:before {
-		display: none;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmtime {
-		width: 100%;
-		position: relative;
-		padding: 0 0 20px 0;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmtime span {
-		text-align: left;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmlabel {
-		margin: 0 0 30px 0;
-		padding: 1em;
-		font-weight: 400;
-		font-size: 95%;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmlabel:after {
-		right: auto;
-		left: 20px;
-		border-right-color: transparent;
-		border-bottom-color: #fff;
-		top: -20px;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmicon {
-		display: none;
-	}
 }
 
 
@@ -232,7 +74,7 @@ html, body {
 }
 
 .footersocial .fa-telegram:hover, .footersocial .fa-twitter:hover, .footersocial .fa-youtube:hover, .footersocial .fa-facebook:hover, .footersocial .fa-medium:hover, .footersocial .fa-reddit:hover {
-	color: #ddd!important;
+	color: #ddd;
 }
 .footer {
 	border-top: 0!important;
@@ -278,7 +120,7 @@ html, body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.hero-wrap {
 		position: absolute;
-		top: 20%;
+		top: 10%;
 		left: 0px;
 		padding: 20px;
 	}
@@ -290,17 +132,6 @@ html, body {
 		top: 20%;
 		left: 30%;
 	}
-}
-
-
-.hero-main-title {
-	font-size: 28px;
-	font-weight: 700;
-	color: #fff;
-}
-.hero-sub-title {
-	line-height: 35px;
-	color: #fff;
 }
 
 .screen0-5 .wrap-holder {min-height: 761px; padding: 100px 0 130px; color:#fff;}
@@ -319,6 +150,31 @@ html, body {
 .btn-type-white{ border: none; background: #fff; padding: 10px 20px; color: #262626; border: 1px solid #262626;}
 .btn-type-white:hover{ background: #262626; color: #fff;}
 .btn-type-white.no:hover {background: #fff;  color: #262626; }
+
+.hero-main-title {
+	font-size: 35px;
+	font-weight: 700;
+	color: #fff;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.hero-main-title {
+		padding-top: 10px;
+		padding-left: 10px;
+		font-size: 22px;
+		font-weight: 799;
+		text-align: center;
+		color: #fff;
+	}
+}
+.hero-sub-title {
+	line-height: 35px;
+	color: #fff;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.hero-sub-title{
+		padding-left: 10px;
+	}
+}
 
 
 .hero-links {
@@ -349,3 +205,15 @@ html, body {
   color: #1aaaba;
 }
 
+
+.floatbtn {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: #1aaaba;
+	opacity: 0.75;
+}
+
+.floatbtn .fa-telegram:hover {
+	color: #666 !important;
+}

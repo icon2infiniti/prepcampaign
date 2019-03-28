@@ -223,12 +223,12 @@ body {
 .content h1, .content h2, .content h3 {
   /*font-family: 'Poppins', 'Poppins', sans-serif !important;*/
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: 700;
   color: #333;
 }
 
 .content h1 {
-  font-size: 26px;
+  font-size: 35px;
   line-height: 35px;
   margin: 0 0 20px 0;
   /*text-transform: uppercase;*/
@@ -352,4 +352,8 @@ body {
 .lead {
   font-size: 18px;
   font-weight: 500!important;
+}
+
+.notofont {
+  font-family: 'Noto Sans', sans-serif;
 }
