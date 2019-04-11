@@ -208,8 +208,8 @@ html, body {
 
 .floatbtn {
 	position: fixed;
-	bottom: 10px;
-	right: 10px;
+	bottom: 20px;
+	right: 20px;
 	color: #1aaaba;
 	opacity: 0.75;
 }

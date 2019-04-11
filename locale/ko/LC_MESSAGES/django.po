@@ -72,17 +72,17 @@ msgstr "한국어"
 
 #: prepsite/templates/about.html:172
 msgid "Register Now <br>To Become a Genesis P-Rep"
-msgstr ""
+msgstr "지금 바로 Genesis P-Rep으로 등록하세요!"
 
 #: prepsite/templates/about.html:176
 msgid ""
 "2019 September - The new era of the ICON Network begins <br>with the Public "
 "Representative Election. <br>Join our journey to a hyperconnected world."
-msgstr ""
+msgstr "2019년 9월, ICON Network는 대표자 선거를 통하여 새로운 시대를 엽니다.<br>수 많은 블록체인을 연결하는 ICON 프로젝트의 주역이 될 기회 입니다."
 
 #: prepsite/templates/about.html:199
 msgid "100 Public Representatives <br>Of the ICON Network"
-msgstr ""
+msgstr "ICON Network의 100개의 P-Rep"
 
 #: prepsite/templates/about.html:201
 msgid ""
@@ -92,49 +92,53 @@ msgid ""
 "are waiting to vote for eligible P-Rep candidates to boost the ICON "
 "ecosystem."
 msgstr ""
+"ICONist의 투표로 선출되는 Public Representative(P-Rep)은 전체 ICON 네트워크의 대표 노드로서, "
+"총 100개의 P-Rep이 선출됩니다. 이 중, 상위 22개의 P-Rep은 Main P-Rep으로서, "
+"블록생성 및 검증, 정책결정을 주도하는 중요한 역할을 합니다. ICON 생태계를 건강하게 운영하고 확장해나가는 좋은 대표자를 선출하기 위하여 "
+"20만명의 ICONist가 당신을 기다리고 있습니다."
 
 #: prepsite/templates/about.html:208
 msgid "Block Production and Verification"
-msgstr ""
+msgstr "블록 생성 및 검증"
 
 #: prepsite/templates/about.html:212
 msgid "Governance and monetary policy decision making"
-msgstr ""
+msgstr "거버넌스 및 통화 정책 결정"
 
 #: prepsite/templates/about.html:216
 msgid "On-chain, Off-chain contributions"
-msgstr ""
+msgstr "온체인, 오프체인 방면에 기여"
 
 #: prepsite/templates/about.html:220
 msgid "Network Securities"
-msgstr ""
+msgstr "네트워크 보안"
 
 #: prepsite/templates/about.html:226
 msgid "Learn more "
-msgstr ""
+msgstr "더 알아보기 "
 
 #: prepsite/templates/about.html:226
 msgid "Guide for Public Representative"
-msgstr ""
+msgstr "P-Rep을 위한 가이드"
 
 #: prepsite/templates/about.html:232
 msgid "Join the Community, Be the first one to know when the Election starts"
-msgstr ""
+msgstr "ICON의 커뮤니티로 합류하세요, 선거의 시작을 놓치지 마세요!"
 
 #: prepsite/templates/about.html:250
 msgid "Earn Representative <br>Rewards"
-msgstr ""
+msgstr "대표자 보상을 받아가세요"
 
 #: prepsite/templates/about.html:251
 msgid ""
 "P-Reps will receive rewards for block production and verification, as well "
 "as receiving Representative Reward being ranked in the top 100. More "
 "contribution, higher the rewards for the P-Reps."
-msgstr ""
+msgstr "P-Rep은 ICON Network를 운영하는 주체로서 ICONist들의 지분을 위임 받아 블록 생성 및 검증, 네트워크 통화 정책을 결정하는 댓가로 블록 생성 및 검증 보상과 대표자 보상을 받을 수 있습니다. 훌륭한 P-Rep에게는 더 많은 보상이 기다리고 있습니다. 네트워크의 기여도에 따라 보상을 받아가세요!"
 
 #: prepsite/templates/about.html:262
 msgid "Shape the Governance of ICON Network"
-msgstr ""
+msgstr "ICON Network의 거버넌스를 결정하세요"
 
 #: prepsite/templates/about.html:263
 msgid ""
@@ -143,22 +147,22 @@ msgid ""
 "(DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps "
 "will provide these features and lead the initial network growth while "
 "deciding governance of each fundamental components of the ICON Network."
-msgstr ""
+msgstr "ICON Network는 높은 성장 가능성을 지닌 블록체인 플랫폼으로서, 생태계 플레이어들을 위한 Ecosystem Expansion Project (EEP), DApp Booster Program (DBP), 복수의 이질적인 체인을 퍼블릭 플랫폼에 연결하기 위한 Interchain 기술 등 다양한 온체인 요소들이 탑재될 예정입니다. P-Rep은 이 모든 기능들을 실제로 제공하여, 각 기능들의 거버넌스에 큰 영향력을 미치는 네트워크 제공자입니다."
 
 #: prepsite/templates/about.html:274
 msgid "Global Audience Through ICON Community"
-msgstr ""
+msgstr "ICON의 커뮤니티를 통해 세계로 진출하세요"
 
 #: prepsite/templates/about.html:275
 msgid ""
 "ICON Community is a world-wide spread community that boasts nearly 200K "
 "active members. Register as a P-Rep candidate, promote your profile to the "
 "community, and accomplish your ambitions in the blockchain space."
-msgstr ""
+msgstr "ICON Network는 전세계에 널리 퍼져있는 블록체인으로서 약 200,000명이 넘는 커뮤니티 팬을 보유하고 있습니다. P-Rep으로 등록하고, 당신의 프로필을 커뮤니티에 널리 알려 블록체인 생태계에서 인지도를 얻어보세요."
 
 #: prepsite/templates/about.html:285
 msgid "Achieve Your Vision Through ICONgress"
-msgstr ""
+msgstr "ICONgress를 통해 비전을 펼쳐보세요"
 
 #: prepsite/templates/about.html:286
 msgid ""
@@ -166,11 +170,11 @@ msgid ""
 "from various ICON sectors will discuss about long-term strategy and "
 "governance of the ICON Network. Become a prestigious member of ICONgress and "
 "drive ICON growth initiatives!"
-msgstr ""
+msgstr "ICONgress는 ICON Network의 오프체인 거버넌스 그룹으로, 아이콘의 핵심 이해 관계자들이 참여하여 네트워크의 장기적인 미래와 블록체인 기술의 대중화에 대해서 논의합니다. 이 곳에서 ICON Network 기반의 다양한 블록체인 기술과 사업에 대해서 협의하고 논의하세요!"
 
 #: prepsite/templates/about.html:300
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "자주 묻는 질문"
 
 #: prepsite/templates/about.html:305
 msgid "“ICONSENSUS, the Journey<br> Toward Mass Adoption”"
@@ -182,18 +186,18 @@ msgid ""
 "decentralized network and realizing mass adoption. This begins with "
 "ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, "
 "C-Rep, DBP, and EEP."
-msgstr ""
+msgstr "2019년 1월 17일, ICON P-Rep(Public Representative) 선출을 위한 사전모집을 시작합니다. ICONist들의 합의를 뜻하는 ICONSENSUS는 블록체인 기술의 대중화를 향한 여정입니다. 블록체인 대중화는 ICONist들의 참여를 통해 이뤄낼 수 있으며, ICON Network의 궁극적인 목표입니다."
 
 #: prepsite/templates/about.html:308
 msgid "Become a genesis Public Representative, and make a new history with us."
-msgstr ""
+msgstr "Genesis P-Rep이 되어, 함께 역사를 만들어나가세요!"
 
 #: prepsite/templates/about.html:323
 msgid ""
 "icon.community is a strategic community of the ICON project, currently "
 "focused on the P-Rep election campaign. The community will collaborate with "
 "the ICON Foundation throughout the entire ICONSENSUS campaign."
-msgstr ""
+msgstr "icon.community는 ICON 프로젝트를 위한 커뮤니티입니다. 우리 커뮤니티는 P-Rep 캠페인에 집중하고 있습니다. 우리는 ICON 재단과 협력하여, ICONSENSUS 캠페인의 모든 과정을 진행하고 있습니다."
 
 #: prepsite/templates/about.html:330
 msgid "For P-Reps"

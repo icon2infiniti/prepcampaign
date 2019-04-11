@@ -79,7 +79,7 @@
       overflow: hidden;
       font-family: 'Montserrat', sans-serif;
       background-color: #1aaaba;
-      background-image: url({% static 'images/bg.png' %});
+      background-image: url({% static 'images/bg3.png' %});
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -177,14 +177,13 @@
     </div>
     <br><br>
     <div class="text-left">
-      <button class="btn-type-white no more rounded" onclick="openUrl('https://icon.community/iconsensus/preapplication/')" style="width: 180px; display: inline-block;">
+      <button class="btn-type-white no more rounded" onclick="openUrl('https://icon.community/iconsensus/preapplication/', '_self')" style="width: 180px; display: inline-block;">
         <span style="font-weight:600;">{% trans 'Apply' %}<em class="img"></em></span>
       </button>
 
-      <div class="hero-links ml-2" style="display: inline-block;">
-        <a href="https://t.me/iconcm" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-      </div>
-
+      <button class="btn-type-white no more rounded" onclick="openUrl('https://t.me/iconcm', '_blank')" style="width: 180px; display: inline-block;">
+        <span style="font-weight:600;">{% trans 'Join Telegram' %}<em class="img"></em></span>
+      </button>
     </div>
 
   </div>
@@ -245,7 +244,7 @@
     <div class="container marketing">
 
       <div class="row featurette">
-        <div class="col-md-9 p-5" style="background-color: rgb(234, 232, 225);"><!-- -->
+        <div class="col-lg-9 p-5" style="background-color: rgb(234, 232, 225);"><!-- -->
           <div class="offset-md-1 col-md-9">
           <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Earn Representative <br>Rewards' %}</h1>
           <span class="lead notofont">{% trans 'P-Reps will receive rewards for block production and verification, as well as receiving Representative Reward being ranked in the top 100. More contribution, higher the rewards for the P-Reps.' %}</span>
@@ -257,7 +256,7 @@
       </div>
       <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-9 order-md-2 p-5" style="background-color: rgb(235, 236, 240);"><!--  -->
+        <div class="col-lg-9 order-md-2 p-5" style="background-color: rgb(235, 236, 240);"><!--  -->
           <div class="offset-md-1 col-md-9">
             <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Shape the Governance of ICON Network'　%}</h1>
             <p class="lead notofont">{% trans 'ICON Network is a platform with high potential values with built-in on-chain systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program (DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps will provide these features and lead the initial network growth while deciding governance of each fundamental components of the ICON Network.' %}</p>
@@ -269,7 +268,7 @@
       </div>
       <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-9 p-5" style="background-color: rgb(239, 238, 234);"> <!---->
+        <div class="col-lg-9 p-5" style="background-color: rgb(239, 238, 234);"> <!---->
           <div class="offset-md-1 col-md-9">
             <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Global Audience Through ICON Community' %}</h1>
             <p class="lead notofont">{% trans 'ICON Community is a world-wide spread community that boasts nearly 200K active members. Register as a P-Rep candidate, promote your profile to the community, and accomplish your ambitions in the blockchain space.' %}</p>
@@ -280,7 +279,7 @@
       </div>
       <!--<br><br>-->
       <div class="row featurette">
-        <div class="col-md-9 order-md-2 p-5" style="background-color: rgb(231, 235, 236);"> <!---->
+        <div class="col-lg-9 order-md-2 p-5" style="background-color: rgb(231, 235, 236);"> <!---->
           <div class="offset-md-1 col-md-9">
             <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Achieve Your Vision Through ICONgress' %}</h1>
             <p class="lead notofont">{% trans 'ICONgress is an off-chain governance body of the ICON Network. Key roles from various ICON sectors will discuss about long-term strategy and governance of the ICON Network. Become a prestigious member of ICONgress and drive ICON growth initiatives!' %}</p>
@@ -305,7 +304,7 @@
       <h1 class="text-center" style="line-height:42px;">{% trans '“ICONSENSUS, the Journey<br> Toward Mass Adoption”' %}</h1>
       <div class="offset-md-2 col-md-8">
         <p class="lead notofont"> {% trans 'The ICON Network is now standing at a pivotal moment to evolve to a truly decentralized network and realizing mass adoption. This begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP.' %}</p>
-        <p class="lead notofont"> {% trans 'Become a genesis Public Representative, and make a new history with us.' %}</p>
+        <p class="lead notofont text-center"><b>{% trans 'Become a genesis Public Representative, and make a new history with us.' %}</b></p>
       </div>
         <br><br>
         <img src="{% static "images/graph2_190321.png" %}" class="rounded mx-auto d-block">
@@ -391,7 +390,7 @@
   </footer>
 
   <a href="https://twitter.com/intent/tweet?text=The%20new%20era%20of%20the%20ICON%20Network%20begins%20with%20the%20Public%20Representative%20Election.%20Join%20our%20movement,%20follow%20@iconcm%20#ICONSENSUS" target="_blank" class="floatbtn" style="display: inline;">
-    <i class="fas fa-pen fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-share fa-2x" aria-hidden="true"></i>
   </a>
 
 </main>
@@ -420,8 +419,8 @@
     post_lang.value = lang;
     language_form.submit();
   }
-  function openUrl(url){
-    window.open(url, '_self');
+  function openUrl(url, win){
+    window.open(url, win);
   }
 </script>
 </body>

@@ -79,11 +79,11 @@ msgid ""
 "2019 September - The new era of the ICON Network begins <br>with the Public "
 "Representative Election. <br>Join our journey to a hyperconnected world."
 msgstr ""
-"2019年9月 -  ICON网络的新时代始于公众代表选举。加入我们的超链接世界之旅。"
+"2019年9月 -  ICON网络的新时代始于公众代表选举。<br>加入我们的超链接世界之旅。"
 
 #: prepsite/templates/about.html:199
 msgid "100 Public Representatives <br>Of the ICON Network"
-msgstr "100名ICON网络公共代表"
+msgstr "100个ICON网络公共代表"
 
 #: prepsite/templates/about.html:201
 msgid ""
@@ -115,7 +115,7 @@ msgstr "网络安全"
 
 #: prepsite/templates/about.html:226
 msgid "Learn more "
-msgstr "看更多"
+msgstr "看更多 "
 
 #: prepsite/templates/about.html:226
 msgid "Guide for Public Representative"
@@ -211,6 +211,7 @@ msgid ""
 "focused on the P-Rep election campaign. The community will collaborate with "
 "the ICON Foundation throughout the entire ICONSENSUS campaign."
 msgstr ""
+"icon.community是ICON项目的战略社群，目前专注于P-Rep竞选活动。社群将在整个ICONSENSUS活动期间与ICON基金会合作。"
 
 #: prepsite/templates/about.html:330
 msgid "For P-Reps"
