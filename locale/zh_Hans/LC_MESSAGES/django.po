@@ -110,7 +110,7 @@ msgid "On-chain, Off-chain contributions"
 msgstr "链上，链外的贡献"
 
 #: prepsite/templates/about.html:220
-msgid "Network Securities"
+msgid "Network Security"
 msgstr "网络安全"
 
 #: prepsite/templates/about.html:226

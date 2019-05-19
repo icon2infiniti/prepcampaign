@@ -110,7 +110,7 @@ msgid "On-chain, Off-chain contributions"
 msgstr "온체인, 오프체인 방면에 기여"
 
 #: prepsite/templates/about.html:220
-msgid "Network Securities"
+msgid "Network Security"
 msgstr "네트워크 보안"
 
 #: prepsite/templates/about.html:226
