@@ -2,18 +2,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131013028-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNT4FBN');</script>
+<!-- End Google Tag Manager -->
 
-    gtag('js', new Date());
-    gtag('config', 'UA-131013028-1');
-  </script>
+
   <!-- Required meta tags -->
   <title> About ICON Node election </title>
   <meta name="description"
@@ -66,9 +64,9 @@
       background-image: url({% static 'images/iconsensus_logoonly.png' %});
     }
 
-    .hero_b {
+    .hero {
       width: 100vw;
-      height: 500px;
+      height: 100vh;
       min-width: 100%;
       min-height: 100%;
       position: relative;
@@ -79,26 +77,23 @@
       overflow: hidden;
       font-family: 'Montserrat', sans-serif;
       background-color: #1aaaba;
-      background-image: url({% static 'images/bg3.png' %});
+      background-image: url({% static 'images/bg4.png' %});
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
 
-    .hero {
-      background-image: url({% static 'images/bg3.png' %});
-      height: 500px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-    }
 
   </style>
 
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNT4FBN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Nav -->
 <nav class="navbar navbar-expand-md navbar-light fixed-top">
@@ -194,9 +189,34 @@
         <span style="font-weight:600;">{% trans 'Join Telegram' %}<em class="img"></em></span>
       </button>
     </div>
+    <br>
+    <div class="text-left">
+      <form action="https://community.us20.list-manage.com/subscribe/post" method="POST" novalidate>
+        <input type="hidden" name="u" value="1503c3c7bd5ae40e8979fd794">
+        <input type="hidden" name="id" value="d8cefa5784">
+        <input type="email" class="sub-input-form" name="MERGE0" id="MERGE0"  placeholder="Enter your email address" value="" name="EMAIL">
+        <button type="submit" id="btnSubscribe" class="sub-input-button"><span>Subscribe</span><em class="img"></em></button>
+      </form>
+    </div>
+
+    <br>
 
   </div>
+
   </section>
+
+    <!--
+    <div class="customer-logos">
+      {% for prep in preps %}
+      <div class="slide">
+        <a href="{% url 'candidate_detail' prep.id %}">
+        <img src="{{ prep.logo.url }}" style="width: 150px; height: 150px;">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    -->
+
   <div>
     <hr style="margin-top: 4px;">
   </div>
@@ -341,10 +361,10 @@
           <h5 class="mt-5" style="font-weight:600;">Get Started</h5>
           <div class="mt-3">
 
-            <a href="Introduction for Public Representative" target="_blank">{% trans 'For P-Reps' %}</a><br>
+            <a href="https://m.icon.foundation/download/Introduction_for_Public_Representative_of_ICON_Network_EN_V1.0.pdf" target="_blank">{% trans 'For P-Reps' %}</a><br>
             <a href="https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf" target="_blank">{% trans 'For ICONists' %}</a><br>
             <a href="https://icon.foundation/download/ICON_P-Rep_Pre-registration_Guide_EN_V1.0.pdf" target="_blank">{% trans 'How to register' %}</a><br>
-            {% trans 'Any questions?' %}
+            <a href="mailto:support@icon.community">{% trans 'Any questions?' %}</a>
           </div>
         </div>
 
@@ -405,7 +425,8 @@
   </footer>
 
   <a href="https://twitter.com/intent/tweet?text=The%20new%20era%20of%20the%20ICON%20Network%20begins%20with%20the%20Public%20Representative%20Election.%20Join%20our%20movement,%20follow%20@iconcm%20%23ICONSENSUS" target="_blank" class="floatbtn" style="display: inline;">
-    <i class="fa fa-share-alt fa-2x" aria-hidden="true"></i>
+    <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+    <!--<img src="{% static 'images/twitter.png' %}" style="width: 2em; height: 2em;">-->
   </a>
 
 </main>
@@ -414,7 +435,7 @@
 <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 <script src="{% static 'js/popper.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -425,6 +446,28 @@
                 $('.navbar').removeClass('inverted');
             }
         });
+        /*
+        $('.customer-logos').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+            pauseOnHover: false,
+            responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3
+            }
+          }, {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 2
+            }
+          }]
+        });
+        */
     });
 </script>
 <script>

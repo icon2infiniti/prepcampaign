@@ -1,18 +1,13 @@
 {% load static i18n %}<!doctype html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131013028-1"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-          dataLayer.push(arguments);
-      }
-
-      gtag('js', new Date());
-      gtag('config', 'UA-131013028-1');
-  </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNT4FBN');</script>
+<!-- End Google Tag Manager -->
 
   <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}">
 
@@ -44,6 +39,8 @@
     .navbar.inverted .navbar-brand {
       background-image: url({% static 'images/iconsensus_logoonly.png' %});
     }
+
+
   </style>
   <meta name="description" content="ICONsensus">
   <title>P-Rep Candidate {{ prep.name }}</title>
@@ -59,6 +56,10 @@
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNT4FBN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Nav -->
 <nav class="navbar navbar-expand-md navbar-light fixed-top inverted">
@@ -146,14 +147,14 @@
 
             <div class="col-12 col-md-10">
               <p class="media-body pb-0 mb-0 mid text-center text-md-left">
-              <strong class="d-block mb-0" style="color:#383838;">{{ prep.name }}</strong>
-              <small>{% trans 'HQ' %}: {{ prep.location }}</small>
-              <br><br>
+                <strong class="d-block mb-0" style="color:#383838;">{{ prep.name }}</strong>
+                <small>{% trans 'HQ' %}: {{ prep.location }}</small>
+                <br><br>
               </p>
               <p class="media-body pb-3 mb-0 mid lh-125 border-bottom border-gray">
-              <span class="text-dark">
-              {{ prep.introduction }}
-              </span>
+                <span class="text-dark">
+                {{ prep.introduction }}
+                </span>
               </p>
 
             <!-- Social -->
@@ -229,30 +230,32 @@
     {% for team in prep.get_team %}
       {% if team.avatar or team.name or team.background %}
         <div class="divhover media text-muted pt-3">
+          <div class="row" style="width: 100vw;">
 
-        <div class="row">
-            <div class="col-12 col-md-2 text-center text-md-left">
+              <div class="col-12 col-md-2 text-center text-md-left">
                 {% if team.avatar %}
-                    <img src="{{ team.avatar.url }}" alt="" class="mr-2 rounded-circle" style="object-fit: contain; width: 125px; height: 125px; display: inline-block;">
+                  <img src="{{ team.avatar.url }}" alt="" class="mr-2 rounded-circle" style="object-fit: contain; width: 125px; height: 125px; display: inline-block;">
                 {% else %}
-                 <img src="{% static 'images/preview.jpg' %}" class="mr-2 rounded-circle" style="object-fit: contain; width: 125px; height: 125px; display: inline-block;">
+                  <img src="{% static 'images/preview.jpg' %}" class="mr-2 rounded-circle" style="object-fit: contain; width: 125px; height: 125px; display: inline-block;">
                 {% endif %}
-            </div><!-- ./col-3 -->
-            <div class="col-12 col-md-10">
-				<p class="media-body pb-0 mb-0 mid text-center text-md-left">
-					<strong class="d-block mb-0" style="color:#383838;">{{ team.name }}</strong>
-					<small>{% trans 'Team Member' %}</small>
-					<br><br>
-				</p>
-                <p class="media-body pb-3 mb-0 mid lh-125 border-bottom border-gray">
-                    <span class="text-dark">
-                        {{ team.background }}
-                    </span>
-                </p>
-            </div><!-- ./col-9 -->
-        </div><!-- ./row -->
+              </div>
 
-        </div><!-- ./media -->
+
+              <div class="col-12 col-md-10">
+                <p class="media-body pb-0 mb-0 mid text-center text-md-left">
+                  <strong class="d-block mb-0" style="color:#383838;">{{ team.name }}</strong>
+                  <small>{% trans 'Team Member' %}</small>
+                  <br><br>
+                </p>
+                <p class="media-body pb-3 mb-0 mid lh-125 border-bottom border-gray">
+                  <span class="text-dark">
+                    {{ team.background }}
+                  </span>
+                </p>
+              </div>
+
+          </div>
+        </div>
       {% else %}
         <br>
         <div class="p-3">{% trans 'None' %}</div>

@@ -20,7 +20,8 @@ def index(request):
 
 
 def about(request):
-    return render(request, 'about.html')
+    preps = Prep.objects.filter(display=True).order_by('-id')
+    return render(request, 'about.html', {'preps': preps})
 
 
 def thankyou(request):
