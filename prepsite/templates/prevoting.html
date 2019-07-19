@@ -15,9 +15,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Required meta tags -->
   <title> About ICON Node election </title>
   <meta name="description"
-        content="about ICON Node election, voting 22 full node, election schedule, the vision of ICON Node election">
+        content="Pre-voting is an influential activity to elect ICON Network's best delegators. A maximum of 3M ICX will be rewarded as incentives for participating in pre-voting. Pre-votes will be accumulated to on-chain election following right after.">
   <meta name="keyword"
-        content="iconist, dapp, full node, light node, blockchain governance, dpos, token economy, on-chain, off-chain, mainnet">
+        content="pre-vote, iconist, dapp, full node, light node, blockchain governance, dpos, token economy, on-chain, off-chain, mainnet">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <!-- custom -->
   <link href="{% static 'css/navbar-common.css' %}" rel="stylesheet">
-  <link href="{% static 'css/about.css' %}" rel="stylesheet">
+  <link href="{% static 'css/prevote.css' %}" rel="stylesheet">
 
   <style type="text/css">
 
@@ -77,13 +77,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       overflow: hidden;
       font-family: 'Montserrat', sans-serif;
       background-color: #1aaaba;
-      background-image: url({% static 'images/bg4.png' %});
+      background-image: url({% static 'images/hero-bg.png' %});
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
+    .hero h1 {
+      color: rgba(255,255,255,0.9);
+      text-transform: uppercase;
+      margin: 0 0 .75rem 0;
+      font-size: 2.75rem;
+      font-weight: 800;
+    }
 
+    #clockdiv{
+      font-family: 'Share Tech Mono', monospace;
+      color: #daf6ff;
+      text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+      display: inline-block;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    #clockdiv > div{
+      padding: 10px;
+      border-radius: 3px;
+      background: rgba(26,170,186,0.1);
+      display: inline-block;
+    }
+
+    #clockdiv div > span{
+      padding: 15px;
+      border-radius: 3px;
+      background: #001639;
+      display: inline-block;
+    }
+
+    .smalltext{
+      padding-top: 5px;
+      font-size: 16px;
+    }
+
+    .inputs {
+      padding: 8px;
+      width: 300px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .rewards {
+      font-size: 28px;
+      font-weight: bold;
+      color: #1e7e34;
+    }
 
   </style>
 
@@ -170,71 +218,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </nav>
 
-<!-- Start: Main Content -->
+
 <main role="main" class="main">
 
+  <!-- Count Down -->
   <section class="hero">
-  <div class="hero-wrap">
-    <div class="hero-main-title text-left">
-      {% blocktrans %}Register Now <br>To Become a Genesis P-Rep{% endblocktrans %}
+    <div class="hero-inner col-md-8 mb-5">
+      <h1>Pre-vote Your Favorite P-Reps!</h1>
+      <div id="clockdiv">
+        <p style="margin-top: 15px;">August 26th, 2019</p>
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
     </div>
-    <br>
-    <div class="hero-sub-title text-left notofont">
-      {% blocktrans %}2019 September - The new era of the ICON Network begins <br>with the Public Representative Election. <br>Join our journey to a hyperconnected world.{% endblocktrans %}
-    </div>
-    <br><br>
-    <div class="text-left">
-      <button class="btn-type-white no more rounded" onclick="openUrl('https://icon.community/iconsensus/preapplication/', '_self')" style="width: 180px; display: inline-block;">
-        <span style="font-weight:600;">{% trans 'Apply' %}<em class="img"></em></span>
-      </button>
-
-      <button class="btn-type-white no more rounded" onclick="openUrl('https://t.me/iconcm', '_blank')" style="width: 180px; display: inline-block;">
-        <span style="font-weight:600;">{% trans 'Join Telegram' %}<em class="img"></em></span>
-      </button>
-    </div>
-    <br>
-    <div class="text-left">
-      <form action="https://community.us20.list-manage.com/subscribe/post" method="POST" novalidate>
-        <input type="hidden" name="u" value="1503c3c7bd5ae40e8979fd794">
-        <input type="hidden" name="id" value="d8cefa5784">
-        <input type="email" class="sub-input-form" name="MERGE0" id="MERGE0"  placeholder="Enter your email address" value="" name="EMAIL">
-        <button type="submit" id="btnSubscribe" class="sub-input-button"><span>Subscribe</span><em class="img"></em></button>
-      </form>
-    </div>
-
-    <br>
-
-  </div>
-
   </section>
+  <div><hr style="margin-top: 4px;"></div>
 
-    <!--
-    <div class="customer-logos">
-      {% for prep in preps %}
-      <div class="slide">
-        <a href="{% url 'candidate_detail' prep.id %}">
-        <img src="{{ prep.logo.url }}" style="width: 150px; height: 150px;">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-    -->
-
-  <div>
-    <hr style="margin-top: 4px;">
-  </div>
-
-  <!-- section 4 circles -->
+  <!-- Content -->
   <section class="content pb-0">
-    <div class="container marketing"><!--offset-md-2 offset-lg-3 col-md-8 col-lg-6-->
-      <h1 class="text-center mb-2 mt-5" style="line-height:42px;">{% trans '100 Public Representatives <br>Of the ICON Network' %}</h1><br>
-      <div class="offset-md-2 col-md-8 mb-5">
-        <p class="lead notofont">{% trans '100 Public Representatives (P-Reps) are elected for the ICON Network by delegation of ICONists. Top ranked 22 main P-Reps will participate in block production, verification and making governance decisions. 200,000 ICONists are waiting to vote for eligible P-Rep candidates to boost the ICON ecosystem.' %}</p>
+    <div class="container marketing">
+
+      <h1 class="text-center mb-2 mt-5">{% trans 'What is Pre-Voting' %}</h1><br>
+      <div class="offset-md-2 col-md-8">
+        <p class="lead notofont"> {% trans "Pre-voting is an influential activity to elect ICON Network's best delegators. A maximum of 3M ICX will be rewarded as incentives for participating in pre-voting. Pre-votes will be accumulated to on-chain election following right after." %}</p>
+        <p class="lead notofont text-center"><b>{% trans "Vote now and contribute to ICON's decentralized network!" %}</b></p>
       </div>
-      <br><br>
+
+      <!-- Calculator -->
+      <h1 class="text-center mb-2 mt-5">{% trans 'Calculate Your Staking Rewards' %}</h1><br>
+      <div class="text-center offset-md-2 col-md-8">
+        <h5>Staking Amount</h5>
+        <input type="text" id="icxholding" placeholder="10000" class="inputs"><br><br>
+        <h5 class="notofont">Total Network Stake %</h5>
+        <input type="text" id="delegationrate" placeholder="30" class="inputs"><br><br>
+        <a onclick="calculate();" class="btn btn-primary notofont">Calculate</a><br><br>
+        <div id="result">
+          <br>
+          <h5 style="font-weight: bold;">Annual Reward Rate</h5>
+          <div id="rewardrate" class="rewards"></div>
+          <br>
+          <h5 style="font-weight: bold;">Annual ICX Rewards</h5>
+          <div id="reward" class="rewards"></div>
+        </div>
+        <br>
+      </div>
+
+      <div><hr style="margin-top: 40px; margin-bottom: 40px;"></div>
+
+      <div class="text-center">
+      <h1 class="text-center mb-2 mt-5">{% trans 'Download ICONex to Pre-vote!' %}</h1><br>
+      <a href="https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel?hl=en" target="_blank" class="btn btn-primary">Download ICONex</a>
+      </div>
+
+
+      <h1 class="text-center mb-2 mt-5">{% trans 'How to Vote' %}</h1><br>
       <div class="row">
         <div class="col-lg-3">
-          <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
           <img src="{% static 'images/bp.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
           <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Block Production and Verification' %}</h6><br>
         </div>
@@ -253,10 +306,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
 
-      <div class="text-center mt-5">
-        <h5 class="notofont">{% trans 'Learn more ' %}<a href="http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_KO_V1.0.pdf" target="_blank" style="color: #1aaaba;">{% trans 'Guide for Public Representative' %}</a></h5>
-      </div>
-      <br>
       <!--
       <div class="row p-3 align-items-center" style="background-color:#1aaaba;">
         <div class="col-7">
@@ -271,85 +320,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- section left right -->
-  <section class="content">
-    <div class="container marketing">
-
-      <div class="row featurette">
-        <div class="col-md-8 p-5" style="background-color: rgb(234, 232, 225);"><!-- -->
-          <div class="offset-md-1 col-md-9">
-          <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Earn Representative <br>Rewards' %}</h1>
-          <span class="lead notofont">{% trans 'P-Reps will receive rewards for block production and verification, as well as receiving Representative Reward being ranked in the top 100. More contribution, higher the rewards for the P-Reps.' %}</span>
-          </div>
-        </div>
-        <div class="col-md-3 p-4 d-flex flex-wrap align-items-center" style="background-color: rgb(234, 232, 225);">
-          <img src="{% static 'images/vearn_reward.png' %}">
-        </div>
-        <div class="col-md-1" style="background-color: rgb(234, 232, 225);"></div>
-      </div>
-      <!--<br><br>-->
-      <div class="row featurette">
-        <div class="col-md-1" style="background-color: rgb(235, 236, 240);"></div>
-        <div class="col-md-8 order-md-2 p-5" style="background-color: rgb(235, 236, 240);"><!--  -->
-          <div class="offset-md-2 col-md-9">
-            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Shape the Governance of ICON Network'　%}</h1>
-            <p class="lead notofont">{% trans 'ICON Network is a platform with high potential values with built-in on-chain systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program (DBP) and Interchain Technology to connect heterogeneous blockchains. P-Reps will provide these features and lead the initial network growth while deciding governance of each fundamental components of the ICON Network.' %}</p>
-          </div>
-          </div>
-        <div class="col-md-3 p-4 d-flex flex-wrap align-items-center order-md-1" style="background-color: rgb(235, 236, 240);">
-          <img src="{% static 'images/vgovernance.png' %}">
-        </div>
-      </div>
-      <!--<br><br>-->
-      <div class="row featurette">
-        <div class="col-md-8 p-5" style="background-color: rgb(239, 238, 234);"> <!---->
-          <div class="offset-md-1 col-md-9">
-            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Global Audience Through ICON Community' %}</h1>
-            <p class="lead notofont">{% trans 'ICON Community is a world-wide spread community that boasts nearly 200K active members. Register as a P-Rep candidate, promote your profile to the community, and accomplish your ambitions in the blockchain space.' %}</p>
-          </div>
-        </div>
-        <div class="col-md-3 p-4 d-flex flex-wrap align-items-center" style="background-color: rgb(239, 238, 234);">
-          <img src="{% static 'images/vcommunity.png' %}">
-        </div>
-        <div class="col-md-1" style="background-color: rgb(239, 238, 234);"></div>
-      </div>
-      <!--<br><br>-->
-      <div class="row featurette">
-        <div class="col-md-1" style="background-color: rgb(231, 235, 236);"></div>
-        <div class="col-md-8 order-md-2 p-5" style="background-color: rgb(231, 235, 236);"> <!---->
-          <div class="offset-md-2 col-md-9">
-            <h1 class="featurette-heading mt-4 mb-3" style="line-height:42px;">{% trans 'Achieve Your Vision Through ICONgress' %}</h1>
-            <p class="lead notofont">{% trans 'ICONgress is an off-chain governance body of the ICON Network. Key roles from various ICON sectors will discuss about long-term strategy and governance of the ICON Network. Become a prestigious member of ICONgress and drive ICON growth initiatives!' %}</p>
-          </div>
-        </div>
-        <div class="col-md-3 p-4 order-md-1 d-flex flex-wrap align-items-center" style="background-color: rgb(231, 235, 236);">
-          <img src="{% static 'images/vicongress.png' %}">
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- section video-->
-  <section class="content pb-0">
-    <div class="container">
-      <h1 class="text-center mb-2" style="line-height:42px;">{% trans 'Frequently Asked Questions' %}</h1><br>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MWElxwfql0Y?rel=0" allowfullscreen></iframe>
-      </div>
-      <br><br><br>
-      <h1 class="text-center" style="line-height:42px;">{% trans '“ICONSENSUS, the Journey<br> Toward Mass Adoption”' %}</h1>
-      <div class="offset-md-2 col-md-8">
-        <p class="lead notofont"> {% trans 'The ICON Network is now standing at a pivotal moment to evolve to a truly decentralized network and realizing mass adoption. This begins with ICONSENSUS, a journey consisted of a series of election milestones of P-Rep, C-Rep, DBP, and EEP.' %}</p>
-        <p class="lead notofont text-center"><b>{% trans 'Become a genesis Public Representative, and make a new history with us.' %}</b></p>
-      </div>
-        <br><br>
-        <img src="{% static "images/graph2_190321.png" %}" class="rounded mx-auto d-block">
-        <br>
-
-    </div>
-  </section>
 
   <footer class="footer py-0 aboutfooter">
     <div class="px-5" style="background-color: #1aaaba; color:white;">
@@ -383,7 +353,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="col-lg-3 col-12 mb-5 stayupdated" style="margin-top:36px;">
-          <!--<h5 class="mt-5" style="font-weight:600;">Stay Updated</h5>-->
           <div class="row">
             <div class="form-inline mt-3 col-12">
               <form action="https://community.us20.list-manage.com/subscribe/post" method="POST" novalidate>
@@ -427,10 +396,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </footer>
 
-  <a href="https://twitter.com/intent/tweet?text=The%20new%20era%20of%20the%20ICON%20Network%20begins%20with%20the%20Public%20Representative%20Election.%20Join%20our%20movement,%20follow%20@iconcm%20%23ICONSENSUS" target="_blank" class="floatbtn" style="display: inline;">
-    <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-    <!--<img src="{% static 'images/twitter.png' %}" style="width: 2em; height: 2em;">-->
-  </a>
+
 
 </main>
 <!-- End: Main Content -->
@@ -438,7 +404,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 <script src="{% static 'js/popper.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -449,28 +415,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 $('.navbar').removeClass('inverted');
             }
         });
-        /*
-        $('.customer-logos').slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 1500,
-          arrows: false,
-          dots: false,
-            pauseOnHover: false,
-            responsive: [{
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 3
-            }
-          }, {
-            breakpoint: 520,
-            settings: {
-              slidesToShow: 2
-            }
-          }]
-        });
-        */
     });
 </script>
 <script>
@@ -483,6 +427,75 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   function openUrl(url, win){
     window.open(url, win);
   }
+
+  // COUNT DOWN
+  function getTimeRemaining(endtime) {
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor((t / 1000) % 60);
+    var minutes = Math.floor((t / 1000 / 60) % 60);
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    return {
+      'total': t,
+      'days': days,
+      'hours': hours,
+      'minutes': minutes,
+      'seconds': seconds
+    };
+  }
+
+  function initializeClock(id, endtime) {
+      console.log(endtime);
+    var clock = document.getElementById(id);
+    var daysSpan = clock.querySelector('.days');
+    var hoursSpan = clock.querySelector('.hours');
+    var minutesSpan = clock.querySelector('.minutes');
+    var secondsSpan = clock.querySelector('.seconds');
+
+    function updateClock() {
+      var t = getTimeRemaining(endtime);
+
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
+    }
+
+    updateClock();
+    var timeinterval = setInterval(updateClock, 1000);
+  }
+
+  //var deadline = new Date(Date.parse(new Date()) + 150 * 24 * 60 * 60 * 1000);
+  var deadline = new Date(2019, 8, 26);
+  initializeClock('clockdiv', deadline);
+
+
+  // CALCULATOR
+  function rrep(delrate){
+      const r_min = 0.02, r_max = 0.12, r_point = 0.7;
+      return ((r_max-r_min)/(r_point**2)) * ((delrate/100)-r_point)**2 + r_min;
+  }
+
+  function calculate(){
+      // default values
+      if($("#icxholding").val()=='') $("#icxholding").val(10000);
+      if($("#delegationrate").val()=='') $("#delegationrate").val(30);
+
+      var delegationrate = $("#delegationrate").val();
+      if(delegationrate >= 70) delegationrate = 70;
+
+      // assuming same delegation rates for other two sectors, hence * 3
+      var rewardval = (rrep(delegationrate)*3*100).toFixed(2);
+
+      $("#rewardrate").text(rewardval+'%');
+      $("#reward").text(($("#icxholding").val()*(rewardval/100)).toLocaleString()+" ICX");
+  }
+  calculate();
+
 </script>
 </body>
 </html>

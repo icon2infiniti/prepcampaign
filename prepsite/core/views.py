@@ -24,6 +24,10 @@ def about(request):
     return render(request, 'about.html', {'preps': preps})
 
 
+def prevoting(request):
+    return render(request, 'prevoting.html')
+
+
 def thankyou(request):
     return render(request, 'thankyou.html')
 

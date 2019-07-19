@@ -16,6 +16,7 @@ urlpatterns = [
     path('iconsensus/candidates/', views.candidate_list, name='candidate_list'),
     path('iconsensus/thankyou/', views.thankyou, name='thankyou'),
     path('iconsensus/about/', views.about, name='about'),
+    path('iconsensus/prevoting/', views.prevoting, name='prevoting'),
     path('iconsensus/candidates/<int:pk>/', views.candidate_detail, name='candidate_detail'),
     path('iconsensus/index2/', views.index2, name='index2'),
 ]

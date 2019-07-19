@@ -23,7 +23,7 @@ class Prep(models.Model):
     name = models.CharField(max_length=100, null=True, blank=True)
     email = models.CharField(max_length=100, null=True, blank=True)
     location = models.CharField(max_length=100, null=True, blank=True)
-    introduction = models.CharField(max_length=2000, default='', null=True, blank=True)
+    introduction = models.TextField(max_length=2000, default='', null=True, blank=True)
 
     # Network Information
     server_location = models.CharField(max_length=100, default='', null=True, blank=True)
@@ -37,6 +37,9 @@ class Prep(models.Model):
 
     # Proposal
     proposal_rich = RichTextUploadingField(blank=True, null=True)
+
+    # Self-intro video
+    self_intro_video = models.URLField(max_length=500, default='', null=True, blank=True)
 
     # Misc
     display = models.BooleanField(default=True)
