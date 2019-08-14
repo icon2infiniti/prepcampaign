@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-25 07:35+0000\n"
+"POT-Creation-Date: 2019-08-08 07:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,11 +70,11 @@ msgstr "Simplified Chinese"
 msgid "Korean"
 msgstr "한국어"
 
-#: prepsite/templates/about.html:176
+#: prepsite/templates/about.html:179
 msgid "Register Now <br>To Become a Genesis P-Rep"
 msgstr "지금 바로 Genesis P-Rep으로 등록하세요!"
 
-#: prepsite/templates/about.html:180
+#: prepsite/templates/about.html:183
 msgid ""
 "2019 September - The new era of the ICON Network begins <br>with the Public "
 "Representative Election. <br>Join our journey to a hyperconnected world."
@@ -82,21 +82,21 @@ msgstr ""
 "2019년 9월, ICON Network는 대표자 선거를 통하여 새로운 시대를 엽니다.<br>수 "
 "많은 블록체인을 연결하는 ICON 프로젝트의 주역이 될 기회 입니다."
 
-#: prepsite/templates/about.html:185 prepsite/templates/index.html:201
-#: prepsite/templates/preapplication_form.html:267
+#: prepsite/templates/about.html:188 prepsite/templates/index.html:204
+#: prepsite/templates/preapplication_form.html:272
 msgid "Apply"
 msgstr "지원하기"
 
-#: prepsite/templates/about.html:189 prepsite/templates/index.html:202
-#: prepsite/templates/thankyou.html:219
+#: prepsite/templates/about.html:192 prepsite/templates/index.html:205
+#: prepsite/templates/thankyou.html:222
 msgid "Join Telegram"
 msgstr "텔레그램 가입"
 
-#: prepsite/templates/about.html:227
+#: prepsite/templates/about.html:230
 msgid "100 Public Representatives <br>Of the ICON Network"
 msgstr "ICON Network의 100개의 P-Rep"
 
-#: prepsite/templates/about.html:229
+#: prepsite/templates/about.html:232
 msgid ""
 "100 Public Representatives (P-Reps) are elected for the ICON Network by "
 "delegation of ICONists. Top ranked 22 main P-Reps will participate in block "
@@ -110,39 +110,39 @@ msgstr ""
 "다. ICON 생태계를 건강하게 운영하고 확장해나가는 좋은 대표자를 선출하기 위하"
 "여 20만명의 ICONist가 당신을 기다리고 있습니다."
 
-#: prepsite/templates/about.html:236
+#: prepsite/templates/about.html:239
 msgid "Block Production and Verification"
 msgstr "블록 생성 및 검증"
 
-#: prepsite/templates/about.html:240
+#: prepsite/templates/about.html:243
 msgid "Governance and monetary policy decision making"
 msgstr "거버넌스 및 통화 정책 결정"
 
-#: prepsite/templates/about.html:244
+#: prepsite/templates/about.html:247
 msgid "On-chain, Off-chain contributions"
 msgstr "온체인, 오프체인 방면에 기여"
 
-#: prepsite/templates/about.html:248
+#: prepsite/templates/about.html:251
 msgid "Network Security"
 msgstr "네트워크 보안"
 
-#: prepsite/templates/about.html:254
+#: prepsite/templates/about.html:257
 msgid "Learn more "
 msgstr "더 알아보기 "
 
-#: prepsite/templates/about.html:254
+#: prepsite/templates/about.html:257
 msgid "Guide for Public Representative"
 msgstr "P-Rep을 위한 가이드"
 
-#: prepsite/templates/about.html:260
+#: prepsite/templates/about.html:263
 msgid "Join the Community, Be the first one to know when the Election starts"
 msgstr "ICON의 커뮤니티로 합류하세요, 선거의 시작을 놓치지 마세요!"
 
-#: prepsite/templates/about.html:278
+#: prepsite/templates/about.html:281
 msgid "Earn Representative <br>Rewards"
 msgstr "대표자 보상을 받아가세요"
 
-#: prepsite/templates/about.html:279
+#: prepsite/templates/about.html:282
 msgid ""
 "P-Reps will receive rewards for block production and verification, as well "
 "as receiving Representative Reward being ranked in the top 100. More "
@@ -153,11 +153,11 @@ msgstr ""
 "표자 보상을 받을 수 있습니다. 훌륭한 P-Rep에게는 더 많은 보상이 기다리고 있습"
 "니다. 네트워크의 기여도에 따라 보상을 받아가세요!"
 
-#: prepsite/templates/about.html:292
+#: prepsite/templates/about.html:295
 msgid "Shape the Governance of ICON Network"
 msgstr "ICON Network의 거버넌스를 결정하세요"
 
-#: prepsite/templates/about.html:293
+#: prepsite/templates/about.html:296
 msgid ""
 "ICON Network is a platform with high potential values with built-in on-chain "
 "systems such as  Ecosystem Expansion Project (EEP), DApp Booster Program "
@@ -171,11 +171,11 @@ msgstr ""
 "체인 요소들이 탑재될 예정입니다. P-Rep은 이 모든 기능들을 실제로 제공하여, "
 "각 기능들의 거버넌스에 큰 영향력을 미치는 네트워크 제공자입니다."
 
-#: prepsite/templates/about.html:304
+#: prepsite/templates/about.html:307
 msgid "Global Audience Through ICON Community"
 msgstr "ICON의 커뮤니티를 통해 세계로 진출하세요"
 
-#: prepsite/templates/about.html:305
+#: prepsite/templates/about.html:308
 msgid ""
 "ICON Community is a world-wide spread community that boasts nearly 200K "
 "active members. Register as a P-Rep candidate, promote your profile to the "
@@ -185,11 +185,11 @@ msgstr ""
 "니티 팬을 보유하고 있습니다. P-Rep으로 등록하고, 당신의 프로필을 커뮤니티에 "
 "널리 알려 블록체인 생태계에서 인지도를 얻어보세요."
 
-#: prepsite/templates/about.html:318
+#: prepsite/templates/about.html:321
 msgid "Achieve Your Vision Through ICONgress"
 msgstr "ICONgress를 통해 비전을 펼쳐보세요"
 
-#: prepsite/templates/about.html:319
+#: prepsite/templates/about.html:322
 msgid ""
 "ICONgress is an off-chain governance body of the ICON Network. Key roles "
 "from various ICON sectors will discuss about long-term strategy and "
@@ -201,15 +201,15 @@ msgstr ""
 "논의합니다. 이 곳에서 ICON Network 기반의 다양한 블록체인 기술과 사업에 대해"
 "서 협의하고 논의하세요!"
 
-#: prepsite/templates/about.html:334
+#: prepsite/templates/about.html:337
 msgid "Frequently Asked Questions"
 msgstr "자주 묻는 질문"
 
-#: prepsite/templates/about.html:339
+#: prepsite/templates/about.html:342
 msgid "“ICONSENSUS, the Journey<br> Toward Mass Adoption”"
 msgstr "블록체인 대중화를 향한 여정, ICONSENSUS가 시작됩니다."
 
-#: prepsite/templates/about.html:341
+#: prepsite/templates/about.html:344
 msgid ""
 "The ICON Network is now standing at a pivotal moment to evolve to a truly "
 "decentralized network and realizing mass adoption. This begins with "
@@ -221,11 +221,11 @@ msgstr ""
 "한 여정입니다. 블록체인 대중화는 ICONist들의 참여를 통해 이뤄낼 수 있으며, "
 "ICON Network의 궁극적인 목표입니다."
 
-#: prepsite/templates/about.html:342
+#: prepsite/templates/about.html:345
 msgid "Become a genesis Public Representative, and make a new history with us."
 msgstr "Genesis P-Rep이 되어, 함께 역사를 만들어나가세요!"
 
-#: prepsite/templates/about.html:357
+#: prepsite/templates/about.html:360 prepsite/templates/prevoting.html:363
 msgid ""
 "icon.community is a strategic community of the ICON project, currently "
 "focused on the P-Rep election campaign. The community will collaborate with "
@@ -235,43 +235,43 @@ msgstr ""
 "캠페인에 집중하고 있습니다. 우리는 ICON 재단과 협력하여, ICONSENSUS 캠페인의 "
 "모든 과정을 진행하고 있습니다."
 
-#: prepsite/templates/about.html:364
+#: prepsite/templates/about.html:367 prepsite/templates/prevoting.html:370
 msgid "For P-Reps"
 msgstr ""
 
-#: prepsite/templates/about.html:365
+#: prepsite/templates/about.html:368 prepsite/templates/prevoting.html:371
 msgid "For ICONists"
 msgstr ""
 
-#: prepsite/templates/about.html:366
+#: prepsite/templates/about.html:369 prepsite/templates/prevoting.html:372
 msgid "How to register"
 msgstr ""
 
-#: prepsite/templates/about.html:367
+#: prepsite/templates/about.html:370 prepsite/templates/prevoting.html:373
 msgid "Any questions?"
 msgstr ""
 
-#: prepsite/templates/about.html:375
+#: prepsite/templates/about.html:378 prepsite/templates/prevoting.html:381
 msgid "Official Blog"
 msgstr ""
 
-#: prepsite/templates/about.html:376
+#: prepsite/templates/about.html:379 prepsite/templates/prevoting.html:382
 msgid "Official Community"
 msgstr ""
 
-#: prepsite/templates/about.html:377
+#: prepsite/templates/about.html:380 prepsite/templates/prevoting.html:383
 msgid "Developer Portal"
 msgstr ""
 
-#: prepsite/templates/about.html:378
+#: prepsite/templates/about.html:381 prepsite/templates/prevoting.html:384
 msgid "FAQs"
 msgstr ""
 
-#: prepsite/templates/application_form.html:210
+#: prepsite/templates/application_form.html:213
 msgid "ICON P-Rep Application"
 msgstr "ICON P-Rep 후보자 지원서"
 
-#: prepsite/templates/application_form.html:213
+#: prepsite/templates/application_form.html:216
 msgid ""
 "This information is for public use. It may be open to the ICON community and "
 "social media. If the data is incorrect or invalid, it may be deleted from "
@@ -281,71 +281,71 @@ msgstr ""
 "디어 채널에 게시될 수 있습니다. 허위 정보는 임의로 삭제될 수 있습니다. 지원 "
 "양식에 필요한 공식적인 언어는 영어입니다."
 
-#: prepsite/templates/application_form.html:224
+#: prepsite/templates/application_form.html:227
 msgid "About"
 msgstr "About"
 
-#: prepsite/templates/application_form.html:230
-#: prepsite/templates/preapplication_form.html:209
+#: prepsite/templates/application_form.html:233
+#: prepsite/templates/preapplication_form.html:212
 msgid "Network"
 msgstr "Network"
 
-#: prepsite/templates/application_form.html:236
-#: prepsite/templates/candidate_detail.html:217
+#: prepsite/templates/application_form.html:239
+#: prepsite/templates/candidate_detail.html:221
 msgid "Proposal"
 msgstr "proposal"
 
-#: prepsite/templates/application_form.html:252
+#: prepsite/templates/application_form.html:255
 msgid "Basic Information"
 msgstr "기본 정보"
 
-#: prepsite/templates/application_form.html:263
+#: prepsite/templates/application_form.html:266
 msgid "Upload Logo"
 msgstr "파일 선택"
 
-#: prepsite/templates/application_form.html:317
-#: prepsite/templates/candidate_detail.html:257
+#: prepsite/templates/application_form.html:320
+#: prepsite/templates/candidate_detail.html:261
 msgid "Team Member"
 msgstr "팀 멤버"
 
-#: prepsite/templates/application_form.html:329
+#: prepsite/templates/application_form.html:332
 msgid "Select Photo"
 msgstr "파일 선택"
 
-#: prepsite/templates/application_form.html:360
+#: prepsite/templates/application_form.html:363
 msgid "+ Members"
 msgstr "+ 멤버 추가"
 
-#: prepsite/templates/application_form.html:374
+#: prepsite/templates/application_form.html:377
 msgid "Social Networks"
 msgstr "소셜 네트워크"
 
-#: prepsite/templates/application_form.html:393
+#: prepsite/templates/application_form.html:396
 msgid "+ More Networks"
 msgstr "+ 사이트 추가"
 
-#: prepsite/templates/application_form.html:402
-#: prepsite/templates/candidate_detail.html:225
+#: prepsite/templates/application_form.html:405
+#: prepsite/templates/candidate_detail.html:229
 msgid "Expected Network Information"
 msgstr "예정 네트워크 정보"
 
-#: prepsite/templates/application_form.html:447
+#: prepsite/templates/application_form.html:450
 msgid "Delegate Proposal"
 msgstr "Delegate Proposal"
 
-#: prepsite/templates/application_form.html:466
+#: prepsite/templates/application_form.html:469
 msgid "Previous"
 msgstr "이전"
 
-#: prepsite/templates/application_form.html:470
+#: prepsite/templates/application_form.html:473
 msgid "Next"
 msgstr "다음"
 
-#: prepsite/templates/application_form.html:472
+#: prepsite/templates/application_form.html:475
 msgid "Finish"
 msgstr "완료"
 
-#: prepsite/templates/application_form.html:488
+#: prepsite/templates/application_form.html:491
 msgid ""
 "<p>1. Proposal introduction (What)<p> - Provide a description of your "
 "proposal you wish to pitch and briefly explain how it will enhance the ICON "
@@ -362,64 +362,64 @@ msgstr ""
 "명해주세요(개발, 교육, 마케팅 등).<p>4. 예상 일정 <p>- 제안 내용의 예상 일정"
 "을 구체적으로 설명해주세요.<p>"
 
-#: prepsite/templates/candidate_detail.html:131
+#: prepsite/templates/candidate_detail.html:135
 msgid "Candidate"
 msgstr "후보자"
 
-#: prepsite/templates/candidate_detail.html:135
+#: prepsite/templates/candidate_detail.html:139
 msgid "Team Information"
 msgstr "기본 정보"
 
-#: prepsite/templates/candidate_detail.html:151
-#: prepsite/templates/candidate_list.html:148
+#: prepsite/templates/candidate_detail.html:155
+#: prepsite/templates/candidate_list.html:151
 msgid "HQ"
 msgstr "본사 위치"
 
-#: prepsite/templates/candidate_detail.html:208
+#: prepsite/templates/candidate_detail.html:212
 msgid "Self-Intro Video"
 msgstr ""
 
-#: prepsite/templates/candidate_detail.html:238
+#: prepsite/templates/candidate_detail.html:242
 msgid "Team Members"
 msgstr "팀 멤버"
 
-#: prepsite/templates/candidate_detail.html:271
+#: prepsite/templates/candidate_detail.html:275
 msgid "None"
 msgstr "없음"
 
-#: prepsite/templates/candidate_detail.html:280
+#: prepsite/templates/candidate_detail.html:284
 msgid "Back to Listing"
 msgstr "후보자 리스트"
 
-#: prepsite/templates/candidate_list.html:124
+#: prepsite/templates/candidate_list.html:127
 msgid "Candidate Listing"
 msgstr "후보자 리스트"
 
-#: prepsite/templates/candidate_list.html:141
+#: prepsite/templates/candidate_list.html:144
 msgid "Total of"
 msgstr "총"
 
-#: prepsite/templates/candidate_list.html:141
+#: prepsite/templates/candidate_list.html:144
 msgid "Candidates"
 msgstr "후보자"
 
-#: prepsite/templates/candidate_list.html:146
+#: prepsite/templates/candidate_list.html:149
 msgid "Created"
 msgstr ""
 
-#: prepsite/templates/candidate_list.html:147
+#: prepsite/templates/candidate_list.html:150
 msgid "Name"
 msgstr "팀명"
 
-#: prepsite/templates/candidate_list.html:149
+#: prepsite/templates/candidate_list.html:152
 msgid "Server Location"
 msgstr "서버 위치"
 
-#: prepsite/templates/candidate_list.html:169
+#: prepsite/templates/candidate_list.html:172
 msgid "Detail"
 msgstr "자세히 보기"
 
-#: prepsite/templates/index.html:259
+#: prepsite/templates/index.html:262
 msgid ""
 "ICONSENSUS is a journey toward mass adoption of blockchain consisting of "
 "four key items: P-Rep, DBP, EEP, and C-Rep. The election of P-Reps is not "
@@ -430,51 +430,51 @@ msgstr ""
 "네 단계를 통해 완성됩니다. P-Rep 선출은 ICONSENSUS의 첫 시작점으로, 탈중앙화"
 "를 이루기 위해 전개되는 글로벌 캠페인 입니다."
 
-#: prepsite/templates/index.html:265
+#: prepsite/templates/index.html:268
 msgid "P-Rep Benefits"
 msgstr "P-Rep Benefits"
 
-#: prepsite/templates/index.html:267
+#: prepsite/templates/index.html:270
 msgid "Economic incentives"
 msgstr "향상된 토큰 이코노미 시스템을 통해 P-Rep에게 매력적인 수준의 보상 제공"
 
-#: prepsite/templates/index.html:268
+#: prepsite/templates/index.html:271
 msgid "Right to vote on the governance policies"
 msgstr "ICON Network의 거버넌스를 결정할 수 있는 권한"
 
-#: prepsite/templates/index.html:269
+#: prepsite/templates/index.html:272
 msgid "High reputation within the ICON Community"
 msgstr "ICON 커뮤니티의 리더가 될 수 있음"
 
-#: prepsite/templates/index.html:270
+#: prepsite/templates/index.html:273
 msgid "Eligibility to join the ICONgress"
 msgstr "ICONgress의 멤버 자격"
 
-#: prepsite/templates/index.html:275
+#: prepsite/templates/index.html:278
 msgid "ICONist Benefits"
 msgstr "ICONist Benefits"
 
-#: prepsite/templates/index.html:277
+#: prepsite/templates/index.html:280
 msgid "Govern the network through delegation"
 msgstr "대표자 위임을 통한 네트워크 거버넌스 권한 행사"
 
-#: prepsite/templates/index.html:278
+#: prepsite/templates/index.html:281
 msgid "Receive compensation for network activities"
 msgstr "네트워크 활동에 대한 경제적 보상"
 
-#: prepsite/templates/index.html:293
+#: prepsite/templates/index.html:296
 msgid "Latest News"
 msgstr "Latest News"
 
-#: prepsite/templates/index.html:312
+#: prepsite/templates/index.html:315
 msgid "More News"
 msgstr "+ 사이트 추가"
 
-#: prepsite/templates/index.html:324
+#: prepsite/templates/index.html:327
 msgid "About ICON"
 msgstr "About ICON"
 
-#: prepsite/templates/index.html:351
+#: prepsite/templates/index.html:354
 msgid ""
 "ICON Network is one of the largest blockchain networks in the world. As a "
 "global blockchain project, ICON Network aims to remove barriers among "
@@ -492,9 +492,9 @@ msgstr ""
 "어 장벽을 없애고 블록체인 대중화를 실현하여,진정한 초연결사회로 나아가고자 합"
 "니다."
 
-#: prepsite/templates/index.html:396
-#: prepsite/templates/preapplication_form.html:278
-#: prepsite/templates/thankyou.html:231
+#: prepsite/templates/index.html:399
+#: prepsite/templates/preapplication_form.html:283
+#: prepsite/templates/thankyou.html:234
 msgid ""
 "\n"
 "            For further inquiries, please contact <a href=\"mailto:"
@@ -506,11 +506,11 @@ msgstr ""
 "\">support@icon.community</a> 로 보내주세요.\n"
 "          "
 
-#: prepsite/templates/preapplication_form.html:142
+#: prepsite/templates/preapplication_form.html:145
 msgid "Welcome to ICON P-Rep Application Page!"
 msgstr "ICON P-Rep 후보자 지원"
 
-#: prepsite/templates/preapplication_form.html:145
+#: prepsite/templates/preapplication_form.html:148
 msgid ""
 "A P-Rep is the representative of all ICONists, creating blocks and "
 "validating transactions in the ICON Network, and playing a number of roles "
@@ -521,7 +521,7 @@ msgstr ""
 "을 수행할 뿐만 아니라, 통화 정책 및 네트워크의 주요 의사 결정, 생태계 구축 "
 "등 다양한 역할을 수행하게 됩니다."
 
-#: prepsite/templates/preapplication_form.html:148
+#: prepsite/templates/preapplication_form.html:151
 msgid ""
 "A P-Rep must meet sufficient technical capability and understanding of the "
 "ecosystem and contribute to building the network with great responsibility "
@@ -535,90 +535,90 @@ msgstr ""
 "의 판단력을 돕는 것을 권장합니다. 커뮤니티에 게시된 정보는 모두 공개되며, 소"
 "셜 미디어를 통해 유통될 수 있습니다."
 
-#: prepsite/templates/preapplication_form.html:154
+#: prepsite/templates/preapplication_form.html:157
 msgid "P-Rep application procedure is as follows"
 msgstr "P-Rep 지원 단계는 다음과 같습니다."
 
-#: prepsite/templates/preapplication_form.html:168
+#: prepsite/templates/preapplication_form.html:171
 msgid ""
 "1) About : Please provide basic information about the P-Rep candidate and "
 "team members"
 msgstr "1) About : P-Rep 후보자의 기본 정보와 팀원 정보를 입력합니다."
 
-#: prepsite/templates/preapplication_form.html:172
+#: prepsite/templates/preapplication_form.html:175
 msgid ""
 "2) Network : Please specify the technical specification of your expected "
 "server."
 msgstr "2) Network : 기술 사양 정보를 입력합니다."
 
-#: prepsite/templates/preapplication_form.html:178
+#: prepsite/templates/preapplication_form.html:181
 msgid "Minimum Specification"
 msgstr "최소사양"
 
-#: prepsite/templates/preapplication_form.html:179
+#: prepsite/templates/preapplication_form.html:182
 msgid "Recommended Specification"
 msgstr "권장사양"
 
-#: prepsite/templates/preapplication_form.html:184
+#: prepsite/templates/preapplication_form.html:187
 msgid "Instance type"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:185
+#: prepsite/templates/preapplication_form.html:188
 msgid "C5.4xlarge"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:186
+#: prepsite/templates/preapplication_form.html:189
 msgid "C5.9xlarge"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:189
+#: prepsite/templates/preapplication_form.html:192
 msgid "CPU model"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:190
-#: prepsite/templates/preapplication_form.html:191
+#: prepsite/templates/preapplication_form.html:193
+#: prepsite/templates/preapplication_form.html:194
 msgid "Intel® Xeon® Platinum 8124M CPU @ 3.00 GHz"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:194
+#: prepsite/templates/preapplication_form.html:197
 msgid "vCPU(core)"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:195
+#: prepsite/templates/preapplication_form.html:198
 msgid "16"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:196
+#: prepsite/templates/preapplication_form.html:199
 msgid "36"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:199
+#: prepsite/templates/preapplication_form.html:202
 msgid "RAM"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:200
+#: prepsite/templates/preapplication_form.html:203
 msgid "32G"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:201
+#: prepsite/templates/preapplication_form.html:204
 msgid "72G"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:204
+#: prepsite/templates/preapplication_form.html:207
 msgid "Disk"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:205
-#: prepsite/templates/preapplication_form.html:206
+#: prepsite/templates/preapplication_form.html:208
+#: prepsite/templates/preapplication_form.html:209
 msgid "500G NVMe SSD (EBS bandwidth 4.5 Gbps)"
 msgstr "500G NVMe SSD (EBS 대역폭 4.5 Gbps)"
 
-#: prepsite/templates/preapplication_form.html:210
-#: prepsite/templates/preapplication_form.html:211
+#: prepsite/templates/preapplication_form.html:213
+#: prepsite/templates/preapplication_form.html:214
 msgid "10 Gbps"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:215
+#: prepsite/templates/preapplication_form.html:218
 msgid ""
 "*The server specification is recommended by the ICON Foundation, final "
 "specification may differ depending on network conditions."
@@ -626,20 +626,20 @@ msgstr ""
 "*서버 스펙은 재단에서 권장하는 참고사항입니다. 실제 네트워크 상황에 따라 요구"
 "되는 사양은 달라질 수 있습니다."
 
-#: prepsite/templates/preapplication_form.html:219
+#: prepsite/templates/preapplication_form.html:222
 msgid "3) Proposal : Please describe your proposal based on the format below."
 msgstr ""
 "3) Proposal : P-Rep 제안 동기, 목적, 수행 방안 등을 구체적으로 작성해주세요."
 
-#: prepsite/templates/preapplication_form.html:220
+#: prepsite/templates/preapplication_form.html:223
 msgid "*P-Rep Proposal Template"
 msgstr "*P-Rep 제안서 템플릿"
 
-#: prepsite/templates/preapplication_form.html:226
+#: prepsite/templates/preapplication_form.html:229
 msgid "1. Proposal introduction"
 msgstr "1. 제안 소개"
 
-#: prepsite/templates/preapplication_form.html:227
+#: prepsite/templates/preapplication_form.html:230
 msgid ""
 ": Provide a description of your proposal you wish to pitch and briefly "
 "explain how it will enhance the ICON Network."
@@ -647,37 +647,43 @@ msgstr ""
 "제안의 핵심과 해당 제안이 ICON Network에 기여하는 바를 구체적으로 설명해주세"
 "요."
 
-#: prepsite/templates/preapplication_form.html:233
+#: prepsite/templates/preapplication_form.html:236
 msgid "2. Motivation of the proposal"
 msgstr "2. 제안 동기"
 
-#: prepsite/templates/preapplication_form.html:234
+#: prepsite/templates/preapplication_form.html:237
 msgid ""
 ": What brought you to become a P-Rep of ICON and what was the motivation for "
 "the proposal above?"
 msgstr "P-Rep 지원 및 제안 동기를 설명해주세요."
 
-#: prepsite/templates/preapplication_form.html:240
+#: prepsite/templates/preapplication_form.html:243
 msgid "3. Execution plan of the proposal"
 msgstr "3. 제안 실행 계획"
 
-#: prepsite/templates/preapplication_form.html:241
+#: prepsite/templates/preapplication_form.html:244
 msgid ""
 ": How would you actually carry out your proposal? Please elaborate related "
 "action items and technical explanation."
 msgstr ""
 "제안 내용의 실행 방안을 구체적으로 설명해주세요 (개발, 교육, 마케팅 등)"
 
-#: prepsite/templates/preapplication_form.html:247
+#: prepsite/templates/preapplication_form.html:250
 msgid "4. Expected timeline of the proposal"
 msgstr "4. 제안 실행 로드맵"
 
-#: prepsite/templates/preapplication_form.html:248
+#: prepsite/templates/preapplication_form.html:251
 msgid ""
 ": Provide specific milestones, expected timeline to fulfill your proposal."
 msgstr "제안 내용의 예상 일정을 구체적으로 설명해주세요."
 
-#: prepsite/templates/preapplication_form.html:253
+#: prepsite/templates/preapplication_form.html:256
+msgid ""
+"Offline registration is free of charge. However, on-chain registration will "
+"incur a fee of 2,000 ICX."
+msgstr ""
+
+#: prepsite/templates/preapplication_form.html:258
 msgid ""
 "Notice: In the case of fraudulent or malicious information, registration may "
 "be cancelled."
@@ -685,37 +691,159 @@ msgstr ""
 "허위 혹은 악의적인 사실을 등록하실 경우, 커뮤니티에 의해 임의로 삭제될 수 있"
 "습니다."
 
-#: prepsite/templates/preapplication_form.html:253
+#: prepsite/templates/preapplication_form.html:258
 msgid ""
 "Application violating these general rules will also be removed without "
 "notice."
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:257
+#: prepsite/templates/preapplication_form.html:262
 msgid "Duplicate Applications"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:258
+#: prepsite/templates/preapplication_form.html:263
 #, fuzzy
 #| msgid "ICON P-Rep Application"
 msgid "Empty Applications"
 msgstr "ICON P-Rep 후보자 지원서"
 
-#: prepsite/templates/preapplication_form.html:259
+#: prepsite/templates/preapplication_form.html:264
 msgid "Clear Spam Attacks"
 msgstr ""
 
-#: prepsite/templates/preapplication_form.html:260
+#: prepsite/templates/preapplication_form.html:265
 #, fuzzy
 #| msgid "ICON P-Rep Application"
 msgid "Offensive Applications"
 msgstr "ICON P-Rep 후보자 지원서"
 
-#: prepsite/templates/thankyou.html:203
+#: prepsite/templates/prevoting.html:227
+msgid "Pre-vote Your Favorite P-Reps!"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:229
+msgid "August 26th, 2019"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:255
+msgid "What is Pre-Voting"
+msgstr "Pre-Voting이란?"
+
+#: prepsite/templates/prevoting.html:257
+msgid ""
+"Pre-voting is a significant activity to elect ICON Network’s most qualified "
+"P-Reps. A maximum of 3M ICX will be rewarded from the ICON Foundation as "
+"incentives for participating in pre-voting. Pre-votes will be accumulated "
+"until on-chain election in September"
+msgstr ""
+"Pre-Voting 은 ICON Network 최고의 P-Rep 을 선출하기 위한 중대한 활동입니다. "
+"투표자 대상으로 최대 3M ICX의 보상이 주어지며 ICON Foundation에서 직접 지급"
+"할 계획입니다. 투표는 추후 9월에 있을 온체인 선거까지 누적됩니다."
+
+#: prepsite/templates/prevoting.html:258
+msgid "Vote now and contribute to ICON's decentralized network!"
+msgstr "소중한 투표로 ICON의 탈중앙화 네트워크에 기여하세요! "
+
+#: prepsite/templates/prevoting.html:262
+msgid "Calculate Your Staking Rewards"
+msgstr "내 위임 보상량 계산하기"
+
+#: prepsite/templates/prevoting.html:264
+msgid "Staking Amount"
+msgstr "위임 보상량"
+
+#: prepsite/templates/prevoting.html:266
+#, python-format
+msgid "Total Network Stake %%"
+msgstr "네트워크 전체 ICX 위임률"
+
+#: prepsite/templates/prevoting.html:268
+msgid "Calculate"
+msgstr "계산하기"
+
+#: prepsite/templates/prevoting.html:271
+msgid "Annual Reward Rate"
+msgstr "연간 보상률"
+
+#: prepsite/templates/prevoting.html:274
+msgid "Annual ICX Rewards"
+msgstr "연간 보상량"
+
+#: prepsite/templates/prevoting.html:287
+msgid "Download ICONex to Pre-vote!"
+msgstr "Pre-Vote에 참여하기 위해 ICONex를 다운로드 하세요!"
+
+#: prepsite/templates/prevoting.html:288
+msgid "Download ICONex"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:296
+msgid "How to Vote"
+msgstr "투표 방법"
+
+#: prepsite/templates/prevoting.html:296
+msgid "Voting feature will be available on August 26th"
+msgstr "투표 기능은 8월 26일부터 이용 가능합니다"
+
+#: prepsite/templates/prevoting.html:298
+msgid ""
+"Pre-voting is a significant activity to elect ICON Network’s most qualified "
+"P-Reps."
+msgstr ""
+"Pre-Voting 은 ICON Network 최고의 P-Rep 을 선출하기 위한 중대한 활동입니다."
+
+#: prepsite/templates/prevoting.html:307
+msgid "Step1"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:308
+msgid "Click the stake button at bottom left of the voting menu"
+msgstr "Voting 메뉴 화면왼쪽 하단에 있는 “Stake” 버튼을 누릅니다."
+
+#: prepsite/templates/prevoting.html:316
+msgid "Step2"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:317
+msgid ""
+"Apply the amount of ICX you would like to stake via the slider then submit"
+msgstr ""
+"팝업창의 슬라이더를 이용해 ICX 위임량을 설정하고 “Submit” 버튼을 눌러 제출합"
+"니다."
+
+#: prepsite/templates/prevoting.html:325
+msgid "Step3"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:326
+msgid "Staked ICX can be used to vote for P-Reps"
+msgstr ""
+"왼쪽 박스에서 ICX 위임량 (“Stake”) 을 확인합니다. 그 다음, 오른쪽 박스의 "
+"“Vote” 버튼을 눌러 다음 화면으로 이동합니다. "
+
+#: prepsite/templates/prevoting.html:334
+msgid "Step4"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:335
+msgid "Select your favorite P-Rep candidate on the list and click the + button"
+msgstr "P-Rep 목록에서 원하는 P-Rep을 선택하고 “+”버튼을 누릅니다."
+
+#: prepsite/templates/prevoting.html:343
+msgid "Step5"
+msgstr ""
+
+#: prepsite/templates/prevoting.html:344
+msgid "Adjust voting power for the selected P-Rep using the slider then vote"
+msgstr ""
+"선택한 P-Rep에게 투표할 Voting Power를 슬라이더로 조절하고 “Vote” 버튼을 누릅"
+"니다."
+
+#: prepsite/templates/thankyou.html:206
 msgid "Thank you for applying!"
 msgstr "P-Rep 후보자에 등록되셨습니다"
 
-#: prepsite/templates/thankyou.html:208
+#: prepsite/templates/thankyou.html:211
 msgid ""
 "Please join our private Telegram channel dedicated to P-Rep applicants, "
 "where you can discuss anything related to the ICONSENSUS campaign."
@@ -723,7 +851,7 @@ msgstr ""
 "P-Rep 후보자용 프라이빗 텔레그램에 가입하시고 ICONSENSUS와 P-Rep 선거 관련 정"
 "보를 확인하세요."
 
-#: prepsite/templates/thankyou.html:217
+#: prepsite/templates/thankyou.html:220
 msgid "See Candidates"
 msgstr "후보자 리스트"
 

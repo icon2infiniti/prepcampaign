@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b61e8f2-02fb-4916-8dd5-a5ea5a53791e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64609034-47f0-4244-8d61-89049b50bb48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64609034-47f0-4244-8d61-89049b50bb48.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/assets/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/assets/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/application_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/application_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/candidate_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/candidate_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/candidate_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/candidate_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid11340.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid12640.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid13560.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid15524.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid16132.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid17520.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid18912.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid6028.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid6724.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid7816.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid9828.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepsite/assets/css/prevote.css" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/assets/css/prevote.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepsite/templates/preapplication_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/preapplication_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepsite/templates/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/thankyou.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepsite/templates/prevoting.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepsite/templates/prevoting.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +72,13 @@
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="core_prepsocial: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="core_prepteam: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -69,59 +86,49 @@
     <favorites_list name="prepcampaign" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prepsite/assets/css/about.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>trans</find>
-      <find>register now</find>
-      <find>ICON Community</find>
-      <find>FAQ</find>
-      <find>100</find>
-      <find>100 Pu</find>
-      <find>Guide to</find>
-      <find>hero</find>
-      <find>scrolling</find>
-      <find>Network S</find>
-      <find>top</find>
-      <find>absolute</find>
-      <find>@me</find>
-      <find>ICONSENSUS</find>
-      <find>boast</find>
-      <find>hr</find>
-      <find>Genesis</find>
-      <find>frequently</find>
-      <find>fuzzy</find>
-      <find>twitter</find>
-      <find>securi</find>
-      <find>Network Se</find>
-      <find>For P-</find>
-      <find>jquery</find>
-      <find>slice</find>
-      <find>bg</find>
-      <find>latest</find>
-      <find>floatb</find>
-      <find>Apply</find>
-      <find>input</find>
+      <find>vw</find>
+      <find>favo</find>
+      <find>Vote</find>
+      <find>Calcu</find>
+      <find>Reward R</find>
+      <find>15</find>
+      <find>15th</find>
+      <find>download ICON</find>
+      <find>download</find>
+      <find>P-Rep Proposal</find>
+      <find>Notice</find>
+      <find>delegator</find>
+      <find>What is</find>
+      <find>prevot</find>
+      <find>Download ICON</find>
+      <find>What is P</find>
+      <find>Pre-Vote You</find>
+      <find>Download</find>
+      <find>PRE-</find>
+      <find>Download I</find>
+      <find>Pre-vote your</find>
+      <find>pre</find>
+      <find>prevo</find>
+      <find>pre-voting is an</find>
+      <find>Pre-vot</find>
+      <find>Pre-voting is</find>
+      <find>How</find>
+      <find>How to</find>
+      <find>Voting fea</find>
     </findStrings>
     <replaceStrings>
       <replace>prepform</replace>
@@ -159,39 +166,42 @@
         <option value="$PROJECT_DIR$/prepsite/templates/translation.html" />
         <option value="$PROJECT_DIR$/locale/zh_Hant/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/prepsite/core/force_default_middleware.py" />
-        <option value="$PROJECT_DIR$/prepsite/core/admin.py" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/home.css" />
         <option value="$PROJECT_DIR$/prepsite/settings.py" />
         <option value="$PROJECT_DIR$/prepsite/assets/js/application.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/application.css" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/listing.css" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/navbar-common.css" />
-        <option value="$PROJECT_DIR$/prepsite/templates/email.html" />
-        <option value="$PROJECT_DIR$/prepsite/urls.py" />
         <option value="$PROJECT_DIR$/prepsite/core/forms.py" />
-        <option value="$PROJECT_DIR$/prepsite/core/models.py" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/detail.css" />
         <option value="$PROJECT_DIR$/prepsite/assets/js/maps.js" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/home-new.css" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" />
-        <option value="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po" />
-        <option value="$PROJECT_DIR$/prepsite/core/views.py" />
         <option value="$PROJECT_DIR$/prepsite/assets/css/about.css" />
-        <option value="$PROJECT_DIR$/prepsite/templates/about.html" />
+        <option value="$PROJECT_DIR$/prepsite/assets/js/jquery.tablesorter.js" />
+        <option value="$PROJECT_DIR$/prepsite/core/views.py" />
+        <option value="$PROJECT_DIR$/prepsite/urls.py" />
         <option value="$PROJECT_DIR$/prepsite/templates/index.html" />
+        <option value="$PROJECT_DIR$/prepsite/templates/about.html" />
         <option value="$PROJECT_DIR$/prepsite/templates/application_form.html" />
         <option value="$PROJECT_DIR$/prepsite/templates/candidate_detail.html" />
         <option value="$PROJECT_DIR$/prepsite/templates/candidate_list.html" />
-        <option value="$PROJECT_DIR$/prepsite/templates/preapplication_form.html" />
         <option value="$PROJECT_DIR$/prepsite/templates/thankyou.html" />
+        <option value="$PROJECT_DIR$/prepsite/templates/email.html" />
+        <option value="$PROJECT_DIR$/prepsite/templates/preapplication_form.html" />
+        <option value="$PROJECT_DIR$/prepsite/assets/css/prevote.css" />
+        <option value="$PROJECT_DIR$/prepsite/templates/prevoting.html" />
+        <option value="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/prepsite/core/admin.py" />
+        <option value="$PROJECT_DIR$/prepsite/core/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1712" />
-    <option name="width" value="1737" />
+    <option name="x" value="1706" />
+    <option name="width" value="1743" />
     <option name="height" value="1398" />
   </component>
   <component name="ProjectView">
@@ -199,13 +209,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
               <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="ko" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="ko" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_Hans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prepcampaign" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_Hans" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prepcampaign" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +268,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +277,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/wamp64/www/icxstation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -356,18 +397,30 @@
       <workItem from="1560296542642" duration="2987000" />
       <workItem from="1560390584376" duration="1732000" />
       <workItem from="1560754611626" duration="1233000" />
-      <workItem from="1561097264164" duration="7734000" />
+      <workItem from="1561097264164" duration="8337000" />
+      <workItem from="1561349284520" duration="4365000" />
+      <workItem from="1561447718495" duration="1921000" />
+      <workItem from="1563242481704" duration="2032000" />
+      <workItem from="1563347369532" duration="29731000" />
+      <workItem from="1563493525304" duration="8332000" />
+      <workItem from="1563880341509" duration="2299000" />
+      <workItem from="1563934066423" duration="6404000" />
+      <workItem from="1564370456581" duration="1464000" />
+      <workItem from="1564535792944" duration="13645000" />
+      <workItem from="1564623967863" duration="56000" />
+      <workItem from="1565054464041" duration="6482000" />
+      <workItem from="1565247395209" duration="1313000" />
+      <workItem from="1565406873429" duration="5719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="683860000" />
+    <option name="totallyTimeSpent" value="768226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1217" y="0" width="1542" height="1118" extended-state="0" />
-    <editor active="true" />
+    <frame x="1365" y="0" width="1394" height="1118" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" weight="0.18328841" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.20733532" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.17908202" />
       <window_info id="Favorites" order="2" sideWeight="0.5010142" side_tool="true" weight="0.17908202" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,10 +441,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.23273273" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.23203593" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.18328841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.1891892" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.17908202" />
       <window_info id="Favorites" order="2" sideWeight="0.5010142" side_tool="true" weight="0.17908202" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,30 +477,12 @@
     <entry file="file://$PROJECT_DIR$/prepsite/templates/translation.html" />
     <entry file="file://$PROJECT_DIR$/locale/zh_Hant/LC_MESSAGES/django.po" />
     <entry file="file://$PROJECT_DIR$/prepsite/core/force_default_middleware.py" />
-    <entry file="das://64609034-47f0-4244-8d61-89049b50bb48/schema/main/table/core_prepteam" />
     <entry file="file://$PROJECT_DIR$/prepsite/templates/about_b.html" />
     <entry file="file://$PROJECT_DIR$/prepsite/templates/index_b.html" />
     <entry file="file://$PROJECT_DIR$/prepsite/assets/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="95" column="11" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/assets/css/listing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="295" column="1" selection-start-line="295" selection-start-column="1" selection-end-line="295" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/core/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,43 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/core/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/assets/css/home-new.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prepsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1245">
@@ -550,20 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://64609034-47f0-4244-8d61-89049b50bb48/schema/main/table/core_prepsocial">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="cfcf9010-c8bc-461c-a8ec-21046e6efea6">
@@ -582,99 +566,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/email.html">
+    <entry file="file://$PROJECT_DIR$/prepsite/assets/js/jquery.tablesorter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="91" column="67" selection-start-line="91" selection-start-column="67" selection-end-line="91" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="905">
+          <caret line="1030" column="11" selection-start-line="1030" selection-start-column="11" selection-end-line="1030" selection-end-column="11" />
           <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/core/views.py">
+    <entry file="file://$PROJECT_DIR$/prepsite/core/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="1459">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/application_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="136" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/candidate_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/candidate_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/preapplication_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepsite/templates/thankyou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prepsite/assets/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-end-line="377" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/assets/css/home-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4616">
+          <caret line="11" column="4" selection-start-line="10" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/candidate_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/assets/css/listing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4947">
+          <caret line="291" column="1" selection-start-line="255" selection-end-line="291" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/application_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="13" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="74" column="142" selection-start-line="74" selection-start-column="142" selection-end-line="74" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/candidate_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/thankyou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="141" selection-start-line="141" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/preapplication_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="150" column="314" selection-start-line="150" selection-start-column="314" selection-end-line="150" selection-end-column="314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/assets/css/prevote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5423">
+          <caret line="319" column="17" selection-start-line="319" selection-start-column="17" selection-end-line="319" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/templates/prevoting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="295" column="151" selection-start-line="295" selection-start-column="151" selection-end-line="295" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="785" column="32" selection-start-line="785" selection-start-column="32" selection-end-line="785" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="752" column="15" selection-start-line="752" selection-start-column="15" selection-end-line="752" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64609034-47f0-4244-8d61-89049b50bb48/schema/main/table/core_prepteam">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5157cafc-325a-4a1c-9494-cc3d50117bd5">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepsite/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

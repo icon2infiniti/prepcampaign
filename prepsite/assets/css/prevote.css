@@ -271,3 +271,51 @@ html, body {
     -webkit-transform: translateY(-1px);
     transform: translateY(-1px);
 }
+
+.iconex {
+    background-color: #1aaaba;
+}
+
+
+/* Outline Button */
+.btn-outline {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 230px;
+    height: auto;
+    padding: 19px 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+    background-color: #F2F4F9;
+    color: #1aaaba;
+    text-decoration: none;
+}
+
+.stephead {
+    color: #1aaaba;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.stepsub {
+    font-size: 20px;
+}

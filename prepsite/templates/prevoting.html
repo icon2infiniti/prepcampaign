@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Required meta tags -->
   <title> About ICON Node election </title>
   <meta name="description"
-        content="Pre-voting is an influential activity to elect ICON Network's best delegators. A maximum of 3M ICX will be rewarded as incentives for participating in pre-voting. Pre-votes will be accumulated to on-chain election following right after.">
+        content="Pre-voting is an influential activity to elect ICON Network's best P-Reps. A maximum of 3M ICX will be rewarded as incentives for participating in pre-voting. Pre-votes will be accumulated to on-chain election following right after.">
   <meta name="keyword"
         content="pre-vote, iconist, dapp, full node, light node, blockchain governance, dpos, token economy, on-chain, off-chain, mainnet">
 
@@ -224,9 +224,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Count Down -->
   <section class="hero">
     <div class="hero-inner col-md-8 mb-5">
-      <h1>Pre-vote Your Favorite P-Reps!</h1>
+      <h1>{% trans 'Pre-vote Your Favorite P-Reps!' %}</h1>
       <div id="clockdiv">
-        <p style="margin-top: 15px;">August 26th, 2019</p>
+        <p style="margin-top: 15px;">{% trans 'August 26th, 2019' %}</p>
         <div>
           <span class="days"></span>
           <div class="smalltext">Days</div>
@@ -254,69 +254,102 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <h1 class="text-center mb-2 mt-5">{% trans 'What is Pre-Voting' %}</h1><br>
       <div class="offset-md-2 col-md-8">
-        <p class="lead notofont"> {% trans "Pre-voting is an influential activity to elect ICON Network's best delegators. A maximum of 3M ICX will be rewarded as incentives for participating in pre-voting. Pre-votes will be accumulated to on-chain election following right after." %}</p>
+        <p class="lead notofont"> {% trans "Pre-voting is a significant activity to elect ICON Network’s most qualified P-Reps. A maximum of 3M ICX will be rewarded from the ICON Foundation as incentives for participating in pre-voting. Pre-votes will be accumulated until on-chain election in September" %}</p>
         <p class="lead notofont text-center"><b>{% trans "Vote now and contribute to ICON's decentralized network!" %}</b></p>
       </div>
 
       <!-- Calculator -->
       <h1 class="text-center mb-2 mt-5">{% trans 'Calculate Your Staking Rewards' %}</h1><br>
       <div class="text-center offset-md-2 col-md-8">
-        <h5>Staking Amount</h5>
+        <h5>{% trans 'Staking Amount' %}</h5>
         <input type="text" id="icxholding" placeholder="10000" class="inputs"><br><br>
-        <h5 class="notofont">Total Network Stake %</h5>
+        <h5 class="notofont">{% trans 'Total Network Stake %' %}</h5>
         <input type="text" id="delegationrate" placeholder="30" class="inputs"><br><br>
-        <a onclick="calculate();" class="btn btn-primary notofont">Calculate</a><br><br>
+        <a onclick="calculate();" class="btn btn-primary notofont">{% trans 'Calculate' %}</a><br><br>
         <div id="result">
           <br>
-          <h5 style="font-weight: bold;">Annual Reward Rate</h5>
+          <h5 style="font-weight: bold;">{% trans 'Annual Reward Rate' %}</h5>
           <div id="rewardrate" class="rewards"></div>
           <br>
-          <h5 style="font-weight: bold;">Annual ICX Rewards</h5>
+          <h5 style="font-weight: bold;">{% trans 'Annual ICX Rewards' %}</h5>
           <div id="reward" class="rewards"></div>
         </div>
         <br>
       </div>
 
+    </div>
+
+    <div class="iconex">
+
       <div><hr style="margin-top: 40px; margin-bottom: 40px;"></div>
 
       <div class="text-center">
-      <h1 class="text-center mb-2 mt-5">{% trans 'Download ICONex to Pre-vote!' %}</h1><br>
-      <a href="https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel?hl=en" target="_blank" class="btn btn-primary">Download ICONex</a>
+      <h1 class="text-center mb-2 mt-5" style="color: #ffffff;">{% trans 'Download ICONex to Pre-vote!' %}</h1><br>
+      <a href="https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel?hl=en" target="_blank" class="btn-outline">{% trans 'Download ICONex' %}</a>
       </div>
 
+      <div><hr style="margin-top: 40px; margin-bottom: 40px;"></div>
 
-      <h1 class="text-center mb-2 mt-5">{% trans 'How to Vote' %}</h1><br>
+    </div>
+    <br>
+    <div class="container marketing">
+      <h1 class="text-center mb-2 mt-5">{% trans 'How to Vote' %}</h1><h2 class="text-center">{% trans 'Voting feature will be available on August 26th' %}</h2><br>
+      <div class="text-center">
+        <p class="lead notofont" style="font-size: 20px;"> {% trans "Pre-voting is a significant activity to elect ICON Network’s most qualified P-Reps." %}</p>
+      </div>
+
+      <div>
+        <img src="{% static 'images/how-to-vote.png' %}">
+      </div>
+
       <div class="row">
-        <div class="col-lg-3">
-          <img src="{% static 'images/bp.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Block Production and Verification' %}</h6><br>
+        <div class="col-md-6" style="padding: 50px;">
+          <p class="stephead">{% trans 'Step1' %}</p>
+          <p class="stepsub">{% trans 'Click the stake button at bottom left of the voting menu' %}</p>
+          <div style="width:100%; height:40%;border-left: 2px solid #1aaaba; margin-top:20px; margin-bottom:20px;"></div>
         </div>
-        <div class="col-lg-3">
-          <img src="{% static 'images/governance.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Governance and monetary policy decision making' %}</h6><br>
+        <div class="col-md-6" style="padding: 50px;">
+          <img src="{% static 'images/step1.png' %}">
         </div>
-        <div class="col-lg-3">
-          <img src="{% static 'images/contrib.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'On-chain, Off-chain contributions' %}</h6><br>
+
+        <div class="col-md-6" style="padding: 50px;">
+          <p class="stephead">{% trans 'Step2' %}</p>
+          <p class="stepsub">{% trans 'Apply the amount of ICX you would like to stake via the slider then submit' %}</p>
+          <div style="width:100%; height:40%;border-left: 2px solid #1aaaba; margin-top:20px; margin-bottom:20px;"></div>
         </div>
-        <div class="col-lg-3">
-          <img src="{% static 'images/security.png' %}" class="mx-auto d-block" style="width:140px; height:140px;"><br>
-          <h6 class="mt-2" style="font-weight:bold; color: #000;">{% trans 'Network Security' %}</h6><br>
+        <div class="col-md-6" style="padding: 50px;">
+          <img src="{% static 'images/step2.png' %}">
+        </div>
+
+        <div class="col-md-6" style="padding: 50px;">
+          <p class="stephead">{% trans 'Step3' %}</p>
+          <p class="stepsub">{% trans 'Staked ICX can be used to vote for P-Reps' %}</p>
+          <div style="width:100%; height:40%;border-left: 2px solid #1aaaba; margin-top:20px; margin-bottom:20px;"></div>
+        </div>
+        <div class="col-md-6" style="padding: 50px;">
+          <img src="{% static 'images/step3.png' %}">
+        </div>
+
+        <div class="col-md-6" style="padding: 50px;">
+          <p class="stephead">{% trans 'Step4' %}</p>
+          <p class="stepsub">{% trans 'Select your favorite P-Rep candidate on the list and click the + button' %}</p>
+          <div style="width:100%; height:40%;border-left: 2px solid #1aaaba; margin-top:20px; margin-bottom:20px;"></div>
+        </div>
+        <div class="col-md-6" style="padding: 50px;">
+          <img src="{% static 'images/step4.png' %}">
+        </div>
+
+        <div class="col-md-6" style="padding: 50px;">
+          <p class="stephead">{% trans 'Step5' %}</p>
+          <p class="stepsub">{% trans 'Adjust voting power for the selected P-Rep using the slider then vote' %}</p>
+          <div style="width:100%; height:40%;border-left: 2px solid #1aaaba; margin-top:20px; margin-bottom:20px;"></div>
+        </div>
+        <div class="col-md-6" style="padding: 50px;">
+          <img src="{% static 'images/step5.png' %}">
         </div>
       </div>
 
 
-      <!--
-      <div class="row p-3 align-items-center" style="background-color:#1aaaba;">
-        <div class="col-7">
-          <h5 style="color:#fff;">{% trans 'Join the Community, Be the first one to know when the Election starts' %}</h5>
-        </div>
-        <div class="col-5 aboutsocial">
-          <a href="https://t.me/iconcm" target="_blank" class="social ml-2"><i class="fab fa-telegram fa-2x"></i></a>&nbsp;
-          <a href="https://twitter.com/iconcm" target="_blank" class="social ml-2"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-      </div>
-      -->
     </div>
   </section>
 
@@ -470,7 +503,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   //var deadline = new Date(Date.parse(new Date()) + 150 * 24 * 60 * 60 * 1000);
-  var deadline = new Date(2019, 8, 26);
+  var deadline = new Date(Date.UTC(2019, 7, 26));
   initializeClock('clockdiv', deadline);
 
 
